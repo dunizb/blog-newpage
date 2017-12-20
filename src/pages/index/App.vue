@@ -1,4 +1,4 @@
-<template lang="html">
+touch<template lang="html">
   <div class="page">
     <div class="content">
       page
