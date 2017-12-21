@@ -1,0 +1,117 @@
+.page{
+  height: 100%;
+}
+/****** 头部 *******/
+header{
+  display: flex;
+  flex-direction:column;
+  align-items:center;
+  justify-content:center;
+  height: 40%;
+  color: #fff;
+  position: relative;
+  background-repeat: no-repeat;
+  background-size: 100% 100%;
+  background-position: center center;
+  h1 {
+    background: linear-gradient(to right,$mian-red,$mian-blue,$mian-green, $mian-yellow-b);
+    -webkit-background-clip: text;
+    color: transparent;
+    font-size:60px;
+    font-family:'jdzhonyuanjianf1da1f01d1b622';
+    font-weight: bold;
+  }
+  h2 {
+    letter-spacing:5px;
+    background: linear-gradient(to right,$mian-red,$mian-blue,$mian-green, $mian-yellow-b);
+    -webkit-background-clip: text;
+    color: transparent;
+    font-weight: bold;
+  }
+  .split {
+    display: flex;
+    position: absolute;
+    top: 0;
+    left: 0;
+    width: 100%;
+
+    span {
+      display: inline-block;
+      width: 35%;
+      height: 3px;
+    }
+  }
+}
+
+/****** 导航菜单 *******/
+nav{
+  display: flex;
+  justify-content: center;
+  align-items:center;
+  font-size:18px;
+  background-color:$mian-gray-b;
+  overflow-x: auto;
+  ul{
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+    li{
+      font-size: 16px;
+      padding: 10px 15px;
+      a{
+        text-decoration: none;
+        font-weight: bold;
+      }
+      a.blog{
+        background: linear-gradient(to right,$mian-red,$mian-blue);
+        -webkit-background-clip: text;
+        color: transparent;
+      }
+      a.store{
+        background: linear-gradient(to right,$mian-red-b,$mian-green-b);
+        -webkit-background-clip: text;
+        color: transparent;
+      }
+      a.categorie{
+        background: linear-gradient(to right,$mian-green-b,$mian-red-m);
+        -webkit-background-clip: text;
+        color: transparent;
+      }
+      a.demo{
+        background: linear-gradient(to right,$mian-yellow-b,$mian-blue-b);
+        -webkit-background-clip: text;
+        color: transparent;
+      }
+      a.code{
+        background: linear-gradient(to right,$mian-blue-b,$mian-yellow-b);
+        -webkit-background-clip: text;
+        color: transparent;
+      }
+      a.map{
+        background: linear-gradient(to right,$mian-red-b,$mian-green-b);
+        -webkit-background-clip: text;
+        color: transparent;
+      }
+      a.photo{
+        background: linear-gradient(to right,$mian-green-m,$mian-green);
+        -webkit-background-clip: text;
+        color: transparent;
+      }
+      a.read{
+        background: linear-gradient(to right,$mian-green-m,$mian-blue-b);
+        -webkit-background-clip: text;
+        color: transparent;
+      }
+      a.ebook{
+        background: linear-gradient(to right,$mian-blue-m,$mian-gray-m);
+        -webkit-background-clip: text;
+        color: transparent;
+      }
+      a.about{
+        background: linear-gradient(to right,$mian-gray,$mian-blue);
+        -webkit-background-clip: text;
+        color: transparent;
+      }
+    }
+  }
+}
