@@ -13,20 +13,28 @@ header{
   background-repeat: no-repeat;
   background-size: 100% 100%;
   background-position: center center;
-  h1 {
-    background: linear-gradient(to right,$mian-red,$mian-blue,$mian-green, $mian-yellow-b);
-    -webkit-background-clip: text;
-    color: transparent;
-    font-size:60px;
-    font-family:'jdzhonyuanjianf1da1f01d1b622';
-    font-weight: bold;
-  }
-  h2 {
-    letter-spacing:5px;
-    background: linear-gradient(to right,$mian-red,$mian-blue,$mian-green, $mian-yellow-b);
-    -webkit-background-clip: text;
-    color: transparent;
-    font-weight: bold;
+  hgroup{
+    h1 {
+      background: linear-gradient(to right,$mian-red,$mian-blue,$mian-green, $mian-yellow-b);
+      -webkit-background-clip: text;
+      color: transparent;
+      font-size:60px;
+      font-family:'jdzhonyuanjianf1da1f01d1b622';
+      font-weight: bold;
+      text-align: center;
+    }
+    h2 {
+      letter-spacing:5px;
+      background: linear-gradient(to right,$mian-red,$mian-blue,$mian-green, $mian-yellow-b);
+      -webkit-background-clip: text;
+      color: transparent;
+      font-weight: bold;
+    }
+    a{
+      color: inherit;
+      text-decoration: none;
+      display: inline;
+    }
   }
   .split {
     display: flex;
@@ -46,12 +54,13 @@ header{
 /****** 导航菜单 *******/
 nav{
   display: flex;
+  flex-direction: column;
   justify-content: center;
   align-items:center;
   font-size:18px;
   background-color:$mian-gray-b;
   overflow-x: auto;
-  ul{
+  .main-nav{
     display: flex;
     flex-wrap: wrap;
     justify-content: center;
@@ -111,6 +120,26 @@ nav{
         background: linear-gradient(to right,$mian-gray,$mian-blue);
         -webkit-background-clip: text;
         color: transparent;
+      }
+    }
+  }
+  .sub-nav{
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+    width: 100%;
+    background-color: $mian-gray-m;
+    li{
+      padding: 10px 15px;
+      font-size: 14px;
+      a{
+        color: #fff;
+        text-decoration: none;
+      }
+      a.main{
+      }
+      .iconfont{
+        color:$mian-yellow-b;
       }
     }
   }

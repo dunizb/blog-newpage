@@ -2,8 +2,12 @@
   <div ref="page" class="page">
     <img ref="bgimg" src="//api.dujin.org/bing/1920.php" style="display:none;">
     <header ref="header">
-      <h1>Dunizb</h1>
-      <h2>这世间唯有梦想和好姑娘不可辜负！</h2>
+      <hgroup>
+        <a href="/">
+          <h1>Dunizb</h1>
+          <h2>这世间唯有梦想和好姑娘不可辜负</h2>
+        </a>
+      </hgroup>
       <div class="split">
         <span style="background-color: #dc3023"></span>
         <span style="background-color: #3183f9;"></span>
@@ -12,19 +16,38 @@
       </div>
     </header>
     <nav>
-      <ul>
-        <li title="博客"><a class="blog" href="https://blog.dunizb.com"><i class="iconfont icon-index"></i>博客</a></li>
-        <li title="我的商店"><a class="store" href="https://store.dunizb.com"><i class="iconfont icon-circlebuy1"></i>商店</a></li>
+      <ul class="main-nav">
+        <li title="博客"><a class="blog" href="javscript:;"><i class="iconfont icon-index"></i> 博客</a></li>
+        <li title="我的商店"><a class="store" href="https://store.dunizb.com"><i class="iconfont icon-circlebuy1"></i> 商店</a></li>
         <!-- <li title="博客分类"><a class="categorie" href="https://blog.dunizb.com"><i class="iconfont icon-filearticle"></i>FE</a></li> -->
-        <li title="Demos"><a class="demo" href="https://demo.dunizb.com"><i class="iconfont icon-bianji"></i>Demo</a></li>
-        <!-- <li title="Codetest"><a class="code" href="https://blog.dunizb.com"><i class="iconfont icon-Code"></i>Code</a></li> -->
-        <li title="我的足迹"><a class="map" target="_blank" href="https://dunizb.github.io/footprint"><i class="iconfont icon-09"></i>足迹</a></li>
-        <li title="我拍的照片"><a class="photo" href="https://blog.dunizb.com"><i class="iconfont icon-photoalbum"></i>摄影</a></li>
-        <li title="我拍的照片"><a class="read" target="_blank" href="https://github.com/dunizb/reading-list"><i class="iconfont icon-book1"></i>读书</a></li>
-        <li title="电子书"><a class="ebook" href="https://webdev.dunizb.com"><i class="iconfont icon-book-copy"></i>电子书</a></li>
-        <li title="关于"><a class="about" href="https://dunizb.com/about/"><i class="iconfont icon-about-s"></i>关于</a></li>
+        <li title="Demos"><a class="demo" href="https://demo.dunizb.com"><i class="iconfont icon-bianji"></i> Demo</a></li>
+        <li title="我的足迹"><a class="map" target="_blank" href="https://dunizb.github.io/footprint"><i class="iconfont icon-09"></i> 足迹</a></li>
+        <li title="我拍的照片"><a class="photo" href="http://duni.pp.163.com/"><i class="iconfont icon-photoalbum"></i> 摄影</a></li>
+        <li title="我拍的照片"><a class="read" target="_blank" href="https://github.com/dunizb/reading-list"><i class="iconfont icon-book1"></i> 读书</a></li>
+        <li title="Codetest"><a class="code" href="https://blog.dunizb.com"><i class="iconfont icon-Code"></i> Code</a></li> 
+        <!-- <li title="电子书"><a class="ebook" href="https://webdev.dunizb.com"><i class="iconfont icon-book-copy"></i>EBOOK</a></li>  -->
+        <li title="关于"><a class="about" href="https://dunizb.com/about/"><i class="iconfont icon-about-s"></i> 关于</a></li>
+      </ul>
+      <ul class="sub-nav">
+        <!-- <li title="去博客首页"><a href="https://blog.dunizb.com" class="main"><i class="iconfont icon-go"></i></a></li> -->
+        <li><i class="iconfont icon-tag"></i><a href="http://dunizb.com/categories/%E5%89%8D%E7%AB%AF%E5%BC%80%E5%8F%91/">大前端</a></li>
+        <li><i class="iconfont icon-tag"></i><a href="http://dunizb.com/tags/JavaScript/">JavaScript</a></li>
+        <li><i class="iconfont icon-tag"></i><a href="http://dunizb.com/tags/HTML/">HTML</a></li>
+        <li><i class="iconfont icon-tag"></i><a href="http://dunizb.com/tags/css/">CSS</a></li>
+        <li><i class="iconfont icon-tag"></i><a href="http://dunizb.com/categories/Java/">Java</a></li>
+        <li><i class="iconfont icon-tag"></i><a href="https://dunizb.com/tags/github/">Git</a></li>
+        <li><i class="iconfont icon-tag"></i><a href="https://dunizb.com/tags/Vue-js/">Vue.js</a></li>
+        <li><i class="iconfont icon-tag"></i><a href="https://dunizb.com/tags/%E7%A7%BB%E5%8A%A8Web/">移动Web</a></li> 
+        <li><i class="iconfont icon-tag"></i><a href="https://dunizb.com/categories/%E9%9A%8F%E7%AC%94%E6%89%AF%E8%B0%88/">随笔扯谈</a></li>
+        <li><i class="iconfont icon-tag"></i><a href="https://dunizb.com/categories/%E5%92%8C%E6%88%91%E4%B8%80%E8%B5%B7%E8%AF%BB%E4%B9%A6/">和我一起读书</a></li>
+        <li><i class="iconfont icon-tag"></i><a href="https://dunizb.com/tags/%E7%94%9F%E6%B4%BB/">生活</a></li>
+        <li><i class="iconfont icon-tag"></i><a href="https://dunizb.com/categories/%E5%B9%B4%E7%BB%88%E6%80%BB%E7%BB%93/">年终总结</a></li> 
+        <li><i class="iconfont icon-tag"></i><a href="https://dunizb.com/categories/%E5%B9%B4%E7%BB%88%E6%80%BB%E7%BB%93/">思考&感悟&心得</a></li>
       </ul>
     </nav>
+    <div class="container">
+      https://dunizb.github.io/footprint
+    </div>
     <footer>
     </footer>
   </div>
