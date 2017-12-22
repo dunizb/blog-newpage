@@ -15,19 +15,19 @@ header{
   background-position: center center;
   hgroup{
     h1 {
-      background: linear-gradient(to right,$mian-red,$mian-blue,$mian-green, $mian-yellow-b);
-      -webkit-background-clip: text;
-      color: transparent;
+      @include linearGradientText(right,$mian-red,$mian-blue,$mian-green, $mian-yellow-b);
       font-size:60px;
       font-family:'jdzhonyuanjianf1da1f01d1b622';
       font-weight: bold;
       text-align: center;
+      span{
+        font-size: 12px;
+        color: $mian-gray-m;
+      }
     }
     h2 {
       letter-spacing:5px;
-      background: linear-gradient(to right,$mian-red,$mian-blue,$mian-green, $mian-yellow-b);
-      -webkit-background-clip: text;
-      color: transparent;
+      @include linearGradientText(right,$mian-red,$mian-blue,$mian-green, $mian-yellow-b);
       font-weight: bold;
     }
     a{
@@ -143,4 +143,49 @@ nav{
       }
     }
   }
+}
+
+/****** 内容不符 *******/
+.container{
+  display: flex;
+  justify-content: center;
+  padding: 10px;
+  .container_box{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    width: 33.33333%;
+    .title{
+      font-weight: bold;
+      padding: 0 10px 10px 10px;
+    }
+    &.container_zhuanlan{
+      .title{
+        @include linearGradientText(bottom,$mian-blue,$mian-green);
+      }
+      .content{
+        img{
+          width: 100%;
+          border: 0;
+          font-size: 0;
+        }
+      }
+    }
+  }
+}
+
+@media screen and (max-width: 640px) { 
+  nav{
+    .sub-nav{
+      li{
+        padding: 3px 5px;
+      }
+    }
+  }
+  .container{
+    flex-direction: column;
+    .container_box{
+      width: 100%;
+    }
+  } 
 }
