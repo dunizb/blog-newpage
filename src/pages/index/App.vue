@@ -57,7 +57,27 @@
       </div>
       <div class="container_box container_store">
         <div class="title"><i class="iconfont icon-ShoppingMall"></i> 我的商店</div>
-        <div class="content">我订阅的专栏内容列表</div>
+        <div class="content">
+          <div class="container_store_item">
+            <div class="item">
+              <img src="https://img14.360buyimg.com/n0/jfs/t2191/111/699154754/198998/32d7bfe0/5624b582Nbc01af5b.jpg" />
+              <div class="info">
+                <h3>Java编程思想（第4版）[thinking in java]</h3>
+                <span>全球程序员广泛赞誉 Java扛鼎经典之作</span>
+              </div>
+            </div>
+            <div class="item">
+              <img src="https://img14.360buyimg.com/n0/jfs/t3136/71/355944483/202149/2788207/57b2f0d5N776838af.jpg" />
+              <div class="info">
+                <h3>内外兼修：程序员的成长之路</h3>
+                <span>如何从一个普通程序员成长为架构师、团队负责人</span>
+              </div>
+            </div>
+          </div>
+          <div class="container_store_btn">
+            <a href="https://store.dunizb.com">去我的商店看看 >></a>
+          </div>
+        </div>
       </div>
     </div>
     <footer>

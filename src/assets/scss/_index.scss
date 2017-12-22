@@ -150,24 +150,92 @@ nav{
   display: flex;
   justify-content: center;
   padding: 10px;
+  background-color: $mian-gray-b;
   .container_box{
     display: flex;
     flex-direction: column;
     align-items: center;
-    width: 33.33333%;
+    background-color: #fff;
+    &:first-child{margin-right: 5px;}
+    &:last-child{margin-left: 5px;}
     .title{
       font-weight: bold;
-      padding: 0 10px 10px 10px;
+      padding: 20px 0 10px 0;
+      margin-bottom: 10px;
+      position: relative;
+      &::after{
+        content: ' ';
+        position: absolute;
+        left: 50%;
+        top: 0;
+        display: inline-block;
+        height: 15px;
+        width: 20px;
+        background-color: $mian-red;
+        border-radius: 0 0 20px 20px;
+        transform: translateX(-50%);
+        transition: all .5s;
+      }
+    }
+    .content{
+      img{
+        width: 100%;
+        max-width: 580px;
+        border: 0;
+        font-size: 0;
+      }
     }
     &.container_zhuanlan{
+      flex:1;
       .title{
-        @include linearGradientText(bottom,$mian-blue,$mian-green);
+        @include linearGradientText(bottom,$mian-blue,$mian-green-b);
+      }
+      .content{padding: 0 5px;}
+    }
+    &.container_store{
+      flex: 2;
+      .title{
+        @include linearGradientText(bottom,$mian-red-b,$mian-blue);
       }
       .content{
-        img{
-          width: 100%;
-          border: 0;
-          font-size: 0;
+        display: flex;
+        flex-direction: column;
+        background-color: $mian-gray-b;
+        .container_store_item{
+          display: flex;
+          .item{
+            text-align: center;
+            background-color: #fff;
+            &:first-child{
+              margin-right: 1px;
+            }
+            &:last-child{
+              margin-left: 1px;
+            }
+            .info{
+              padding: 10px 0;
+              h3,span{font-size: 14px;}
+              h3{
+                font-weight: bold;
+              }
+              span{
+                color: $mian-gray;
+              }
+            }
+          }
+        }
+        .container_store_btn{
+          text-align: center;
+          padding: 10px 0;
+          background-color: #fff;
+          font-weight: bold;
+          a{
+            color: $mian-red-b;
+            text-decoration: none;
+            &:hover{
+              @include linearGradientText(bottom,$mian-red-b,$mian-blue);
+            }
+          }
         }
       }
     }
@@ -186,6 +254,28 @@ nav{
     flex-direction: column;
     .container_box{
       width: 100%;
+    }
+    .container_box{
+      &.container_zhuanlan{
+        margin-right: 0;
+        .content{
+          padding: 0;
+          background-color: $mian-gray-b;
+        }
+      }
+      &.container_store{
+        margin-left: 0;
+        .content{
+          .item{
+            flex:1;
+            width: 100%;
+            .info{
+              h3,span{font-size: 12px;}
+            }
+            &:last-child{display: none;}
+          }
+        }
+      }
     }
   } 
 }
