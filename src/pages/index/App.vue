@@ -45,9 +45,9 @@
         <li><a href="https://dunizb.com/categories/%E5%B9%B4%E7%BB%88%E6%80%BB%E7%BB%93/">思考&感悟&心得</a></li>
       </ul>
     </nav>
-    <div class="container">
+    <div class="row">
       <!-- 我订阅的专栏 -->
-      <div class="container_box container_zhuanlan">
+      <div class="row_box row_zhuanlan">
         <div class="title"><i class="iconfont icon-Rss"></i> 我订阅的专栏</div>
         <div class="content">
           <img src="../../assets/images/zhuanlan/jiketime_zuoertingfeng.png" />
@@ -55,10 +55,11 @@
           <img src="../../assets/images/zhuanlan/dedao_lixiaolai.jpg" />
         </div>
       </div>
-      <div class="container_box container_store">
-        <div class="title"><i class="iconfont icon-ShoppingMall"></i> 我的商店</div>
+      <!-- 我的书店 -->
+      <div class="row_box row_store">
+        <div class="title"><i class="iconfont icon-ShoppingMall"></i> 我的小店</div>
         <div class="content">
-          <div class="container_store_item">
+          <div class="row_store_item">
             <div class="item">
               <img src="https://img14.360buyimg.com/n0/jfs/t2191/111/699154754/198998/32d7bfe0/5624b582Nbc01af5b.jpg" />
               <div class="info">
@@ -74,8 +75,19 @@
               </div>
             </div>
           </div>
-          <div class="container_store_btn">
-            <a href="https://store.dunizb.com">去我的商店看看 >></a>
+          <div class="row_btn">
+            <a href="https://store.dunizb.com">去我的小店看看 >></a>
+          </div>
+        </div>
+      </div>
+    </div>
+    <div class="row">
+      <div class="row_box row_maps">
+        <div class="title"><i class="iconfont icon-09"></i> 我的足迹</div>
+        <div class="content">
+          <div id="my-maps"></div>
+          <div class="row_btn">
+            <a href="https://store.dunizb.com">查看足迹详细 >></a>
           </div>
         </div>
       </div>
@@ -94,8 +106,8 @@
     methods: {
       getEveryDayBgimg () {
         console.log('获取Bing.com每日壁纸')
-        // const imgurl = this.$refs['bgimg'].src
-        // this.$refs['header'].style.backgroundImage = 'url(' + imgurl + ')'
+        const imgurl = this.$refs['bgimg'].src
+        this.$refs['header'].style.backgroundImage = 'url(' + imgurl + ')'
       }
     }
   }

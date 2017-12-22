@@ -7,27 +7,31 @@ header{
   flex-direction:column;
   align-items:center;
   justify-content:center;
-  height: 40%;
+  height: 94%;
   color: #fff;
   position: relative;
   background-repeat: no-repeat;
   background-size: 100% 100%;
   background-position: center center;
   hgroup{
+    display: inline-block;
+    background-color: rgba(255,255,255,.3);
+    padding: 0 10px 10px 10px;
+    @include border-radius(5px);
     h1 {
-      @include linearGradientText(right,$mian-red,$mian-blue,$mian-green, $mian-yellow-b);
+      @include linearGradientText(right,$mian-red,$mian-blue,$mian-green);
       font-size:60px;
-      font-family:'jdzhonyuanjianf1da1f01d1b622';
+      font-family:'HanWangT0007f2331b96e1b622';
       font-weight: bold;
       text-align: center;
       span{
-        font-size: 12px;
-        color: $mian-gray-m;
+        font-size: 14px;
+        color: $mian-red-b;
       }
     }
     h2 {
       letter-spacing:5px;
-      @include linearGradientText(right,$mian-red,$mian-blue,$mian-green, $mian-yellow-b);
+      @include linearGradientText(right,$mian-red,$mian-blue,$mian-green, $mian-yellow);
       font-weight: bold;
     }
     a{
@@ -67,59 +71,54 @@ nav{
     li{
       font-size: 16px;
       padding: 10px 15px;
+      position: relative;
       a{
         text-decoration: none;
         font-weight: bold;
       }
       a.blog{
-        background: linear-gradient(to right,$mian-red,$mian-blue);
-        -webkit-background-clip: text;
-        color: transparent;
+        @include linearGradientText(right,$mian-red,$mian-blue);
+        &::after{
+          content: ' ';
+          position: absolute;
+          display: inline-block;
+          left: 50%;
+          bottom: 0;
+          width: 0;
+          height: 0;
+          overflow: hidden;
+          border-width: 6px;
+          border-color: transparent transparent $mian-gray-m transparent;
+          border-style: dashed dashed solid dashed;
+        }
       }
       a.store{
-        background: linear-gradient(to right,$mian-red-b,$mian-green-b);
-        -webkit-background-clip: text;
-        color: transparent;
+        @include linearGradientText(right,$mian-red-b,$mian-green-b);
       }
       a.categorie{
-        background: linear-gradient(to right,$mian-green-b,$mian-red-m);
-        -webkit-background-clip: text;
-        color: transparent;
+        @include linearGradientText(right,$mian-green-b,$mian-red-m);
       }
       a.demo{
-        background: linear-gradient(to right,$mian-yellow-b,$mian-blue-b);
-        -webkit-background-clip: text;
-        color: transparent;
+        @include linearGradientText(right,$mian-yellow-b,$mian-blue-b);
       }
       a.code{
-        background: linear-gradient(to right,$mian-blue-b,$mian-yellow-b);
-        -webkit-background-clip: text;
-        color: transparent;
+        @include linearGradientText(right,$mian-blue-b,$mian-yellow-b);
       }
       a.map{
-        background: linear-gradient(to right,$mian-red-b,$mian-green-b);
-        -webkit-background-clip: text;
-        color: transparent;
+        @include linearGradientText(right,$mian-red-b,$mian-green-b);
       }
       a.photo{
-        background: linear-gradient(to right,$mian-green-m,$mian-green);
-        -webkit-background-clip: text;
-        color: transparent;
+        @include linearGradientText(right,$mian-green-m,$mian-green);
       }
       a.read{
-        background: linear-gradient(to right,$mian-green-m,$mian-blue-b);
-        -webkit-background-clip: text;
-        color: transparent;
+        @include linearGradientText(right,$mian-green-m,$mian-blue-b);
       }
       a.ebook{
-        background: linear-gradient(to right,$mian-blue-m,$mian-gray-m);
-        -webkit-background-clip: text;
+        @include linearGradientText(right,$mian-blue-m,$mian-gray-m);
         color: transparent;
       }
       a.about{
-        background: linear-gradient(to right,$mian-gray,$mian-blue);
-        -webkit-background-clip: text;
-        color: transparent;
+        @include linearGradientText(right,$mian-gray,$mian-blue);
       }
     }
   }
@@ -130,11 +129,21 @@ nav{
     width: 100%;
     background-color: $mian-gray-m;
     li{
-      padding: 10px 15px;
+      display: flex;
+      align-items: center;
+      height: 36px;
       font-size: 14px;
+      padding: 0 5px;
       a{
+        padding: 3px 5px;
         color: #fff;
         text-decoration: none;
+        background-color: $mian-gray-m;
+        @include border-radius(5px);
+        &:hover{
+          color: $mian-red;
+          background-color: $mian-yellow;
+        }
       }
       a.main{
       }
@@ -146,12 +155,25 @@ nav{
 }
 
 /****** 内容不符 *******/
-.container{
+.row{
   display: flex;
   justify-content: center;
-  padding: 10px;
+  padding: 10px 10px 0 10px;
   background-color: $mian-gray-b;
-  .container_box{
+  .row_btn{
+    text-align: center;
+    padding: 10px 0;
+    background-color: #fff;
+    font-weight: bold;
+    a{
+      color: $mian-red-b;
+      text-decoration: none;
+      &:hover{
+        @include linearGradientText(bottom,$mian-red-b,$mian-blue);
+      }
+    }
+  }
+  .row_box{
     display: flex;
     flex-direction: column;
     align-items: center;
@@ -169,10 +191,9 @@ nav{
         left: 50%;
         top: 0;
         display: inline-block;
-        height: 15px;
+        height: 5px;
         width: 20px;
         background-color: $mian-red;
-        border-radius: 0 0 20px 20px;
         transform: translateX(-50%);
         transition: all .5s;
       }
@@ -185,14 +206,21 @@ nav{
         font-size: 0;
       }
     }
-    &.container_zhuanlan{
+    &:hover{
+      .title::after{
+        height: 15px;
+        border-radius: 0 0 20px 20px;
+        box-shadow: 0 0 10px 0 $mian-gray-m;
+      }
+    }
+    &.row_zhuanlan{
       flex:1;
       .title{
         @include linearGradientText(bottom,$mian-blue,$mian-green-b);
       }
       .content{padding: 0 5px;}
     }
-    &.container_store{
+    &.row_store{
       flex: 2;
       .title{
         @include linearGradientText(bottom,$mian-red-b,$mian-blue);
@@ -201,7 +229,7 @@ nav{
         display: flex;
         flex-direction: column;
         background-color: $mian-gray-b;
-        .container_store_item{
+        .row_store_item{
           display: flex;
           .item{
             text-align: center;
@@ -224,19 +252,24 @@ nav{
             }
           }
         }
-        .container_store_btn{
-          text-align: center;
-          padding: 10px 0;
-          background-color: #fff;
-          font-weight: bold;
-          a{
-            color: $mian-red-b;
-            text-decoration: none;
-            &:hover{
-              @include linearGradientText(bottom,$mian-red-b,$mian-blue);
-            }
-          }
-        }
+      }
+    }
+  }
+  .row_maps{
+    width: 100%;
+    // background-color: antiquewhite;
+    &:first-child,
+    &:last-child{margin: 0;}
+    .title{
+      @include linearGradientText(bottom,$mian-green,$mian-blue);
+    }
+    .content{
+      padding: 0 10px 10px 10px;
+      width: 90%;
+      #my-maps{
+        // border: 1px solid #ccc;
+        width: 100%;
+        height: 550px;
       }
     }
   }
@@ -244,26 +277,29 @@ nav{
 
 @media screen and (max-width: 640px) { 
   nav{
-    .sub-nav{
+    .main-nav{
       li{
-        padding: 3px 5px;
+        a.blog::after{display: none;}
       }
     }
+    .sub-nav{
+      li{padding: 3px 5px;}
+    }
   }
-  .container{
+  .row{
     flex-direction: column;
-    .container_box{
+    .row_box{
       width: 100%;
     }
-    .container_box{
-      &.container_zhuanlan{
+    .row_box{
+      &.row_zhuanlan{
         margin-right: 0;
         .content{
           padding: 0;
           background-color: $mian-gray-b;
         }
       }
-      &.container_store{
+      &.row_store{
         margin-left: 0;
         .content{
           .item{
@@ -274,6 +310,15 @@ nav{
             }
             &:last-child{display: none;}
           }
+        }
+      }
+    }
+    .row_maps{
+      .content{
+        padding: 0 0 10px 0;
+        width: 100%;
+        #my-maps{
+          height: 350px;
         }
       }
     }
