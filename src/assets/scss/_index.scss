@@ -355,9 +355,12 @@ nav{
       padding: 0 10px 10px 10px;
       width: 90%;
       #my-maps{
-        // border: 1px solid #ccc;
+        border-bottom: 2px solid $mian-gray;
         width: 100%;
         height: 550px;
+      }
+      .row_btn{
+        // background-color: $mian-gray-b;
       }
     }
   }
