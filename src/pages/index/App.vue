@@ -53,9 +53,18 @@
       <div class="row_box row_zhuanlan">
         <div class="title"><i class="iconfont icon-Rss"></i> 我订阅的专栏</div>
         <div class="content">
-          <img src="../../assets/images/zhuanlan/jiketime_zuoertingfeng.png" />
-          <img src="../../assets/images/zhuanlan/dedao_xiangshuai.png" />
-          <img src="../../assets/images/zhuanlan/dedao_lixiaolai.jpg" />
+          <div class="content_img_box">
+            <img src="../../assets/images/zhuanlan/jiketime_zuoertingfeng.png" />
+            <a class="chenghao" href="https://mubu.com/doc/25sSf3gfih" target="_blank"><i class="iconfont icon-webclicksettings"></i> 陈皓《左耳听风》学习笔记</a>
+          </div>
+          <div class="content_img_box">
+            <img src="../../assets/images/zhuanlan/dedao_xiangshuai.png" />
+            <a class="xiangshuai" href="https://mubu.com/doc/HQC8PLyUg" target="_blank"><i class="iconfont icon-webclicksettings"></i> 香帅《北大金融学课》学习笔记</a>
+          </div>
+          <div class="content_img_box">
+            <img src="../../assets/images/zhuanlan/dedao_lixiaolai.jpg" />
+            <a class="lixiaolai" href="https://mubu.com/doc/EsBQnoFgg" target="_blank"><i class="iconfont icon-webclicksettings"></i> 李笑来《通往财富自由之路》学习笔记</a>
+          </div>
         </div>
       </div>
       <!-- 我的书店 -->

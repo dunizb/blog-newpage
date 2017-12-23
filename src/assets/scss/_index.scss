@@ -73,7 +73,7 @@ header{
       }
     }
     h2 {
-      letter-spacing:5px;
+      letter-spacing:3px;
       @include linearGradientText(right,$mian-red,$mian-blue,$mian-green, $mian-red-b);
       font-weight: bold;
     }
@@ -246,7 +246,31 @@ nav{
       .title{
         @include linearGradientText(bottom,$mian-blue,$mian-green-b);
       }
-      .content{padding: 0 5px;}
+      .content{
+        padding: 0 5px;
+        position: relative;
+        overflow: hidden;
+        .content_img_box{
+          position: relative;
+          margin-bottom: 3px;
+          img{width: 100%;}
+          a{
+            display: inline-block;
+            width: 100%;
+            position: absolute;
+            bottom: -32px;
+            left: 0;
+            line-height: 28px;
+            background-color: rgba(0,0,0,.5);
+            color: #fff;
+            font-size: 16px;
+            text-align: center;
+            text-decoration: none;
+            transition: all .5s;
+          }
+          &:hover a{bottom: 0;}
+        }
+      }
     }
     &.row_store{
       flex: 2;
@@ -322,9 +346,21 @@ nav{
     .row_box{
       &.row_zhuanlan{
         margin-right: 0;
+        margin-bottom: 10px;
         .content{
           padding: 0;
           background-color: $mian-gray-b;
+          .content_img_box{
+            margin-bottom: 1px;
+            a{
+              position: static;
+              display: block;
+              background-color: $mian-gray;
+            }
+            // a.chenghao{background-color: #91bad9;}
+            // a.xiangshuai{background-color: #ffb478;color: #cc4e01;}
+            // a.lixiaolai{background-color: #ff273c;}
+          }
         }
       }
       &.row_store{
