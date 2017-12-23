@@ -13,11 +13,40 @@ header{
   background-repeat: no-repeat;
   background-size: 100% 100%;
   background-position: center center;
+  &::after{
+    content: ' ';
+    display: block;
+    position: absolute;
+    left: 0;
+    right: 0;
+    top: 0;
+    bottom: 0;
+    background-color: rgba(255,255,255,.8);
+    z-index: 0;
+  }
   hgroup{
+    position: relative;
+    z-index: 10;
     display: inline-block;
-    background-color: rgba(255,255,255,.3);
-    padding: 0 10px 10px 10px;
+    padding:10px;
     @include border-radius(5px);
+    text-align: center;
+    .avatar{
+      display: inline-flex;
+      align-items: center;
+      width: 130px;
+      border:10px solid rgba(0,0,0,.3);
+      @include border-radius(50%);
+      text-align: center;
+      img{
+        display: inline-block;
+        width: 100%;
+        @include border-radius(50%);
+      }
+      &:hover{
+        border:10px solid rgba(0,0,0,.5);
+      }
+    }
     h1 {
       @include linearGradientText(right,$mian-red,$mian-blue,$mian-green);
       font-size:60px;
@@ -26,12 +55,12 @@ header{
       text-align: center;
       span{
         font-size: 14px;
-        color: $mian-red-b;
+        color: $mian-blue;
       }
     }
     h2 {
       letter-spacing:5px;
-      @include linearGradientText(right,$mian-red,$mian-blue,$mian-green, $mian-yellow);
+      @include linearGradientText(right,$mian-red,$mian-blue,$mian-green, $mian-red-b);
       font-weight: bold;
     }
     a{
@@ -144,8 +173,6 @@ nav{
           color: $mian-red;
           background-color: $mian-yellow;
         }
-      }
-      a.main{
       }
       .iconfont{
         color:$mian-yellow-b;
@@ -261,7 +288,7 @@ nav{
     &:first-child,
     &:last-child{margin: 0;}
     .title{
-      @include linearGradientText(bottom,$mian-green,$mian-blue);
+      @include linearGradientText(bottom,$mian-green-b,$mian-blue);
     }
     .content{
       padding: 0 10px 10px 10px;

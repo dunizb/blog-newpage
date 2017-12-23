@@ -4,9 +4,12 @@
     <header ref="header">
       <hgroup>
         <a href="/">
+          <div class="avatar">
+            <img src="https://dunizb.com/img/avatar.gif" />
+          </div>
           <h1>Dunizb<span>.com</span></h1>
-          <h2>这世间唯有梦想和好姑娘不可辜负</h2>
         </a>
+        <h2>这世间唯有梦想和好姑娘不可辜负</h2>
       </hgroup>
       <div class="split">
         <span style="background-color: #dc3023"></span>
@@ -74,9 +77,6 @@
                 <span>如何从一个普通程序员成长为架构师、团队负责人</span>
               </div>
             </div>
-          </div>
-          <div class="row_btn">
-            <a href="https://store.dunizb.com">去我的小店看看 >></a>
           </div>
         </div>
       </div>
