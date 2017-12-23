@@ -1,5 +1,11 @@
 <template lang="html">
   <div ref="page" class="page">
+    <div class="split">
+      <span style="background-color: #dc3023"></span>
+      <span style="background-color: #3183f9;"></span>
+      <span style="background-color: #057748;"></span>
+      <span style="background-color: #e6b422;"></span>
+    </div>
     <img ref="bgimg" src="//api.dujin.org/bing/1920.php" style="display:none;">
     <header ref="header">
       <hgroup>
@@ -11,12 +17,6 @@
         </a>
         <h2>这世间唯有梦想和好姑娘不可辜负</h2>
       </hgroup>
-      <div class="split">
-        <span style="background-color: #dc3023"></span>
-        <span style="background-color: #3183f9;"></span>
-        <span style="background-color: #057748;"></span>
-        <span style="background-color: #e6b422;"></span>
-      </div>
     </header>
     <nav>
       <ul class="main-nav">
