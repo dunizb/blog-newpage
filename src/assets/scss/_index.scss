@@ -263,7 +263,8 @@ nav{
             line-height: 28px;
             background-color: rgba(0,0,0,.5);
             color: #fff;
-            font-size: 16px;
+            font-size: 14px;
+            font-weight: bold;
             text-align: center;
             text-decoration: none;
             transition: all .5s;
@@ -286,14 +287,49 @@ nav{
           .item{
             text-align: center;
             background-color: #fff;
+            position: relative;
             &:first-child{
               margin-right: 1px;
             }
             &:last-child{
               margin-left: 1px;
             }
+            .item_img{
+              &:hover::after{
+                display: block;
+              }
+              &:hover a{display: flex;}
+              &::after{
+                content: '';
+                display: none;
+                position: absolute;
+                top: 0;
+                bottom: 0;
+                right: 0;
+                left: 0;
+                background-color: rgba(255,255,255,.7);
+                z-index: 0;
+              }
+              a{
+                display:none;
+                flex-direction: column;
+                justify-content: center;
+                position: absolute;
+                left: 50%;
+                top: 50%;
+                transform: translate(-50%,-50%);
+                text-decoration: none;
+                color: $mian-red-m;
+                font-size: 50px;
+                z-index: 10;
+                strong{
+                  font-size: 16px;
+                  color: #000;
+                }
+              }
+            }
             .info{
-              padding: 10px 0;
+              padding: 28px 0 0 0;
               h3,span{font-size: 14px;}
               h3{
                 font-weight: bold;
@@ -370,6 +406,7 @@ nav{
             flex:1;
             width: 100%;
             .info{
+              padding: 10px 0 !important;
               h3,span{font-size: 12px;}
             }
             &:last-child{display: none;}

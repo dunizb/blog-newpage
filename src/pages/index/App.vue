@@ -73,18 +73,20 @@
         <div class="content">
           <div class="row_store_item">
             <div class="item">
-              <a href="https://store.dunizb.com">
+              <div class="item_img">
                 <img src="https://img14.360buyimg.com/n0/jfs/t2191/111/699154754/198998/32d7bfe0/5624b582Nbc01af5b.jpg" />
-              </a>
+                <a class="iconfont icon-buy1" href="https://store.dunizb.com"><strong>￥49，去看看</strong></a>
+              </div>
               <div class="info">
                 <h3>Java编程思想（第4版）[thinking in java]</h3>
                 <span>全球程序员广泛赞誉 Java扛鼎经典之作</span>
               </div>
             </div>
             <div class="item">
-              <a href="https://store.dunizb.com">
+              <div class="item_img">
                 <img src="https://img14.360buyimg.com/n0/jfs/t3136/71/355944483/202149/2788207/57b2f0d5N776838af.jpg" />
-              </a>
+                <a class="iconfont icon-buy1" href="https://store.dunizb.com"><strong>￥20，去看看</strong></a>
+              </div>
               <div class="info">
                 <h3>内外兼修：程序员的成长之路</h3>
                 <span>如何从一个普通程序员成长为架构师、团队负责人</span>
