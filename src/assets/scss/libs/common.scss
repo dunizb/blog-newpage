@@ -1,4 +1,7 @@
-*{box-sizing: border-box;}
+*{
+  box-sizing: border-box;
+  -webkit-overflow-scrolling:touch;
+}
 html,body {
   background-color: #fff;
   font-family: -apple-system, BlinkMacSystemFont, "Helvetica Neue", Helvetica, "PingFang SC", "Hiragino Sans GB", "Microsoft YaHei", "微软雅黑", Arial, sans-serif;

@@ -288,6 +288,8 @@ nav{
             text-align: center;
             background-color: #fff;
             position: relative;
+            max-width: 417px;
+            overflow: hidden;
             &:first-child{
               margin-right: 1px;
             }
@@ -295,6 +297,9 @@ nav{
               margin-left: 1px;
             }
             .item_img{
+              img{
+                width: 417px;
+              }
               &:hover::after{
                 display: block;
               }
@@ -329,13 +334,19 @@ nav{
               }
             }
             .info{
+              display: block;
               padding: 28px 0 0 0;
+              text-decoration: none;
+              color: $mian-red;
               h3,span{font-size: 14px;}
               h3{
                 font-weight: bold;
               }
               span{
                 color: $mian-gray;
+              }
+              .buy_link{
+                display: none;
               }
             }
           }
@@ -359,14 +370,14 @@ nav{
         width: 100%;
         height: 550px;
       }
-      .row_btn{
-        // background-color: $mian-gray-b;
-      }
     }
   }
 }
 
 @media screen and (max-width: 640px) { 
+  header{
+    height: 87%;
+  }
   nav{
     .main-nav{
       li{
@@ -381,8 +392,7 @@ nav{
     flex-direction: column;
     .row_box{
       width: 100%;
-    }
-    .row_box{
+      .title{font-size: 20px;}
       &.row_zhuanlan{
         margin-right: 0;
         margin-bottom: 10px;
@@ -405,12 +415,28 @@ nav{
       &.row_store{
         margin-left: 0;
         .content{
+          background-color: transparent;
           .item{
             flex:1;
             width: 100%;
+            .item_img{
+              &::after{display: none !important;}
+              a{display: none !important;}
+              img{width: 300px !important;}
+            }
             .info{
               padding: 10px 0 !important;
               h3,span{font-size: 12px;}
+              .buy_link{
+                display: block !important;
+                padding: 5px 8px;
+                a{
+                  font-size: 18px;
+                  color: $mian-red;
+                  font-weight: bold;
+                  text-decoration: none;
+                }
+              }
             }
             &:last-child{display: none;}
           }
