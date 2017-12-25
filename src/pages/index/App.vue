@@ -55,7 +55,10 @@
     <div class="row">
       <!-- 我订阅的专栏 -->
       <div class="row_box row_zhuanlan">
-        <div class="title"><i class="iconfont icon-Rss"></i> 我订阅的专栏</div>
+        <div class="header">
+          <div class="title"><i class="iconfont icon-Rss"></i> 我订阅的专栏</div>
+          <div class="title_info">订阅的一些很棒的付费专栏，推荐你也看看</div>
+        </div>
         <div class="content">
           <div class="content_img_box">
             <img src="../../assets/images/zhuanlan/jiketime_zuoertingfeng.png" />
@@ -73,7 +76,10 @@
       </div>
       <!-- 我的书店 -->
       <div class="row_box row_store">
-        <div class="title"><i class="iconfont icon-ShoppingMall"></i> 我的小店</div>
+        <div class="header">
+          <div class="title"><i class="iconfont icon-ShoppingMall"></i> 我的小店</div>
+          <div class="title_info">出售个人闲置书籍，价格实惠，正品包邮，欢迎来看看</div>
+        </div>
         <div class="content">
           <div class="row_store_item">
             <div class="item">
@@ -109,7 +115,10 @@
 
     <div class="row">
       <div class="row_box row_sms">
-        <div class="title"><i class="iconfont icon-add_friends"></i> 我也在这里</div>
+        <div class="header">
+          <div class="title"><i class="iconfont icon-add_friends"></i> 我也在这里</div>
+          <div class="title_info">经常也在这里出没，各有不同</div>
+        </div>
         <div class="content">
           <ul class="siteicon">
             <li title="Github"><a class="github iconfont icon-icongithub" href="https://github.com/duizb" target="_blank"></a></li>
@@ -123,12 +132,12 @@
           <ul class="qrcode">
             <li>
               <div class="name">Dunizb</div>
-              <div class="desc">我的微信号，欢迎关注</div>
+              <div class="desc">个人微信号，欢迎关注</div>
               <img src="../../assets/images/qrcode.jpg" />
             </li>
             <li>
               <div class="name">做工程师不做码农</div>
-              <div class="desc">我的微信公众号，欢迎关注</div>
+              <div class="desc">公众号 及时收看最新文章</div>
               <img src="../../assets/images/gzh_qrcode.jpg" />
             </li>
           </ul>
@@ -139,7 +148,10 @@
     <!-- 我的足迹 开始 -->
     <div class="row">
       <div class="row_box row_maps">
-        <div class="title"><i class="iconfont icon-09"></i> 我的足迹</div>
+        <div class="header">
+          <div class="title"><i class="iconfont icon-09"></i> 我的足迹</div>
+          <div class="title_info">读书与旅行，缺一不可，看看世界，定位自己</div>
+        </div>
         <div class="content">
           <div id="my-maps"></div>
           <div class="row_btn">
