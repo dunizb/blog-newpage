@@ -18,6 +18,8 @@
         <h2>这世间唯有梦想和好姑娘不可辜负</h2>
       </hgroup>
     </header>
+
+    <!-- 导航菜单 开始 -->
     <nav>
       <ul class="main-nav">
         <li title="博客"><a class="blog" href="javscript:;"><i class="iconfont icon-index"></i> 博客</a></li>
@@ -48,6 +50,8 @@
         <li><a href="https://dunizb.com/categories/%E5%B9%B4%E7%BB%88%E6%80%BB%E7%BB%93/">思考&感悟&心得</a></li>
       </ul>
     </nav>
+    <!-- 导航菜单 结束 -->
+
     <div class="row">
       <!-- 我订阅的专栏 -->
       <div class="row_box row_zhuanlan">
@@ -102,6 +106,37 @@
         </div>
       </div>
     </div>
+
+    <div class="row">
+      <div class="row_box row_sms">
+        <div class="title"><i class="iconfont icon-add_friends"></i> 我也在这里</div>
+        <div class="content">
+          <ul class="siteicon">
+            <li title="Github"><a class="github iconfont icon-icongithub" href="https://github.com/duizb" target="_blank"></a></li>
+            <li title="segmentfault"><a class="sf iconfont icon-iconsf-copy" href="https://segmentfault.com/u/dunizb" target="_blank"></a></li>
+            <li title="掘金"><a class="juejin" href="https://juejin.im/user/5794cec91532bc0060caf52b" target="_blank"></a></li>
+            <li title="简书"><a class="jianshu iconfont icon-jianshu" href="https://www.jianshu.com/u/737d8047278d" target="_blank"></a></li>
+            <li title="微博"><a class="weibo" href="http://www.weibo.com/duni/" target="_blank"></a></li>
+            <li title="豆瓣"><a class="douban" href="https://www.douban.com/people/dunish/" target="_blank"></a></li>
+            <li title="电子邮件"><a class="email iconfont icon-about-mail" href="mailto:zb@dunizb.vip" target="_blank"></a></li>
+          </ul>
+          <ul class="qrcode">
+            <li>
+              <div class="name">Dunizb</div>
+              <div class="desc">我的微信号，欢迎关注</div>
+              <img src="../../assets/images/qrcode.jpg" />
+            </li>
+            <li>
+              <div class="name">做工程师不做码农</div>
+              <div class="desc">我的微信公众号，欢迎关注</div>
+              <img src="../../assets/images/gzh_qrcode.jpg" />
+            </li>
+          </ul>
+        </div>
+      </div>
+    </div>
+    
+    <!-- 我的足迹 开始 -->
     <div class="row">
       <div class="row_box row_maps">
         <div class="title"><i class="iconfont icon-09"></i> 我的足迹</div>
@@ -113,6 +148,8 @@
         </div>
       </div>
     </div>
+    <!-- 我的足迹 结束 -->
+
     <footer>
     </footer>
   </div>
