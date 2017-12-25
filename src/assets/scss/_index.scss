@@ -435,10 +435,10 @@ nav{
             // background-image: url("../../assets/images/icon/sf.svg");
           }
           &.juejin{
-            width: 37px;
-            height: 37px;
+            width: 93px;
+            height: 36px;
             background-size: contain;
-            background-image: url("../../assets/images/icon/juejin.jpeg");
+            background-image: url("../../assets/images/icon/juejin.svg");
           }
           &.jianshu{
             color: #fff;
@@ -479,6 +479,7 @@ nav{
       .qrcode{
         margin-top: 10px;
         display: flex;
+        justify-content: center;
         li{
           // border: 1px solid $mian-gray-m;
           margin: 0 2px;
