@@ -12,7 +12,7 @@ var webpackConfig = require('./webpack.prod.conf')
 var fs = require('fs')
 var path = require('path')
 const srcDir = path.resolve(__dirname, '../dist')
-const dstDir = path.resolve(__dirname, '../../blog-newpage/') // 修改
+const dstDir = path.resolve(__dirname, '../../blogIndex/') // 修改
 
 var spinner = ora('building for production...')
 spinner.start()

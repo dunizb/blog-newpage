@@ -11,7 +11,7 @@
       <hgroup>
         <a href="/">
           <div class="avatar">
-            <img src="https://dunizb.com/img/avatar.gif" />
+            <img src="https://blog.dunizb.com/img/avatar.gif" />
           </div>
           <h1>Dunizb<span>.com</span></h1>
         </a>
@@ -22,16 +22,16 @@
     <!-- 导航菜单 开始 -->
     <nav>
       <ul class="main-nav">
-        <li title="博客"><a class="blog" href="javscript:;"><i class="iconfont icon-index"></i> 博客</a></li>
+        <li title="博客"><a class="blog" href="https://blog.dunizb.com"><i class="iconfont icon-index"></i> 博客</a></li>
         <li title="我的商店"><a class="store" href="https://store.dunizb.com"><i class="iconfont icon-circlebuy1"></i> 商店</a></li>
         <!-- <li title="博客分类"><a class="categorie" href="https://blog.dunizb.com"><i class="iconfont icon-filearticle"></i>FE</a></li> -->
         <li title="Demos"><a class="demo" href="https://demo.dunizb.com"><i class="iconfont icon-bianji"></i> Demo</a></li>
         <li title="我的足迹"><a class="map" target="_blank" href="https://dunizb.github.io/footprint"><i class="iconfont icon-09"></i> 足迹</a></li>
         <li title="我拍的照片"><a class="photo" href="http://duni.pp.163.com/"><i class="iconfont icon-photoalbum"></i> 摄影</a></li>
         <li title="我拍的照片"><a class="read" target="_blank" href="https://github.com/dunizb/reading-list"><i class="iconfont icon-book1"></i> 读书</a></li>
-        <li title="Codetest"><a class="code" href="https://blog.dunizb.com"><i class="iconfont icon-Code"></i> Code</a></li> 
+        <li title="Codetest"><a class="code" href="https://github.com/dunizb/CodeTest"><i class="iconfont icon-Code"></i> Code</a></li> 
         <!-- <li title="电子书"><a class="ebook" href="https://webdev.dunizb.com"><i class="iconfont icon-book-copy"></i>EBOOK</a></li>  -->
-        <li title="关于"><a class="about" href="https://dunizb.com/about/"><i class="iconfont icon-about-s"></i> 关于</a></li>
+        <li title="关于"><a class="about" href="https://blog.dunizb.com/about/"><i class="iconfont icon-about-s"></i> 关于</a></li>
       </ul>
       <ul class="sub-nav">
         <!-- <li title="去博客首页"><a href="https://blog.dunizb.com" class="main"><i class="iconfont icon-go"></i></a></li> -->
@@ -126,7 +126,7 @@
             <li title="掘金"><a class="juejin" href="https://juejin.im/user/5794cec91532bc0060caf52b" target="_blank"></a></li>
             <li title="简书"><a class="jianshu iconfont icon-jianshu" href="https://www.jianshu.com/u/737d8047278d" target="_blank"></a></li>
             <li title="微博"><a class="weibo" href="http://www.weibo.com/duni/" target="_blank"></a></li>
-            <li title="Coding"><a class="coding" href="https://coding.net" target="_blank"></a></li>
+            <li title="Coding"><a class="coding" href="https://coding.net/u/dunizb" target="_blank"></a></li>
             <li title="豆瓣"><a class="douban" href="https://www.douban.com/people/dunish/" target="_blank"></a></li>
             <li title="电子邮件"><a class="email iconfont icon-about-mail" href="mailto:zb@dunizb.vip" target="_blank"></a></li>
           </ul>
