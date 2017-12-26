@@ -4,7 +4,7 @@
     <h1>很抱歉，你所访问的页面不存在了，可能是我调整了网站域名所至</h1>
     <h3>可能是我变更了网站URL，你可以试试下面的解决方案：</h3>
     <p>
-      <a href="javascript:to();"> 【点击这里试试】 </a> 或者 修改当前URL的域名为：blog.dunizb.com
+      <a href="javascript:;" @click="to"> 【点击这里试试】 </a> 或者 修改当前URL的域名为：blog.dunizb.com
     </p>
     <p>
       <p>页面找不到了，不要慌，你可以随便到处看看其他的东西</p>
@@ -17,9 +17,9 @@
 <script>
   export default {
     mounted () {
-      // if (confirm('该页面URL可能已经变更，是否去新的地址？')) {
-      //   this.to()
-      // }
+      if (confirm('该页面URL可能已经变更，是否去新的地址？')) {
+        this.to()
+      }
     },
     methods: {
       to () {
