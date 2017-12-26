@@ -128,6 +128,7 @@
             <li title="微博"><a class="weibo" href="http://www.weibo.com/duni/" target="_blank"></a></li>
             <li title="Coding"><a class="coding" href="https://coding.net/u/dunizb" target="_blank"></a></li>
             <li title="豆瓣"><a class="douban" href="https://www.douban.com/people/dunish/" target="_blank"></a></li>
+            <li title="LOFTER"><a class="lofter" href="http://dunizb.lofter.com/" target="_blank"></a></li>
             <li title="电子邮件"><a class="email iconfont icon-about-mail" href="mailto:zb@dunizb.vip" target="_blank"></a></li>
           </ul>
           <ul class="qrcode">

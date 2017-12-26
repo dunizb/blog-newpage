@@ -470,6 +470,14 @@ nav{
             width: 53px;
             background-image: url("../../assets/images/icon/douban.png");
           }
+          &.lofter{
+            height: 34px;
+            width: 80px;
+            background-size: cover;
+            background-position: center center;
+            background-repeat: no-repeat;
+            background-image: url("../../assets/images/icon/lofter.png");
+          }
           &.email{
             font-size: 40px;
             color: $mian-blue;
