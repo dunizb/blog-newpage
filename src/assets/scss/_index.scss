@@ -478,6 +478,12 @@ nav{
             background-repeat: no-repeat;
             background-image: url("../../assets/images/icon/lofter.png");
           }
+          &.wangyipp{
+            width: 85px;
+            height: 19px;
+            background-size: cover;
+            background-image: url("../../assets/images/icon/wangyisheying.gif");
+          }
           &.email{
             font-size: 40px;
             color: $mian-blue;

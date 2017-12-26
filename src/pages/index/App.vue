@@ -26,9 +26,9 @@
         <li title="我的商店"><a class="store" href="https://store.dunizb.com"><i class="iconfont icon-circlebuy1"></i> 商店</a></li>
         <!-- <li title="博客分类"><a class="categorie" href="https://blog.dunizb.com"><i class="iconfont icon-filearticle"></i>FE</a></li> -->
         <li title="Demos"><a class="demo" href="https://demo.dunizb.com"><i class="iconfont icon-bianji"></i> Demo</a></li>
-        <li title="我的足迹"><a class="map" target="_blank" href="https://dunizb.github.io/footprint"><i class="iconfont icon-09"></i> 足迹</a></li>
-        <li title="我拍的照片"><a class="photo" href="http://duni.pp.163.com/"><i class="iconfont icon-photoalbum"></i> 摄影</a></li>
-        <li title="我拍的照片"><a class="read" target="_blank" href="https://github.com/dunizb/reading-list"><i class="iconfont icon-book1"></i> 读书</a></li>
+        <li title="我的足迹"><a class="map" href="https://dunizb.github.io/footprint" target="_blank"><i class="iconfont icon-09"></i> 足迹</a></li>
+        <li title="我拍的照片"><a class="photo" href="http://duni.pp.163.com/" target="_blank"><i class="iconfont icon-photoalbum"></i> 摄影</a></li>
+        <li title="我的阅读激励"><a class="read" href="https://github.com/dunizb/reading-list" target="_blank"><i class="iconfont icon-book1"></i> 读书</a></li>
         <li title="Codetest"><a class="code" href="https://github.com/dunizb/CodeTest"><i class="iconfont icon-Code"></i> Code</a></li> 
         <!-- <li title="电子书"><a class="ebook" href="https://webdev.dunizb.com"><i class="iconfont icon-book-copy"></i>EBOOK</a></li>  -->
         <li title="关于"><a class="about" href="https://blog.dunizb.com/about/"><i class="iconfont icon-about-s"></i> 关于</a></li>
@@ -129,7 +129,8 @@
             <li title="Coding"><a class="coding" href="https://coding.net/u/dunizb" target="_blank"></a></li>
             <li title="豆瓣"><a class="douban" href="https://www.douban.com/people/dunish/" target="_blank"></a></li>
             <li title="LOFTER"><a class="lofter" href="http://dunizb.lofter.com/" target="_blank"></a></li>
-            <li title="电子邮件"><a class="email iconfont icon-about-mail" href="mailto:zb@dunizb.vip" target="_blank"></a></li>
+            <li title="网易摄影"><a class="wangyipp" href="http://duni.pp.163.com/" target="_blank"></a></li>
+            <!-- <li title="电子邮件"><a class="email iconfont icon-about-mail" href="mailto:zb@dunizb.vip" target="_blank"></a></li> -->
           </ul>
           <ul class="qrcode">
             <li>
