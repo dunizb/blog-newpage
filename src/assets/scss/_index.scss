@@ -27,6 +27,7 @@ header{
   background-repeat: no-repeat;
   background-size: 100% 100%;
   background-position: center center;
+  // background-attachment: fixed;
   &::after{
     content: ' ';
     display: block;
@@ -555,7 +556,6 @@ footer{
   header{
     height: 87%;
     background-size: cover;
-    background-attachment: fixed;
   }
   nav{
     .main-nav{
