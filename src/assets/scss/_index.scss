@@ -47,14 +47,15 @@ header{
     @include border-radius(5px);
     text-align: center;
     .avatar{
-      display: inline-flex;
-      align-items: center;
       width: 130px;
       height: 130px;
+      display: inline-flex;
+      align-items: center;
       @include border-radius(50%);
       text-align: center;
       // border: 1px solid #fff;
       img{
+        width: 130px;
         display: inline-block;
         width: 100%;
         @include border-radius(50%);

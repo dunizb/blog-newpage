@@ -11,7 +11,7 @@
       <hgroup>
         <a href="/">
           <div class="avatar">
-            <img src="https://blog.dunizb.com/img/avatar.gif" />
+            <img src="../../assets/images/avatar.gif" />
           </div>
           <h1>Dunizb<span>.com</span></h1>
         </a>
