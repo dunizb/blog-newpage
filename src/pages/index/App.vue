@@ -83,7 +83,7 @@
         <div class="content">
           <div class="row_store_item">
             <div class="item">
-              <div class="item_img">
+              <div :class="{'item_img': true, 'loading': showImgLoading}">
                 <img src="https://img14.360buyimg.com/n0/jfs/t2191/111/699154754/198998/32d7bfe0/5624b582Nbc01af5b.jpg" />
                 <a class="iconfont icon-buy1" href="https://store.dunizb.com" target="_blank"><strong>￥49，去看看</strong></a>
               </div>
@@ -189,9 +189,17 @@
 
 <script>
   export default {
+    data () {
+      return {
+        showImgLoading: true
+      }
+    },
     mounted () {
       // 获取Bing.com每日壁纸
       this.getEveryDayBgimg()
+      this.$nextTick(() => {
+        this.showImgLoading = false
+      })
     },
     methods: {
       getEveryDayBgimg () {

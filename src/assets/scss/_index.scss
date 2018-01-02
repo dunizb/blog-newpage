@@ -316,6 +316,7 @@ nav{
         flex-direction: column;
         // background-color: $mian-gray-b;
         .row_store_item{
+          min-height: 340px;
           display: flex;
           .item{
             text-align: center;
@@ -330,6 +331,9 @@ nav{
               margin-left: 1px;
             }
             .item_img{
+              position: relative;
+              min-height: 340px;
+              max-width: 417px;
               img{
                 width: 417px;
               }
@@ -347,6 +351,16 @@ nav{
                 left: 0;
                 background-color: rgba(255,255,255,.7);
                 z-index: 0;
+              }
+              &.loading::before{
+                content: '加载中...';
+                display: inline-block;
+                position: absolute;
+                top: 50%;
+                left: 50%;
+                transform: translate(-50%,-50%);
+                color: #000;
+                font-size: 14px;
               }
               a{
                 display:none;
