@@ -85,15 +85,15 @@
             <div class="row_store_item">
               <div class="item">
                 <div :class="{'item_img': true, 'loading': showImgLoading}">
-                  <img src="https://img14.360buyimg.com/n0/jfs/t2191/111/699154754/198998/32d7bfe0/5624b582Nbc01af5b.jpg" />
-                  <a class="iconfont icon-buy1" href="https://store.dunizb.com" target="_blank"><strong>￥49，去看看</strong></a>
+                  <img src="https://img12.360buyimg.com/n1/jfs/t2497/323/852713525/249095/dd5d8d5/562ee093Nca45c759.jpg" />
+                  <a class="iconfont icon-buy1" href="https://store.dunizb.com" target="_blank"><strong>￥19.9，去看看</strong></a>
                 </div>
                 <a class="info" href="https://store.dunizb.com" target="_blank">
                   <div class="buy_link">
-                    <a class="iconfont icon-webclicksettings" href="https://store.dunizb.com" target="_blank">￥49，去看看</a>
+                    <a class="iconfont icon-webclicksettings" href="https://store.dunizb.com" target="_blank">￥19.9，去看看</a>
                   </div>
-                  <h3>Java编程思想（第4版）[thinking in java]</h3>
-                  <span>全球程序员广泛赞誉 Java扛鼎经典之作</span>
+                  <h3>JavaScript忍者秘籍</h3>
+                  <span>jQuery之父经典力作，JavaScript高手修炼必备指南</span>
                 </a>
               </div>
               <div class="item">
