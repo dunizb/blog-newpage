@@ -1,6 +1,6 @@
 <template lang="html">
   <div ref="page" class="page">
-    <img src="../../assets/images/404.jpg" />
+    <img src="static/images/404.jpg" />
     <h1>很抱歉，你所访问的页面不存在了，可能是我调整了网站域名所至</h1>
     <h3>可能是我变更了网站URL，你可以试试下面的解决方案：</h3>
     <p>

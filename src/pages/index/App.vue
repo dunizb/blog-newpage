@@ -11,7 +11,7 @@
       <hgroup>
         <a href="/">
           <div class="avatar">
-            <img src="../../assets/images/avatar.gif" />
+            <img src="static/images/avatar.gif" />
           </div>
           <h1>Dunizb<span>.com</span></h1>
         </a>
@@ -62,15 +62,15 @@
           </div>
           <div class="content">
             <div class="content_img_box">
-              <img src="../../assets/images/zhuanlan/jiketime_zuoertingfeng.png" />
+              <img src="static/images/zhuanlan/jiketime_zuoertingfeng.png" />
               <a class="chenghao" href="https://mubu.com/doc/25sSf3gfih" target="_blank"><i class="iconfont icon-webclicksettings"></i> 陈皓《左耳听风》学习笔记</a>
             </div>
             <div class="content_img_box">
-              <img src="../../assets/images/zhuanlan/dedao_xiangshuai.png" />
+              <img src="static/images/zhuanlan/dedao_xiangshuai.png" />
               <a class="xiangshuai" href="https://mubu.com/doc/HQC8PLyUg" target="_blank"><i class="iconfont icon-webclicksettings"></i> 香帅《北大金融学课》学习笔记</a>
             </div>
             <div class="content_img_box">
-              <img src="../../assets/images/zhuanlan/dedao_lixiaolai.jpg" />
+              <img src="static/images/zhuanlan/dedao_lixiaolai.jpg" />
               <a class="lixiaolai" href="https://mubu.com/doc/EsBQnoFgg" target="_blank"><i class="iconfont icon-webclicksettings"></i> 李笑来《通往财富自由之路》学习笔记</a>
             </div>
           </div>
@@ -137,12 +137,12 @@
               <li>
                 <div class="name">Dunizb</div>
                 <div class="desc">个人微信号，欢迎关注</div>
-                <img src="../../assets/images/qrcode.jpg" />
+                <img src="static/images/qrcode.jpg" />
               </li>
               <li>
                 <div class="name">做工程师不做码农</div>
                 <div class="desc">公众号 及时收看最新文章</div>
-                <img src="../../assets/images/gzh_qrcode.jpg" />
+                <img src="static/images/gzh_qrcode.jpg" />
               </li>
             </ul>
           </div>
