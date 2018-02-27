@@ -22,31 +22,29 @@
     <!-- 导航菜单 开始 -->
     <nav>
       <ul class="main-nav">
-        <li title="博客"><a class="blog" href="https://blog.dunizb.com"><i class="iconfont icon-index"></i> 博客</a></li>
-        <li title="我的商店"><a class="store" href="https://store.dunizb.com"><i class="iconfont icon-circlebuy1"></i> 商店</a></li>
+        <li title="博客"><a class="blog" onclick="_hmt.push(['_trackEvent', 'nav', 'click', '博客'])" href="https://blog.dunizb.com"><i class="iconfont icon-index"></i> 博客</a></li>
+        <li title="我的商店"><a class="store" onclick="_hmt.push(['_trackEvent', 'nav', 'click', '商店'])" href="https://store.dunizb.com"><i class="iconfont icon-circlebuy1"></i> 商店</a></li>
         <!-- <li title="博客分类"><a class="categorie" href="https://blog.dunizb.com"><i class="iconfont icon-filearticle"></i>FE</a></li> -->
-        <li title="Demos"><a class="demo" href="https://demo.dunizb.com"><i class="iconfont icon-bianji"></i> Demo</a></li>
-        <li title="我的足迹"><a class="map" href="https://dunizb.github.io/footprint" target="_blank"><i class="iconfont icon-09"></i> 足迹</a></li>
-        <li title="我拍的照片"><a class="photo" href="http://duni.pp.163.com/" target="_blank"><i class="iconfont icon-photoalbum"></i> 摄影</a></li>
-        <li title="我的阅读激励"><a class="read" href="https://github.com/dunizb/reading-list" target="_blank"><i class="iconfont icon-book1"></i> 读书</a></li>
-        <li title="Codetest"><a class="code" href="https://github.com/dunizb/CodeTest"><i class="iconfont icon-Code"></i> Code</a></li> 
+        <li title="Demos"><a class="demo" onclick="_hmt.push(['_trackEvent', 'nav', 'click', 'DEMO'])" href="https://demo.dunizb.com"><i class="iconfont icon-bianji"></i> Demo</a></li>
+        <li title="我的足迹"><a class="map" onclick="_hmt.push(['_trackEvent', 'nav', 'click', '足迹'])" href="https://dunizb.github.io/footprint" target="_blank"><i class="iconfont icon-09"></i> 足迹</a></li>
+        <li title="我拍的照片"><a onclick="_hmt.push(['_trackEvent', 'nav', 'click', '照片'])" class="photo" href="http://duni.pp.163.com/" target="_blank"><i class="iconfont icon-photoalbum"></i> 摄影</a></li>
+        <li title="我的阅读激励"><a class="read" onclick="_hmt.push(['_trackEvent', 'nav', 'click', '读书'])" href="https://github.com/dunizb/reading-list" target="_blank"><i class="iconfont icon-book1"></i> 读书</a></li>
+        <li title="Codetest"><a class="code" onclick="_hmt.push(['_trackEvent', 'nav', 'click', 'Code'])" href="https://github.com/dunizb/CodeTest"><i class="iconfont icon-Code"></i> Code</a></li> 
         <!-- <li title="电子书"><a class="ebook" href="https://webdev.dunizb.com"><i class="iconfont icon-book-copy"></i>EBOOK</a></li>  -->
-        <li title="关于"><a class="about" href="https://blog.dunizb.com/about/"><i class="iconfont icon-about-s"></i> 关于</a></li>
+        <li title="关于"><a class="about" onclick="_hmt.push(['_trackEvent', 'nav', 'click', '关于我'])" href="https://blog.dunizb.com/about/"><i class="iconfont icon-about-s"></i> 关于</a></li>
       </ul>
       <ul class="sub-nav">
         <!-- <li title="去博客首页"><a href="https://blog.dunizb.com" class="main"><i class="iconfont icon-go"></i></a></li> -->
-        <li><a href="https://blog.dunizb.com/categories/%E5%89%8D%E7%AB%AF%E5%BC%80%E5%8F%91/">大前端</a></li>
-        <li><a href="https://blog.dunizb.com/tags/JavaScript/">JavaScript</a></li>
-        <li><a href="https://blog.dunizb.com/tags/HTML/">HTML</a></li>
-        <li><a href="https://blog.dunizb.com/tags/css/">CSS</a></li>
-        <li><a href="https://blog.dunizb.com/categories/Java/">Java</a></li>
-        <li><a href="https://blog.dunizb.com/tags/github/">Git</a></li>
+        <li><a href="https://blog.dunizb.com/categories/%E5%89%8D%E7%AB%AF%E5%BC%80%E5%8F%91/">Web前端</a></li>
+        <li><a href="https://blog.dunizb.com/categories/%E5%89%8D%E7%AB%AF%E5%BC%80%E5%8F%91/JavaScript/">JavaScript</a></li>
+        <li><a href="https://blog.dunizb.com/categories/%E5%89%8D%E7%AB%AF%E5%BC%80%E5%8F%91/HTML-CSS/">HTML&HTML</a></li>
+        <li><a href="https://blog.dunizb.com/categories/%E6%9C%8D%E5%8A%A1%E7%AB%AF%E5%BC%80%E5%8F%91/Java/">Java</a></li>
+        <li><a href="https://blog.dunizb.com/tags/github/">Github</a></li>
         <li><a href="https://blog.dunizb.com/tags/Vue-js/">Vue.js</a></li>
-        <li><a href="https://blog.dunizb.com/tags/%E7%A7%BB%E5%8A%A8Web/">移动Web</a></li> 
         <li><a href="https://blog.dunizb.com/categories/%E9%9A%8F%E7%AC%94%E6%89%AF%E8%B0%88/">随笔扯谈</a></li>
         <li><a href="https://blog.dunizb.com/categories/%E5%92%8C%E6%88%91%E4%B8%80%E8%B5%B7%E8%AF%BB%E4%B9%A6/">和我一起读书</a></li>
-        <li><a href="https://blog.dunizb.com/tags/%E7%94%9F%E6%B4%BB/">生活</a></li>
-        <li><a href="https://blog.dunizb.com/categories/%E5%B9%B4%E7%BB%88%E6%80%BB%E7%BB%93/">年终总结</a></li> 
+        <li><a href="https://blog.dunizb.com/categories/%E7%94%9F%E6%B4%BB/">生活</a></li>
+        <li><a href="https://blog.dunizb.com/categories/%E5%B9%B4%E7%BB%88%E7%9B%98%E7%82%B9/">年终盘点</a></li> 
         <li><a href="https://blog.dunizb.com/categories/%E5%B9%B4%E7%BB%88%E6%80%BB%E7%BB%93/">思考&感悟&心得</a></li>
       </ul>
     </nav>
@@ -63,15 +61,15 @@
           <div class="content">
             <div class="content_img_box">
               <img src="static/images/zhuanlan/jiketime_zuoertingfeng.png" />
-              <a class="chenghao" href="https://mubu.com/doc/25sSf3gfih" target="_blank"><i class="iconfont icon-webclicksettings"></i> 陈皓《左耳听风》学习笔记</a>
+              <a class="chenghao" onclick="_hmt.push(['_trackEvent', '专栏', 'click', '查看陈皓《左耳听风》学习笔记'])" href="https://mubu.com/doc/25sSf3gfih" target="_blank"><i class="iconfont icon-webclicksettings"></i> 陈皓《左耳听风》学习笔记</a>
             </div>
             <div class="content_img_box">
               <img src="static/images/zhuanlan/dedao_xiangshuai.png" />
-              <a class="xiangshuai" href="https://mubu.com/doc/HQC8PLyUg" target="_blank"><i class="iconfont icon-webclicksettings"></i> 香帅《北大金融学课》学习笔记</a>
+              <a class="xiangshuai" onclick="_hmt.push(['_trackEvent', '专栏', 'click', '查看香帅《北大金融学课》学习笔记'])" href="https://mubu.com/doc/HQC8PLyUg" target="_blank"><i class="iconfont icon-webclicksettings"></i> 香帅《北大金融学课》学习笔记</a>
             </div>
             <div class="content_img_box">
               <img src="static/images/zhuanlan/dedao_lixiaolai.jpg" />
-              <a class="lixiaolai" href="https://mubu.com/doc/EsBQnoFgg" target="_blank"><i class="iconfont icon-webclicksettings"></i> 李笑来《通往财富自由之路》学习笔记</a>
+              <a class="lixiaolai" onclick="_hmt.push(['_trackEvent', '专栏', 'click', '查看李笑来《通往财富自由之路》学习笔记'])" href="https://mubu.com/doc/EsBQnoFgg" target="_blank"><i class="iconfont icon-webclicksettings"></i> 李笑来《通往财富自由之路》学习笔记</a>
             </div>
           </div>
         </div>
@@ -86,9 +84,9 @@
               <div class="item">
                 <div :class="{'item_img': true, 'loading': showImgLoading}">
                   <img src="https://img12.360buyimg.com/n1/jfs/t2497/323/852713525/249095/dd5d8d5/562ee093Nca45c759.jpg" />
-                  <a class="iconfont icon-buy1" href="https://store.dunizb.com" target="_blank"><strong>￥19.9，去看看</strong></a>
+                  <a class="iconfont icon-buy1" onclick="_hmt.push(['_trackEvent', '版块', 'click', '进入商店'])" href="https://store.dunizb.com" target="_blank"><strong>￥19.9，去看看</strong></a>
                 </div>
-                <a class="info" href="https://store.dunizb.com" target="_blank">
+                <a class="info" nclick="_hmt.push(['_trackEvent', '版块', 'click', '进入商店'])" href="https://store.dunizb.com" target="_blank">
                   <div class="buy_link">
                     <a class="iconfont icon-webclicksettings" href="https://store.dunizb.com" target="_blank">￥19.9，去看看</a>
                   </div>
@@ -101,7 +99,7 @@
                   <img src="https://img14.360buyimg.com/n0/jfs/t3136/71/355944483/202149/2788207/57b2f0d5N776838af.jpg" />
                   <a class="iconfont icon-buy1" href="https://store.dunizb.com" target="_blank"><strong>￥20，去看看</strong></a>
                 </div>
-                <a class="info" href="https://store.dunizb.com" target="_blank">
+                <a class="info" nclick="_hmt.push(['_trackEvent', '版块', 'click', '进入商店'])" href="https://store.dunizb.com" target="_blank">
                   <div class="buy_link">
                     <a class="iconfont icon-webclicksettings" href="https://store.dunizb.com" target="_blank">￥49，去看看</a>
                   </div>
@@ -159,7 +157,7 @@
           <div class="content">
             <div id="my-maps"></div>
             <div class="row_btn">
-              <a href="https://dunizb.github.io/footprint" target="_blank"><i class="iconfont icon-webclicksettings"></i> 查看详细足迹</a>
+              <a nclick="_hmt.push(['_trackEvent', '版块', 'click', '进入我的足迹'])" href="https://dunizb.github.io/footprint" target="_blank"><i class="iconfont icon-webclicksettings"></i> 查看详细足迹</a>
             </div>
           </div>
         </div>
@@ -169,7 +167,7 @@
 
     <footer>
       <div class="service">
-        <a class="coding" title="由Coding.net提供静态Pages" href="https://coding.net" target="_blank">
+        <a class="coding" title="由Coding.net提供静态Pages" href="https://pages.coding.me" target="_blank">
           <img src="https://dn-coding-net-production-static.qbox.me/static/f7272a0b7cd340571725c6734c6bdd6f.png"/>
         </a>
         <a class="upyun" title="又拍云存储提供图床服务" href="https://www.upyun.com/">
