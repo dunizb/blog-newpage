@@ -45,7 +45,7 @@
         <li><a href="https://blog.dunizb.com/categories/%E5%92%8C%E6%88%91%E4%B8%80%E8%B5%B7%E8%AF%BB%E4%B9%A6/">和我一起读书</a></li>
         <li><a href="https://blog.dunizb.com/categories/%E7%94%9F%E6%B4%BB/">生活</a></li>
         <li><a href="https://blog.dunizb.com/categories/%E5%B9%B4%E7%BB%88%E7%9B%98%E7%82%B9/">年终盘点</a></li> 
-        <li><a href="https://blog.dunizb.com/categories/%E5%B9%B4%E7%BB%88%E6%80%BB%E7%BB%93/">思考&感悟&心得</a></li>
+        <li><a href="https://blog.dunizb.com/tags/%E6%80%9D%E8%80%83%E6%84%9F%E6%82%9F/">思考感悟</a></li>
       </ul>
     </nav>
     <!-- 导航菜单 结束 -->
@@ -134,12 +134,12 @@
             <ul class="qrcode">
               <li>
                 <div class="name">Dunizb</div>
-                <div class="desc">个人微信号，欢迎关注</div>
+                <div class="desc">微信号，和我发生纯纯的友谊</div>
                 <img src="static/images/qrcode.jpg" />
               </li>
               <li>
                 <div class="name">做工程师不做码农</div>
-                <div class="desc">公众号 及时收看最新文章</div>
+                <div class="desc">公众号，及时接收最新文章</div>
                 <img src="static/images/gzh_qrcode.jpg" />
               </li>
             </ul>
