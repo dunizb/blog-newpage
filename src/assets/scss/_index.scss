@@ -106,6 +106,7 @@ nav{
   font-size:18px;
   background-color:$mian-gray-b;
   overflow-x: auto;
+  background-image: url("../../../static/images/toolbarbackground.jpg");
   .main-nav{
     display: flex;
     flex-wrap: wrap;
@@ -119,7 +120,8 @@ nav{
         font-weight: bold;
       }
       a.blog{
-        @include linearGradientText(right,$mian-red,$mian-blue);
+        color: #fff;
+        // @include linearGradientText(right,$mian-red,$mian-blue);
         &::after{
           content: ' ';
           position: absolute;
@@ -135,32 +137,41 @@ nav{
         }
       }
       a.store{
-        @include linearGradientText(right,$mian-red-b,$mian-green-b);
+        color: #fff;
+        // @include linearGradientText(right,$mian-red-b,$mian-green-b);
       }
       a.categorie{
-        @include linearGradientText(right,$mian-green-b,$mian-red-m);
+        color: #fff;
+        // @include linearGradientText(right,$mian-green-b,$mian-red-m);
       }
       a.demo{
-        @include linearGradientText(right,$mian-yellow-b,$mian-blue-b);
+        color: #fff;
+        // @include linearGradientText(right,$mian-yellow-b,$mian-blue-b);
       }
       a.code{
-        @include linearGradientText(right,$mian-blue-b,$mian-yellow-b);
+        color: #fff;
+        // @include linearGradientText(right,$mian-blue-b,$mian-yellow-b);
       }
       a.map{
-        @include linearGradientText(right,$mian-red-b,$mian-green-b);
+        color: #fff;
+        // @include linearGradientText(right,$mian-red-b,$mian-green-b);
       }
       a.photo{
-        @include linearGradientText(right,$mian-green-m,$mian-green);
+        color: #fff;
+        // @include linearGradientText(right,$mian-green-m,$mian-green);
       }
       a.read{
-        @include linearGradientText(right,$mian-green-m,$mian-blue-b);
+        color: #fff;
+        // @include linearGradientText(right,$mian-green-m,$mian-blue-b);
       }
       a.ebook{
-        @include linearGradientText(right,$mian-blue-m,$mian-gray-m);
-        color: transparent;
+        color: #fff;
+        // @include linearGradientText(right,$mian-blue-m,$mian-gray-m);
+        // color: transparent;
       }
       a.about{
-        @include linearGradientText(right,$mian-gray,$mian-blue);
+        color: #fff;
+        // @include linearGradientText(right,$mian-gray,$mian-blue);
       }
     }
   }

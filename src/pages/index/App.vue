@@ -30,7 +30,6 @@
         <li title="我拍的照片"><a onclick="_hmt.push(['_trackEvent', 'nav', 'click', '照片'])" class="photo" href="http://duni.pp.163.com/" target="_blank"><i class="iconfont icon-photoalbum"></i> 摄影</a></li>
         <li title="我的阅读激励"><a class="read" onclick="_hmt.push(['_trackEvent', 'nav', 'click', '读书'])" href="https://github.com/dunizb/reading-list" target="_blank"><i class="iconfont icon-book1"></i> 读书</a></li>
         <li title="Codetest"><a class="code" onclick="_hmt.push(['_trackEvent', 'nav', 'click', 'Code'])" href="https://github.com/dunizb/CodeTest"><i class="iconfont icon-Code"></i> Code</a></li> 
-        <!-- <li title="电子书"><a class="ebook" href="https://webdev.dunizb.com"><i class="iconfont icon-book-copy"></i>EBOOK</a></li>  -->
         <li title="关于"><a class="about" onclick="_hmt.push(['_trackEvent', 'nav', 'click', '关于我'])" href="https://blog.dunizb.com/about/"><i class="iconfont icon-about-s"></i> 关于</a></li>
       </ul>
       <ul class="sub-nav">
