@@ -67,8 +67,8 @@
               <a class="xiangshuai" onclick="_hmt.push(['_trackEvent', '专栏', 'click', '查看香帅《北大金融学课》学习笔记'])" href="https://mubu.com/doc/HQC8PLyUg" target="_blank"><i class="iconfont icon-webclicksettings"></i> 香帅《北大金融学课》学习笔记</a>
             </div>
             <div class="content_img_box">
-              <img src="static/images/zhuanlan/dedao_lixiaolai.jpg" />
-              <a class="lixiaolai" onclick="_hmt.push(['_trackEvent', '专栏', 'click', '查看李笑来《通往财富自由之路》学习笔记'])" href="https://mubu.com/doc/EsBQnoFgg" target="_blank"><i class="iconfont icon-webclicksettings"></i> 李笑来《通往财富自由之路》学习笔记</a>
+              <img src="static/images/zhuanlan/jiketime_xufei.jpg" />
+              <a class="lixiaolai" onclick="_hmt.push(['_trackEvent', '专栏', 'click', '查看李笑来《通往财富自由之路》学习笔记'])" href="javascript:;" target="_blank"><i class="iconfont icon-webclicksettings"></i> 徐飞《技术与商业案例解读》</a>
             </div>
           </div>
         </div>
@@ -80,19 +80,6 @@
           </div>
           <div class="content">
             <div class="row_store_item">
-              <div class="item">
-                <div :class="{'item_img': true, 'loading': showImgLoading}">
-                  <img src="https://img12.360buyimg.com/n1/jfs/t2497/323/852713525/249095/dd5d8d5/562ee093Nca45c759.jpg" />
-                  <a class="iconfont icon-buy1" onclick="_hmt.push(['_trackEvent', '版块', 'click', '进入商店'])" href="https://store.dunizb.com" target="_blank"><strong>￥19.9，去看看</strong></a>
-                </div>
-                <a class="info" nclick="_hmt.push(['_trackEvent', '版块', 'click', '进入商店'])" href="https://store.dunizb.com" target="_blank">
-                  <div class="buy_link">
-                    <a class="iconfont icon-webclicksettings" href="https://store.dunizb.com" target="_blank">￥19.9，去看看</a>
-                  </div>
-                  <h3>JavaScript忍者秘籍</h3>
-                  <span>jQuery之父经典力作，JavaScript高手修炼必备指南</span>
-                </a>
-              </div>
               <div class="item">
                 <div class="item_img">
                   <img src="https://img14.360buyimg.com/n0/jfs/t3136/71/355944483/202149/2788207/57b2f0d5N776838af.jpg" />
@@ -106,6 +93,21 @@
                   <span>如何从一个普通程序员成长为架构师、团队负责人</span>
                 </a>
               </div>
+
+              <div class="item">
+                <div :class="{'item_img': true, 'loading': showImgLoading}">
+                  <img src="http://img10.360buyimg.com/n1/s450x450_jfs/t18403/230/551824060/24258/36203777/5a9694e4N696e617b.jpg" />
+                  <a class="iconfont icon-buy1" onclick="_hmt.push(['_trackEvent', '版块', 'click', '进入商店'])" href="https://store.dunizb.com" target="_blank"><strong>￥19.9，去看看</strong></a>
+                </div>
+                <a class="info" nclick="_hmt.push(['_trackEvent', '版块', 'click', '进入商店'])" href="https://store.dunizb.com" target="_blank">
+                  <div class="buy_link">
+                    <a class="iconfont icon-webclicksettings" href="https://store.dunizb.com" target="_blank">￥19.9，去看看</a>
+                  </div>
+                  <h3>疯狂Java：突破程序员基本功的16课</h3>
+                  <span>让你求职时不被鄙视“基本功不扎实”而万分惭愧</span>
+                </a>
+              </div>
+              
             </div>
           </div>
         </div>
