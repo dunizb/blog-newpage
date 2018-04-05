@@ -68,7 +68,7 @@
             </div>
             <div class="content_img_box">
               <img src="static/images/zhuanlan/jiketime_xufei.jpg" />
-              <a class="lixiaolai" onclick="_hmt.push(['_trackEvent', '专栏', 'click', '查看李笑来《通往财富自由之路》学习笔记'])" href="javascript:;" target="_blank"><i class="iconfont icon-webclicksettings"></i> 徐飞《技术与商业案例解读》</a>
+              <a class="lixiaolai" href="javascript:;" target="_blank"><i class="iconfont icon-webclicksettings"></i> 徐飞《技术与商业案例解读》</a>
             </div>
           </div>
         </div>
