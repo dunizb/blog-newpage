@@ -78,8 +78,22 @@
             <div class="title"><i class="iconfont icon-ShoppingMall"></i> 我的小店</div>
             <div class="title_info">出售个人闲置书籍，价格实惠，正品包邮，欢迎来看看</div>
           </div>
-          <div class="content">
-            <div class="row_store_item">
+          <div class="content">        
+              <div class="row_store_item">
+                <div class="item">
+                <div :class="{'item_img': true, 'loading': showImgLoading}">
+                  <img src="https://img10.360buyimg.com/n0/jfs/t18253/152/167792036/99995/97f739a1/5a618bf6Nec875a5f.jpg" />
+                  <a class="iconfont icon-buy1" onclick="_hmt.push(['_trackEvent', '版块', 'click', '进入商店'])" href="https://store.dunizb.com" target="_blank"><strong>￥19.9，去看看</strong></a>
+                </div>
+                <a class="info" nclick="_hmt.push(['_trackEvent', '版块', 'click', '进入商店'])" href="https://store.dunizb.com" target="_blank">
+                  <div class="buy_link">
+                    <a class="iconfont icon-webclicksettings" href="https://store.dunizb.com" target="_blank">￥23，去看看</a>
+                  </div>
+                  <h3>阿里巴巴Java开发手册</h3>
+                  <span>来自阿里集团的智慧与经验 血淋的故障换来的总结</span>
+                </a>
+              </div>
+
               <div class="item">
                 <div class="item_img">
                   <img src="https://img14.360buyimg.com/n0/jfs/t3136/71/355944483/202149/2788207/57b2f0d5N776838af.jpg" />
@@ -91,20 +105,6 @@
                   </div>
                   <h3>内外兼修：程序员的成长之路</h3>
                   <span>如何从一个普通程序员成长为架构师、团队负责人</span>
-                </a>
-              </div>
-
-              <div class="item">
-                <div :class="{'item_img': true, 'loading': showImgLoading}">
-                  <img src="http://img10.360buyimg.com/n1/s450x450_jfs/t18403/230/551824060/24258/36203777/5a9694e4N696e617b.jpg" />
-                  <a class="iconfont icon-buy1" onclick="_hmt.push(['_trackEvent', '版块', 'click', '进入商店'])" href="https://store.dunizb.com" target="_blank"><strong>￥19.9，去看看</strong></a>
-                </div>
-                <a class="info" nclick="_hmt.push(['_trackEvent', '版块', 'click', '进入商店'])" href="https://store.dunizb.com" target="_blank">
-                  <div class="buy_link">
-                    <a class="iconfont icon-webclicksettings" href="https://store.dunizb.com" target="_blank">￥19.9，去看看</a>
-                  </div>
-                  <h3>疯狂Java：突破程序员基本功的16课</h3>
-                  <span>让你求职时不被鄙视“基本功不扎实”而万分惭愧</span>
                 </a>
               </div>
               
