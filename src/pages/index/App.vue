@@ -81,31 +81,31 @@
           <div class="content">        
               <div class="row_store_item">
                 <div class="item">
-                <div :class="{'item_img': true, 'loading': showImgLoading}">
-                  <img src="https://img10.360buyimg.com/n0/jfs/t18253/152/167792036/99995/97f739a1/5a618bf6Nec875a5f.jpg" />
-                  <a class="iconfont icon-buy1" onclick="_hmt.push(['_trackEvent', '版块', 'click', '进入商店'])" href="https://store.dunizb.com" target="_blank"><strong>￥19.9，去看看</strong></a>
+                <div class="item_img">
+                  <img src="//img10.360buyimg.com/n0/jfs/t14263/242/592449636/193450/220b14ea/5a31efd3Nf0b91a46.jpg" />
+                  <a class="iconfont icon-buy1" href="https://store.dunizb.com" target="_blank"><strong>￥39，去看看</strong></a>
                 </div>
                 <a class="info" nclick="_hmt.push(['_trackEvent', '版块', 'click', '进入商店'])" href="https://store.dunizb.com" target="_blank">
                   <div class="buy_link">
-                    <a class="iconfont icon-webclicksettings" href="https://store.dunizb.com" target="_blank">￥23，去看看</a>
+                    <a class="iconfont icon-webclicksettings" href="https://store.dunizb.com" target="_blank">￥39，去看看</a>
                   </div>
-                  <h3>阿里巴巴Java开发手册</h3>
-                  <span>来自阿里集团的智慧与经验 血淋的故障换来的总结</span>
+                  <h3>前端工程化：体系设计与实践</h3>
+                  <span>全面系统地介绍了前端工程体系各个环节的设计要点和实践经验</span>
                 </a>
               </div>
 
-              <div class="item">
-                <div class="item_img">
-                  <img src="https://img14.360buyimg.com/n0/jfs/t3136/71/355944483/202149/2788207/57b2f0d5N776838af.jpg" />
-                  <a class="iconfont icon-buy1" href="https://store.dunizb.com" target="_blank"><strong>￥20，去看看</strong></a>
-                </div>
-                <a class="info" nclick="_hmt.push(['_trackEvent', '版块', 'click', '进入商店'])" href="https://store.dunizb.com" target="_blank">
-                  <div class="buy_link">
-                    <a class="iconfont icon-webclicksettings" href="https://store.dunizb.com" target="_blank">￥49，去看看</a>
+                <div class="item">
+                  <div :class="{'item_img': true, 'loading': showImgLoading}">
+                    <img src="https://img10.360buyimg.com/n0/jfs/t18253/152/167792036/99995/97f739a1/5a618bf6Nec875a5f.jpg" />
+                    <a class="iconfont icon-buy1" onclick="_hmt.push(['_trackEvent', '版块', 'click', '进入商店'])" href="https://store.dunizb.com" target="_blank"><strong>￥19.9，去看看</strong></a>
                   </div>
-                  <h3>内外兼修：程序员的成长之路</h3>
-                  <span>如何从一个普通程序员成长为架构师、团队负责人</span>
-                </a>
+                  <a class="info" nclick="_hmt.push(['_trackEvent', '版块', 'click', '进入商店'])" href="https://store.dunizb.com" target="_blank">
+                    <div class="buy_link">
+                      <a class="iconfont icon-webclicksettings" href="https://store.dunizb.com" target="_blank">￥23，去看看</a>
+                    </div>
+                    <h3>阿里巴巴Java开发手册</h3>
+                    <span>来自阿里集团的智慧与经验 血淋的故障换来的总结</span>
+                  </a>
               </div>
               
             </div>
