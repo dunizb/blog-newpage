@@ -23,13 +23,13 @@
     <nav>
       <ul class="main-nav">
         <li title="博客"><a class="blog" onclick="_hmt.push(['_trackEvent', 'nav', 'click', '博客'])" href="https://blog.dunizb.com"><i class="iconfont icon-index"></i> 博客</a></li>
-        <li title="我的商店"><a class="store" onclick="_hmt.push(['_trackEvent', 'nav', 'click', '商店'])" href="https://store.dunizb.com"><i class="iconfont icon-circlebuy1"></i> 商店</a></li>
+        <li title="我的小铺"><a class="store" onclick="_hmt.push(['_trackEvent', 'nav', 'click', '商店'])" href="https://store.dunizb.com"><i class="iconfont icon-circlebuy1"></i> 小铺</a></li>
         <!-- <li title="博客分类"><a class="categorie" href="https://blog.dunizb.com"><i class="iconfont icon-filearticle"></i>FE</a></li> -->
         <li title="Demos"><a class="demo" onclick="_hmt.push(['_trackEvent', 'nav', 'click', 'DEMO'])" href="https://demo.dunizb.com"><i class="iconfont icon-bianji"></i> Demo</a></li>
         <li title="我的足迹"><a class="map" onclick="_hmt.push(['_trackEvent', 'nav', 'click', '足迹'])" href="https://dunizb.github.io/footprint" target="_blank"><i class="iconfont icon-09"></i> 足迹</a></li>
         <li title="我拍的照片"><a onclick="_hmt.push(['_trackEvent', 'nav', 'click', '照片'])" class="photo" href="http://duni.pp.163.com/" target="_blank"><i class="iconfont icon-photoalbum"></i> 摄影</a></li>
         <li title="我的阅读激励"><a class="read" onclick="_hmt.push(['_trackEvent', 'nav', 'click', '读书'])" href="https://github.com/dunizb/reading-list" target="_blank"><i class="iconfont icon-book1"></i> 读书</a></li>
-        <li title="Codetest"><a class="code" onclick="_hmt.push(['_trackEvent', 'nav', 'click', 'Code'])" href="https://github.com/dunizb/CodeTest"><i class="iconfont icon-Code"></i> Code</a></li> 
+        <li title="Codetest"><a class="code" onclick="_hmt.push(['_trackEvent', 'nav', 'click', 'Code'])" href="https://github.com/dunizb/CodeTest"><i class="iconfont icon-Code"></i> Code</a></li>
         <li title="关于"><a class="about" onclick="_hmt.push(['_trackEvent', 'nav', 'click', '关于我'])" href="https://blog.dunizb.com/about/"><i class="iconfont icon-about-s"></i> 关于</a></li>
       </ul>
       <ul class="sub-nav">
@@ -43,7 +43,7 @@
         <li><a href="https://blog.dunizb.com/categories/%E9%9A%8F%E7%AC%94%E6%89%AF%E8%B0%88/">随笔扯谈</a></li>
         <li><a href="https://blog.dunizb.com/categories/%E5%92%8C%E6%88%91%E4%B8%80%E8%B5%B7%E8%AF%BB%E4%B9%A6/">和我一起读书</a></li>
         <li><a href="https://blog.dunizb.com/categories/%E7%94%9F%E6%B4%BB/">生活</a></li>
-        <li><a href="https://blog.dunizb.com/categories/%E5%B9%B4%E7%BB%88%E7%9B%98%E7%82%B9/">年终盘点</a></li> 
+        <li><a href="https://blog.dunizb.com/categories/%E5%B9%B4%E7%BB%88%E7%9B%98%E7%82%B9/">年终盘点</a></li>
         <li><a href="https://blog.dunizb.com/tags/%E6%80%9D%E8%80%83%E6%84%9F%E6%82%9F/">思考感悟</a></li>
       </ul>
     </nav>
@@ -78,7 +78,7 @@
             <div class="title"><i class="iconfont icon-ShoppingMall"></i> 我的小店</div>
             <div class="title_info">出售个人闲置书籍，价格实惠，正品包邮，欢迎来看看</div>
           </div>
-          <div class="content">        
+          <div class="content">
               <div class="row_store_item">
                 <div class="item">
                 <div class="item_img">
@@ -107,7 +107,7 @@
                     <span>来自阿里集团的智慧与经验 血淋的故障换来的总结</span>
                   </a>
               </div>
-              
+
             </div>
           </div>
         </div>
@@ -147,7 +147,7 @@
           </div>
         </div>
       </div>
-      
+
       <!-- 我的足迹 开始 -->
       <div class="row">
         <div class="row_box row_maps">

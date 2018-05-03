@@ -104,9 +104,9 @@ nav{
   justify-content: center;
   align-items:center;
   font-size:18px;
-  background-color:$mian-gray-b;
+  background-color:$mian-gray;
   overflow-x: auto;
-  background-image: url("../../../static/images/toolbarbackground.jpg");
+  // background-image: url("../../../static/images/toolbarbackground.jpg");
   .main-nav{
     display: flex;
     flex-wrap: wrap;
@@ -117,7 +117,7 @@ nav{
       position: relative;
       a{
         text-decoration: none;
-        font-weight: bold;
+        // font-weight: bold;
       }
       a.blog{
         color: #fff;
@@ -181,6 +181,7 @@ nav{
     justify-content: center;
     width: 100%;
     background-color: $mian-gray-m;
+    font-weight: 300;
     li{
       display: flex;
       align-items: center;
@@ -572,7 +573,7 @@ footer{
   }
 }
 
-@media screen and (max-width: 640px) { 
+@media screen and (max-width: 640px) {
   header{
     height: 87%;
     background-size: cover;
@@ -679,7 +680,7 @@ footer{
           }
         }
       }
-    } 
+    }
   }
   footer{
     height: auto;
