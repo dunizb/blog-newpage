@@ -96,15 +96,15 @@
 
                 <div class="item">
                   <div :class="{'item_img': true, 'loading': showImgLoading}">
-                    <img src="https://img10.360buyimg.com/n0/jfs/t18253/152/167792036/99995/97f739a1/5a618bf6Nec875a5f.jpg" />
-                    <a class="iconfont icon-buy1" onclick="_hmt.push(['_trackEvent', '版块', 'click', '进入商店'])" href="https://store.dunizb.com" target="_blank"><strong>￥23，去看看</strong></a>
+                    <img src="//img14.360buyimg.com/n0/jfs/t1936/332/2229081547/239041/9cfc342f/56ce90caN4f2d1bbc.jpg" />
+                    <a class="iconfont icon-buy1" onclick="_hmt.push(['_trackEvent', '版块', 'click', '进入商店'])" href="https://store.dunizb.com" target="_blank"><strong>￥19，去看看</strong></a>
                   </div>
                   <a class="info" nclick="_hmt.push(['_trackEvent', '版块', 'click', '进入商店'])" href="https://store.dunizb.com" target="_blank">
                     <div class="buy_link">
-                      <a class="iconfont icon-webclicksettings" href="https://store.dunizb.com" target="_blank">￥23，去看看</a>
+                      <a class="iconfont icon-webclicksettings" href="https://store.dunizb.com" target="_blank">￥19，去看看</a>
                     </div>
-                    <h3>阿里巴巴Java开发手册</h3>
-                    <span>来自阿里集团的智慧与经验 血淋的故障换来的总结</span>
+                    <h3>理财最重要的事</h3>
+                    <span>轻松发现自己行为中的误区，找到理财投资的新思路</span>
                   </a>
               </div>
 
