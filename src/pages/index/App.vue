@@ -161,7 +161,7 @@
               <div id="my-maps"></div>
             </div>
             <div class="feixian" v-show="showFeixian">
-              飞线图
+              <move-line-map></move-line-map>
             </div>
             <div class="row_btn">
               <a @click="_hmt.push(['_trackEvent', '版块', 'click', '进入我的足迹'])" href="https://dunizb.github.io/footprint" target="_blank">
@@ -197,7 +197,8 @@
 </template>
 
 <script>
-import tabSwitchBtn from '@components/tabSwitchBtn/tabSwitchBtn'
+import tabSwitchBtn from '@components/tabSwitchBtn'
+import moveLineMap from '@components/moveLineMap'
 export default {
   data () {
     return {
@@ -237,7 +238,8 @@ export default {
     }
   },
   components: {
-    tabSwitchBtn
+    tabSwitchBtn,
+    moveLineMap
   }
 }
 </script>
