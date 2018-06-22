@@ -2,6 +2,9 @@ var inmap = new inMap.Map({
   id: 'linemap',
   skin: "Blueness",
   center: [105.403119, 35.028658], //地图中心点
+  style: {
+    colors: ['#fff','#67C23A','#409EFF','#E6A23C','#F56C6C','#FF2121','#FF8080','#FFD96B','#5ADD94']
+  },
   zoom: {
     value: 5, //当前地图级别
     show: true, //放大缩小按钮显示
