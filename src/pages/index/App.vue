@@ -161,7 +161,7 @@
               <div id="my-maps"></div>
             </div>
             <div class="feixian" v-show="showFeixian">
-              <move-line-map></move-line-map>
+              <div id="linemap" class="linemap-wrapper"> </div>
             </div>
             <div class="row_btn">
               <a @click="_hmt.push(['_trackEvent', '版块', 'click', '进入我的足迹'])" href="https://dunizb.github.io/footprint" target="_blank">
@@ -198,7 +198,6 @@
 
 <script>
 import tabSwitchBtn from '@components/tabSwitchBtn'
-import moveLineMap from '@components/moveLineMap'
 export default {
   data () {
     return {
@@ -238,12 +237,16 @@ export default {
     }
   },
   components: {
-    tabSwitchBtn,
-    moveLineMap
+    tabSwitchBtn
   }
 }
 </script>
 
 <style lang="scss">
   @import "../../assets/scss/main.scss";
+  #linemap {
+    border-bottom: 2px solid $mian-gray;
+    width: 100%;
+    height: 550px;
+  }
 </style>
