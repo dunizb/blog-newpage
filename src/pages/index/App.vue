@@ -135,12 +135,12 @@
               <li>
                 <div class="name">Dunizb</div>
                 <div class="desc">微信号，和我发生纯纯的友谊</div>
-                <img src="static/images/qrcode.jpg" />
+                <img src="//dunizb.b0.upaiyun.com/iPic/mmdo4.jpg" />
               </li>
               <li>
                 <div class="name">做工程师不做码农</div>
                 <div class="desc">公众号，及时接收最新文章</div>
-                <img src="static/images/gzh_qrcode.jpg" />
+                <img src="//dunizb.b0.upaiyun.com/iPic/wl0ty.jpg" />
               </li>
             </ul>
           </div>
