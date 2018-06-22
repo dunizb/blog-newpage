@@ -155,8 +155,9 @@
             <div class="title_info">读书与旅行，缺一不可，看看世界，定位自己</div>
           </div>
           <div class="content">
-            <tab-switch-btn :actived="isActivedFx" @click.native="swicthMapType('fx')">飞线图</tab-switch-btn>
-            <tab-switch-btn :actived="isActivedDd" @click.native="swicthMapType('dd')">地点图</tab-switch-btn>
+            <tab-switch-btn :actived="isActivedFx" @click.native="swicthMapType('fx')">足迹路线</tab-switch-btn>
+            <tab-switch-btn :actived="isActivedDd" @click.native="swicthMapType('dd')">踏足地点</tab-switch-btn>
+            <tab-switch-btn :actived="isActivedSf" @click.native="swicthMapType('sf')">踏足省份</tab-switch-btn>
             <div class="didian"  v-show="showDidian">
               <div id="my-maps"></div>
             </div>
@@ -205,7 +206,8 @@ export default {
       showDidian: false,
       showFeixian: true,
       isActivedFx: true,
-      isActivedDd: false
+      isActivedDd: false,
+      isActivedSf: false
     }
   },
   mounted () {
@@ -228,6 +230,9 @@ export default {
         this.showFeixian = true
         this.isActivedFx = true
         this.isActivedDd = false
+      }
+      if (type === 'sf') {
+        alert('建设中...')
       }
     },
     getEveryDayBgimg () {

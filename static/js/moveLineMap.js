@@ -1,7 +1,7 @@
 var inmap = new inMap.Map({
   id: 'linemap',
   skin: "Blueness",
-  center: [105.403119, 38.028658], //地图中心点
+  center: [105.403119, 35.028658], //地图中心点
   zoom: {
     value: 5, //当前地图级别
     show: true, //放大缩小按钮显示
@@ -174,6 +174,15 @@ var data = [{
   }
 },{
   "from": {
+    "city": "上海",
+    "lnglat": [121.473338,31.233094]
+  },
+  "to": {
+    "city": "苏州",
+    "lnglat": [120.635894,31.330387]
+  }
+},{
+  "from": {
     "city": "南昌",
     "lnglat": [115.86631,28.680836]
   },
@@ -246,28 +255,28 @@ var overlay = new inMap.MoveLineOverlay({
 
 inmap.add(overlay);
 
-setTimeout(() => {
-  overlay.setOptionStyle({
-    skin: "WhiteLover",
-    style: {
-      normal: {
-        markerRadius: 3,
-        //marker点颜色,为空或null则默认取线条颜色
-        markerColor: 'rgba(0,0,0,1)',
-        //线条类型 solid、dashed、dotted
-        lineType: 'solid',
-        //线条宽度
-        lineWidth: 1,
-        //线条颜色
-        //移动点半径
-        moveRadius: 2,
-        //移动点颜色
-        fillColor: 'rgba(255,0,0,1)',
-        //移动点阴影颜色
-        shadowColor: 'rgba(255,0,0,1)',
-        //移动点阴影大小
-        shadowBlur: 10,
-      }
-    }
-  });
-}, 2000);
+// setTimeout(() => {
+//   overlay.setOptionStyle({
+//     skin: "WhiteLover",
+//     style: {
+//       normal: {
+//         markerRadius: 3,
+//         //marker点颜色,为空或null则默认取线条颜色
+//         markerColor: 'rgba(0,0,0,1)',
+//         //线条类型 solid、dashed、dotted
+//         lineType: 'solid',
+//         //线条宽度
+//         lineWidth: 1,
+//         //线条颜色
+//         //移动点半径
+//         moveRadius: 2,
+//         //移动点颜色
+//         fillColor: 'rgba(255,0,0,1)',
+//         //移动点阴影颜色
+//         shadowColor: 'rgba(255,0,0,1)',
+//         //移动点阴影大小
+//         shadowBlur: 10,
+//       }
+//     }
+//   });
+// }, 2000);
