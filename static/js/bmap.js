@@ -38,9 +38,9 @@ function addMapControl(){
 //标注点数组
 var markerArr = [{
         title:"杭州",
-        content:"杭州市、杭州西湖景区",
+        content:"我目前正在杭州，快来找我玩耍吧",
         point:"120.171467|30.257352",
-        isOpen:0,
+        isOpen:1,
         icon:{w:21,h:21,l:0,t:0,x:6,lb:5}
     },{
         title:"乌镇",
@@ -140,9 +140,9 @@ var markerArr = [{
         icon:{w:21,h:21,l:0,t:0,x:6,lb:5}
      },{
         title:"上海",
-        content:"目前我正在上海市，快来找我耍吧",
+        content:"外滩、城隍庙、南京路步行街、佘山、欢乐谷、陆家嘴",
         point:"121.473338|31.233094",
-        isOpen:1,
+        isOpen:0,
         icon:{w:21,h:21,l:0,t:0,x:6,lb:5}
      },{
          title:"大理",
@@ -195,7 +195,7 @@ function addMarker(){
                     color:"#333",
                     cursor:"pointer"
         });
-        
+
         (function(){
             var index = i;
             var _iw = createInfoWindow(i);
@@ -227,10 +227,10 @@ function createInfoWindow(i){
 }
 //创建一个Icon
 function createIcon(json){
-    var myIcon = new BMap.Icon("//api.map.baidu.com/img/markers.png", new BMap.Size(23, 25), {  
-        offset: new BMap.Size(10, 25), // 指定定位位置  
-        imageOffset: new BMap.Size(0, 0 - 10 * 25) // 设置图片偏移  
-    });  
+    var myIcon = new BMap.Icon("//api.map.baidu.com/img/markers.png", new BMap.Size(23, 25), {
+        offset: new BMap.Size(10, 25), // 指定定位位置
+        imageOffset: new BMap.Size(0, 0 - 10 * 25) // 设置图片偏移
+    });
     // var icon = new BMap.Icon("http://app.baidu.com/map/images/us_mk_icon.png", new BMap.Size(json.w,json.h),{imageOffset: new BMap.Size(-json.l,-json.t),infoWindowOffset:new BMap.Size(json.lb+5,1),offset:new BMap.Size(json.x,json.h)})
     return myIcon;
 }
