@@ -155,9 +155,18 @@
             <div class="title_info">读书与旅行，缺一不可，看看世界，定位自己</div>
           </div>
           <div class="content">
-            <div id="my-maps"></div>
+            <tab-switch-btn :actived="isActivedFx" @click.native="swicthMapType('fx')">飞线图</tab-switch-btn>
+            <tab-switch-btn :actived="isActivedDd" @click.native="swicthMapType('dd')">地点图</tab-switch-btn>
+            <div class="didian"  v-show="showDidian">
+              <div id="my-maps"></div>
+            </div>
+            <div class="feixian" v-show="showFeixian">
+              飞线图
+            </div>
             <div class="row_btn">
-              <a nclick="_hmt.push(['_trackEvent', '版块', 'click', '进入我的足迹'])" href="https://dunizb.github.io/footprint" target="_blank"><i class="iconfont icon-webclicksettings"></i> 查看详细足迹</a>
+              <a @click="_hmt.push(['_trackEvent', '版块', 'click', '进入我的足迹'])" href="https://dunizb.github.io/footprint" target="_blank">
+                <i class="iconfont icon-webclicksettings"></i> 查看详细足迹
+              </a>
             </div>
           </div>
         </div>
@@ -188,27 +197,49 @@
 </template>
 
 <script>
-  export default {
-    data () {
-      return {
-        showImgLoading: true
-      }
-    },
-    mounted () {
-      // 获取Bing.com每日壁纸
-      this.getEveryDayBgimg()
-      this.$nextTick(() => {
-        this.showImgLoading = false
-      })
-    },
-    methods: {
-      getEveryDayBgimg () {
-        console.log('获取Bing.com每日壁纸')
-        const imgurl = this.$refs['bgimg'].src
-        this.$refs['header'].style.backgroundImage = 'url(' + imgurl + ')'
-      }
+import tabSwitchBtn from '@components/tabSwitchBtn/tabSwitchBtn'
+export default {
+  data () {
+    return {
+      showImgLoading: true,
+      showDidian: false,
+      showFeixian: true,
+      isActivedFx: true,
+      isActivedDd: false
     }
+  },
+  mounted () {
+    // 获取Bing.com每日壁纸
+    this.getEveryDayBgimg()
+    this.$nextTick(() => {
+      this.showImgLoading = false
+    })
+  },
+  methods: {
+    swicthMapType (type) {
+      if (type === 'dd') {
+        this.showDidian = true
+        this.showFeixian = false
+        this.isActivedFx = false
+        this.isActivedDd = true
+      }
+      if (type === 'fx') {
+        this.showDidian = false
+        this.showFeixian = true
+        this.isActivedFx = true
+        this.isActivedDd = false
+      }
+    },
+    getEveryDayBgimg () {
+      console.log('获取Bing.com每日壁纸')
+      const imgurl = this.$refs['bgimg'].src
+      this.$refs['header'].style.backgroundImage = 'url(' + imgurl + ')'
+    }
+  },
+  components: {
+    tabSwitchBtn
   }
+}
 </script>
 
 <style lang="scss">
