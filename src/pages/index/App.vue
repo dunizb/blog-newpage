@@ -59,16 +59,16 @@
           </div>
           <div class="content">
             <div class="content_img_box">
-              <img src="static/images/zhuanlan/jiketime_zuoertingfeng.png" />
-              <a class="chenghao" onclick="_hmt.push(['_trackEvent', '专栏', 'click', '查看陈皓《左耳听风》学习笔记'])" href="https://mubu.com/doc/25sSf3gfih" target="_blank"><i class="iconfont icon-webclicksettings"></i> 陈皓《左耳听风》学习笔记</a>
+              <img src="//dunizb.b0.upaiyun.com/iPic/d7kdk.jpg" />
+              <a class="chenghao" onclick="_hmt.push(['_trackEvent', '专栏', 'click', '极客时间《徐飞·技术与商业案例解读》'])" href="javascript:;" target="_blank"><i class="iconfont icon-webclicksettings"></i> 极客时间《徐飞·技术与商业案例解读》</a>
             </div>
             <div class="content_img_box">
-              <img src="static/images/zhuanlan/dedao_xiangshuai.png" />
-              <a class="xiangshuai" onclick="_hmt.push(['_trackEvent', '专栏', 'click', '查看香帅《北大金融学课》学习笔记'])" href="https://mubu.com/doc/HQC8PLyUg" target="_blank"><i class="iconfont icon-webclicksettings"></i> 香帅《北大金融学课》学习笔记</a>
+              <img src="//dunizb.b0.upaiyun.com/iPic/wzz99.png" />
+              <a class="xiangshuai" onclick="_hmt.push(['_trackEvent', '专栏', 'click', '查看香帅《北大金融学课》学习笔记'])" href="//mubu.com/doc/HQC8PLyUg" target="_blank"><i class="iconfont icon-webclicksettings"></i> 得到《香帅·北大金融学课》学习笔记</a>
             </div>
             <div class="content_img_box">
-              <img src="static/images/zhuanlan/jiketime_xufei.jpg" />
-              <a class="lixiaolai" href="javascript:;" target="_blank"><i class="iconfont icon-webclicksettings"></i> 徐飞《技术与商业案例解读》</a>
+              <img src="//dunizb.b0.upaiyun.com/iPic/fp2wc.png" style="height: 176px;" />
+              <a class="lixiaolai" onclick="_hmt.push(['_trackEvent', '专栏', 'click', '网易精品课《杨亮讲单词·方法篇》'])" href="//ke.youdao.com/course/detail/9763" target="_blank"><i class="iconfont icon-webclicksettings"></i> 网易精品课《杨亮讲单词·方法篇》</a>
             </div>
           </div>
         </div>
