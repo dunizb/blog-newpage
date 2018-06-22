@@ -1,5 +1,5 @@
 var inmap = new inMap.Map({
-  id: 'allmap',
+  id: 'linemap',
   skin: "Blueness",
   center: [105.403119, 38.028658], //地图中心点
   zoom: {
