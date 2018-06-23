@@ -148,7 +148,7 @@
       </div>
 
       <!-- 我的足迹 开始 -->
-      <div class="row">
+      <div class="row" id="my-zuji">
         <div class="row_box row_maps">
           <div class="header">
             <div class="title"><i class="iconfont icon-09"></i> 我的足迹</div>
