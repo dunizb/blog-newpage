@@ -2,9 +2,6 @@ var inmap = new inMap.Map({
   id: 'linemap',
   skin: "Blueness",
   center: [105.403119, 35.028658], //地图中心点
-  style: {
-    colors: ['#fff','#67C23A','#409EFF','#E6A23C','#F56C6C','#FF2121','#FF8080','#FFD96B','#5ADD94']
-  },
   zoom: {
     value: 5, //当前地图级别
     show: true, //放大缩小按钮显示
@@ -269,7 +266,8 @@ var overlay = new inMap.MoveLineOverlay({
       //线条宽度
       lineWidth: 1,
       //线条颜色
-      colors: ['#F9815C', '#F8AB60', '#EDCC72', '#E2F194', '#94E08A', '#4ECDA5'],
+      colors: ['#FF00FF','#993399','#ffffff','#67C23A','#FF2121','#FF8080','#FFD96B','#5ADD94','#409EFF','#E6A23C','#F56C6C'],
+      // colors: ['#F9815C', '#F8AB60', '#EDCC72', '#E2F194', '#94E08A', '#4ECDA5'],
       //移动点半径
       moveRadius: 2,
       //移动点颜色
