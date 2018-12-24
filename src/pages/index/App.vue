@@ -13,7 +13,7 @@
           <div class="avatar">
             <img src="static/images/avatar.gif" />
           </div>
-          <h1>Dunizb<span>.com</span></h1>
+          <h1>Dunizb<span>.com</span><img class="hat" src="../../assets/hat.svg" /></h1>
         </a>
         <h2>这世间唯有梦想和好姑娘不可辜负</h2>
       </hgroup>

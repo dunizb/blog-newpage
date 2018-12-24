@@ -77,6 +77,16 @@ header{
         font-size: 14px;
         color: $mian-blue;
       }
+      /** 圣诞帽 */
+      .hat {
+        position: absolute;
+        right: 71px;
+        top: -1px;
+        width: 30px;
+      }
+      .hat:hover {
+        transform: rotate(-30deg)
+      }
     }
     h2 {
       letter-spacing:3px;
