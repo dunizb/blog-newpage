@@ -59,8 +59,8 @@
           </div>
           <div class="content">
             <div class="content_img_box">
-              <img src="//dunizb.b0.upaiyun.com/iPic/d7kdk.jpg" />
-              <a class="chenghao" onclick="_hmt.push(['_trackEvent', '专栏', 'click', '极客时间《徐飞·技术与商业案例解读》'])" href="javascript:;" target="_blank"><i class="iconfont icon-webclicksettings"></i> 极客时间《徐飞·技术与商业案例解读》</a>
+              <img src="https://ws1.sinaimg.cn/large/683aa04fly1fyukcaxnl9j20ut0f80vu.jpg" />
+              <a class="chenghao" onclick="_hmt.push(['_trackEvent', '专栏', 'click', '极客时间《10x 程序员工作法》'])" href="https://time.geekbang.org/column/intro/148" target="_blank"><i class="iconfont icon-webclicksettings"></i> 极客时间《10x 程序员工作法》</a>
             </div>
             <div class="content_img_box">
               <img src="//dunizb.b0.upaiyun.com/iPic/wzz99.png" />
@@ -112,7 +112,20 @@
           </div>
         </div>
       </div>
-
+      <div class="row">
+        <div class="row_box row_report">
+          <div class="header">
+            <div class="title"><i class="iconfont icon-baobiaobiaoweiguanli"></i> 2018年度报告</div>
+            <div class="title_info">各种社交数据</div>
+          </div>
+          <div class="content">
+            <div><img src="https://ws1.sinaimg.cn/large/683aa04fly1fyulasl9wej20ku11s0zo.jpg" style="width:314px;" /></div>
+            <div><img src="https://ws1.sinaimg.cn/large/683aa04fly1fyulh487k4j20yi1pc76s.jpg" /></div>
+            <a href="http://col.ink/c/year2018/rXmxl/?uid=227B014563C511C6F2840AD1F8175EFA&full_screen=true&keep_status_bar=true&top_bar_bg_color=f9f9f9&status_bar_type=dark&userid=417725&from=timeline" target="_blank"><img src="https://ws1.sinaimg.cn/large/683aa04fly1fyuliv2gxhj20u01bcasc.jpg" /></a>
+            <!-- <a href="" target="_blank"><img src="https://ws1.sinaimg.cn/large/683aa04fly1fyulasl9wej20ku11s0zo.jpg" /></a> -->
+          </div>
+        </div>
+      </div>
       <div class="row">
         <div class="row_box row_sms">
           <div class="header">

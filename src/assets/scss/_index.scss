@@ -281,11 +281,15 @@ nav{
           font-size: 0;
         }
       }
-      &:hover{
-        .header::after{
-          height: 15px;
-          border-radius: 0 0 20px 20px;
-          box-shadow: 0 0 10px 0 $mian-gray-m;
+      &.row_report {
+        .content{
+          display: flex;
+          img {
+            max-width: 314px;
+            // padding: 0 5px;
+            border-radius: 5px;
+            height: 98%;
+          }
         }
       }
       &.row_zhuanlan{
@@ -412,6 +416,13 @@ nav{
             }
           }
         }
+      }
+    }
+    .row_box:hover {
+      .header::after{
+        height: 15px;
+        border-radius: 0 0 20px 20px;
+        box-shadow: 0 0 10px 0 $mian-gray-m;
       }
     }
     .row_maps{
