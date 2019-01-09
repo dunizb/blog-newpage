@@ -1,0 +1,15 @@
+{
+  "name": "Dunizb(张兵)的个人博客",
+  "short_name": "Dunizb",
+  "display": "fullscreen",
+  "start_url": "/blog-newpage/index.html",
+  "icons": [
+    {
+      "src": "images/avatar.gif",
+      "sizes": "200x200",
+      "type": "image/gif"
+    }
+  ],
+  "background_ color": "#dc3023",
+  "theme_ color": "#000"
+}
