@@ -282,13 +282,16 @@ nav{
         }
       }
       &.row_report {
+        overflow: hidden;
         .content{
           display: flex;
+          width: 1250px;
+          overflow: auto;
+          padding-bottom: 10px;
           img {
-            max-width: 314px;
-            // padding: 0 5px;
-            border-radius: 5px;
-            height: 98%;
+            flex: 1;
+            width: 280px;
+            height: 437px;
           }
         }
       }
@@ -673,6 +676,9 @@ footer{
               &:last-child{display: none;}
             }
           }
+        }
+        &.row_report .content {
+          max-width: 414px;
         }
       }
       .row_maps{

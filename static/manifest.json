@@ -2,7 +2,7 @@
   "name": "Dunizb(张兵)的个人博客",
   "short_name": "Dunizb",
   "display": "fullscreen",
-  "start_url": "/blog-newpage/index.html",
+  "start_url": "/index.html",
   "icons": [
     {
       "src": "images/avatar.gif",

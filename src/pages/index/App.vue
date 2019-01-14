@@ -119,11 +119,11 @@
             <div class="title_info">各种社交数据</div>
           </div>
           <div class="content">
-            <div><img src="https://ws1.sinaimg.cn/large/683aa04fly1fyulasl9wej20ku11s0zo.jpg" style="width:314px;" /></div>
-            <div><img src="https://ws1.sinaimg.cn/large/683aa04fly1fyy7zohoc9j21nf33xdvc.jpg" /></div>
-            <div><img src="https://ws1.sinaimg.cn/large/683aa04fly1fyy7sl730yj20jt0z8h3o.jpg" /></div>
-            <a href="http://col.ink/c/year2018/rXmxl/?uid=227B014563C511C6F2840AD1F8175EFA&full_screen=true&keep_status_bar=true&top_bar_bg_color=f9f9f9&status_bar_type=dark&userid=417725&from=timeline" target="_blank"><img src="https://ws1.sinaimg.cn/large/683aa04fly1fyuliv2gxhj20u01bcasc.jpg" /></a>
-            <!-- <a href="" target="_blank"><img src="https://ws1.sinaimg.cn/large/683aa04fly1fyulasl9wej20ku11s0zo.jpg" /></a> -->
+            <img src="https://ws1.sinaimg.cn/large/683aa04fly1fyulasl9wej20ku11s0zo.jpg" />
+            <img src="https://ws1.sinaimg.cn/large/683aa04fly1fyy7zohoc9j21nf33xdvc.jpg" />
+            <img src="https://ws1.sinaimg.cn/large/683aa04fly1fyy7sl730yj20jt0z8h3o.jpg" />
+            <img src="https://ws1.sinaimg.cn/large/683aa04fly1fz5tvchqacj20u01atwns.jpg" />
+            <img src="https://ws1.sinaimg.cn/large/683aa04fly1fz5vbfma9jj20u01bctdt.jpg" />
           </div>
         </div>
       </div>
