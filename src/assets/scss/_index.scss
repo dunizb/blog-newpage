@@ -285,7 +285,7 @@ nav{
         overflow: hidden;
         .content{
           display: flex;
-          width: 1250px;
+          width: 100%;
           overflow: auto;
           padding-bottom: 10px;
           img {
@@ -676,9 +676,6 @@ footer{
               &:last-child{display: none;}
             }
           }
-        }
-        &.row_report .content {
-          max-width: 414px;
         }
       }
       .row_maps{
