@@ -82,15 +82,15 @@
               <div class="row_store_item">
                 <div class="item">
                 <div class="item_img">
-                  <img src="//m.360buyimg.com/mobilecms/s750x750_jfs/t10882/82/1006393208/267665/1ece8b96/59db2230N66bbbd33.jpg!q80.jpg.webp" />
+                  <img src="//img12.360buyimg.com/n0/g14/M04/10/19/rBEhV1I38YQIAAAAAAJ5G7BZzBoAADR6wCEHAcAAnkz594.jpg"/>
                   <a class="iconfont icon-buy1" href="https://store.dunizb.com" target="_blank"><strong>￥19，去看看</strong></a>
                 </div>
                 <a class="info" nclick="_hmt.push(['_trackEvent', '版块', 'click', '进入商店'])" href="https://store.dunizb.com" target="_blank">
                   <div class="buy_link">
                     <a class="iconfont icon-webclicksettings" href="https://store.dunizb.com" target="_blank">￥19，去看看</a>
                   </div>
-                  <h3>单核工作法图解</h3>
-                  <span>事多到事少拖延变高效，番茄钟之后又一时间管理器</span>
+                  <h3>大型网站技术架构 核心原理与案例分析</h3>
+                  <span>大型网站技术开山之作，业内好评爆棚，畅销经典！</span>
                 </a>
               </div>
 
