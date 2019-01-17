@@ -10,7 +10,7 @@
     <header ref="header">
       <hgroup>
         <div class="avatar">
-          <img src="static/images/avatar.gif" id="play_bgm" @click="play()" :class="[className]" title="点我关闭背景音乐" />
+          <img src="static/images/avatar.gif" id="play_bgm_avatar" @click="play()" :class="[className]" title="点我关闭背景音乐" />
         </div>
         <h1>Dunizb<span>.com</span><img class="hat" src="../../assets/hat.svg" /></h1>
         <h2>这世间唯有梦想和好姑娘不可辜负</h2>
@@ -234,7 +234,7 @@ export default {
     })
     setTimeout(() => {
       this.className = 'play_on'
-    }, 1000)
+    }, 2000)
   },
   methods: {
     play () {

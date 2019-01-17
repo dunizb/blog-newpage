@@ -86,9 +86,7 @@ header{
         right: 71px;
         top: -1px;
         width: 30px;
-      }
-      .hat:hover {
-        transform: rotate(-30deg)
+        transition: all .5s;
       }
     }
     h2 {
@@ -101,6 +99,7 @@ header{
       text-decoration: none;
       display: inline;
     }
+    &:hover .hat { transform: rotate(-30deg) }
   }
   &:hover{
     hgroup h1::after{
