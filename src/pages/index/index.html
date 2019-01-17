@@ -42,10 +42,19 @@
   <div id="app">
     <app></app>
   </div>
+  <audio src="https://m.imooc.com/static/wap/static/img/act/memory2018/music.mp3" id="music-bgm" preload="auto" loop="loop"></audio>
 </body>
 <script src="//api.map.baidu.com/getscript?v=3.0&ak=wAXe6n1e7ByUvVvyahsR2dC9d3gwNEaU&services=true&t=20180727181036" type="text/javascript"></script>
 <script src="//unpkg.com/inmap@1.7.1/dist/inmap.min.js" type="text/javascript" ></script>
 <script src="static/js/bmap.js" type="text/javascript"></script>
 <script src="static/js/moveLineMap.js" type="text/javascript"></script>
+<script src="//dunizb.b0.upaiyun.com/iPic/audio.min.js"></script>
+<script>
+  audiojs.events.ready(function () {
+    audiojs.createAll({
+      autoplay: 'true' // 初始化后自动播放
+    })
+  })
+</script>
 </html>
 

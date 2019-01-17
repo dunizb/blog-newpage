@@ -60,6 +60,9 @@ header{
         width: 100%;
         @include border-radius(50%);
         border:10px solid rgba(0,0,0,.3);
+        &.play_on {
+          animation: muiscIconRotate 3.5s linear infinite;
+        }
         &:hover{
           border:10px solid rgba(0,0,0,.5);
         }
@@ -594,6 +597,11 @@ footer{
       text-decoration: none;
     }
   }
+}
+
+@keyframes muiscIconRotate{
+  from{transform: rotate(0deg);}
+  to{transform: rotate(360deg);}
 }
 
 @media screen and (max-width: 640px) {

@@ -9,12 +9,10 @@
     <img ref="bgimg" src="//api.dujin.org/bing/1920.php" style="display:none;">
     <header ref="header">
       <hgroup>
-        <a href="/">
-          <div class="avatar">
-            <img src="static/images/avatar.gif" />
-          </div>
-          <h1>Dunizb<span>.com</span><img class="hat" src="../../assets/hat.svg" /></h1>
-        </a>
+        <div class="avatar">
+          <img src="static/images/avatar.gif" id="play_bgm" @click="play()" :class="[className]" title="点我关闭背景音乐" />
+        </div>
+        <h1>Dunizb<span>.com</span><img class="hat" src="../../assets/hat.svg" /></h1>
         <h2>这世间唯有梦想和好姑娘不可辜负</h2>
       </hgroup>
     </header>
@@ -224,7 +222,8 @@ export default {
       showFeixian: true,
       isActivedFx: true,
       isActivedDd: false,
-      isActivedSf: false
+      isActivedSf: false,
+      className: 'play_stop'
     }
   },
   mounted () {
@@ -233,8 +232,21 @@ export default {
     this.$nextTick(() => {
       this.showImgLoading = false
     })
+    setTimeout(() => {
+      this.className = 'play_on'
+    }, 1000)
   },
   methods: {
+    play () {
+      const bgm = document.getElementById('music-bgm')
+      if (bgm.paused) {
+        bgm.play()
+        this.className = 'play_on'
+      } else {
+        bgm.pause()
+        this.className = 'play_stop'
+      }
+    },
     swicthMapType (type) {
       if (type === 'dd') {
         this.showDidian = true
