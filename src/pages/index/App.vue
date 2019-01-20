@@ -58,7 +58,7 @@
           <div class="content">
             <div class="content_img_box">
               <img src="https://ws1.sinaimg.cn/large/683aa04fly1fyukcaxnl9j20ut0f80vu.jpg" />
-              <a class="chenghao" onclick="_hmt.push(['_trackEvent', '专栏', 'click', '极客时间《10x 程序员工作法》'])" href="https://time.geekbang.org/column/intro/148" target="_blank"><i class="iconfont icon-webclicksettings"></i> 极客时间《10x 程序员工作法》</a>
+              <a class="chenghao" onclick="_hmt.push(['_trackEvent', '专栏', 'click', '极客时间《10x 程序员工作法》'])" href="//blog.dunizb.com/tags/10x%E5%B7%A5%E4%BD%9C%E6%B3%95/" target="_blank"><i class="iconfont icon-webclicksettings"></i> 极客时间《10x 程序员工作法》</a>
             </div>
             <div class="content_img_box">
               <img src="//dunizb.b0.upaiyun.com/iPic/wzz99.png" />
