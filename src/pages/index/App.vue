@@ -32,17 +32,17 @@
       </ul>
       <ul class="sub-nav">
         <!-- <li title="去博客首页"><a href="https://blog.dunizb.com" class="main"><i class="iconfont icon-go"></i></a></li> -->
-        <li><a href="https://blog.dunizb.com/categories/%E5%89%8D%E7%AB%AF%E5%BC%80%E5%8F%91/">Web前端</a></li>
-        <li><a href="https://blog.dunizb.com/categories/%E5%89%8D%E7%AB%AF%E5%BC%80%E5%8F%91/JavaScript/">JavaScript</a></li>
-        <li><a href="https://blog.dunizb.com/categories/%E5%89%8D%E7%AB%AF%E5%BC%80%E5%8F%91/HTML-CSS/">HTML&HTML</a></li>
-        <li><a href="https://blog.dunizb.com/categories/%E6%9C%8D%E5%8A%A1%E7%AB%AF%E5%BC%80%E5%8F%91/Java/">Java</a></li>
-        <li><a href="https://blog.dunizb.com/tags/github/">Github</a></li>
+        <li><a href="https://blog.dunizb.com/categories/%E5%89%8D%E7%AB%AF%E5%BC%80%E5%8F%91/">前端开发</a></li>
         <li><a href="https://blog.dunizb.com/tags/Vue-js/">Vue.js</a></li>
+        <li><a href="https://blog.dunizb.com/categories/%E5%AD%A6%E4%B9%A0%E7%AC%94%E8%AE%B0/">学习笔记</a></li>
+        <li><a href="https://blog.dunizb.com/tags/%E5%B0%8F%E6%8A%80%E5%B7%A7/">小技巧</a></li>
+        <li><a href="https://blog.dunizb.com/categories/%E6%9C%8D%E5%8A%A1%E7%AB%AF%E5%BC%80%E5%8F%91/">服务端开发</a></li>
+        <li><a href="https://blog.dunizb.com/categories/%E5%B7%A5%E5%85%B7%E4%BD%BF%E7%94%A8/">工具使用</a></li>
         <li><a href="https://blog.dunizb.com/categories/%E9%9A%8F%E7%AC%94%E6%89%AF%E8%B0%88/">随笔扯谈</a></li>
         <li><a href="https://blog.dunizb.com/categories/%E5%92%8C%E6%88%91%E4%B8%80%E8%B5%B7%E8%AF%BB%E4%B9%A6/">和我一起读书</a></li>
         <li><a href="https://blog.dunizb.com/categories/%E7%94%9F%E6%B4%BB/">生活</a></li>
-        <li><a href="https://blog.dunizb.com/categories/%E5%B9%B4%E7%BB%88%E7%9B%98%E7%82%B9/">年终盘点</a></li>
-        <li><a href="https://blog.dunizb.com/tags/%E6%80%9D%E8%80%83%E6%84%9F%E6%82%9F/">思考感悟</a></li>
+        <!-- <li><a href="https://blog.dunizb.com/categories/%E5%B9%B4%E7%BB%88%E7%9B%98%E7%82%B9/">年终盘点</a></li> -->
+        <!-- <li><a href="https://blog.dunizb.com/tags/%E6%80%9D%E8%80%83%E6%84%9F%E6%82%9F/">思考感悟</a></li> -->
       </ul>
     </nav>
     <!-- 导航菜单 结束 -->
@@ -94,15 +94,15 @@
 
                 <div class="item">
                   <div :class="{'item_img': true, 'loading': showImgLoading}">
-                    <img src="//m.360buyimg.com/mobilecms/s750x750_jfs/t1/7732/26/14317/92522/5c63ad21Ed3f039ff/e7986bed8ebe5d52.jpg!q80.dpg.webp" />
+                    <img src="https://m.360buyimg.com/mobilecms/s750x750_g10/M00/08/19/rBEQWFE5UAMIAAAAAAIdHGYQUr8AABt2QDZKuwAAh00309.jpg!q80.dpg.webp" style="height: 419px; width: 320px;" />
                     <a class="iconfont icon-buy1" onclick="_hmt.push(['_trackEvent', '版块', 'click', '进入商店'])" href="https://store.dunizb.com" target="_blank"><strong>￥19，去看看</strong></a>
                   </div>
                   <a class="info" nclick="_hmt.push(['_trackEvent', '版块', 'click', '进入商店'])" href="https://store.dunizb.com" target="_blank">
                     <div class="buy_link">
                       <a class="iconfont icon-webclicksettings" href="https://store.dunizb.com" target="_blank">￥19，去看看</a>
                     </div>
-                    <h3>精通CSS高级Web标准解决方案（第2版）</h3>
-                    <span>令人叫绝的CSS奇数汇总，适合新手</span>
+                    <h3>编写可维护的JavaScript</h3>
+                    <span>《JavaScript高级程序设计》作者Nicholas Zakas全新力作</span>
                   </a>
               </div>
 
