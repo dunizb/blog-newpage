@@ -58,7 +58,7 @@
           <div class="content">
             <div class="content_img_box">
               <img src="//i.loli.net/2019/07/28/5d3d931c9f9b085051.jpg" />
-              <a class="chenghao" onclick="_hmt.push(['_trackEvent', '专栏', 'click', '极客时间《10x 程序员工作法》'])" href="//blog.dunizb.com/tags/10x%E5%B7%A5%E4%BD%9C%E6%B3%95/" target="_blank"><i class="iconfont icon-webclicksettings"></i> 极客时间《10x 程序员工作法》</a>
+              <a class="chenghao" onclick="_hmt.push(['_trackEvent', '专栏', 'click', '极客时间《10x 程序员工作法》'])" href="//blog.dunizb.com/2019/01/20/10%E5%80%8D%E5%B7%A5%E4%BD%9C%E6%B3%95%E4%B9%8B%E4%BB%A5%E7%BB%88%E4%B8%BA%E5%A7%8B/" target="_blank"><i class="iconfont icon-webclicksettings"></i> 极客时间《10x 程序员工作法》</a>
             </div>
             <div class="content_img_box">
               <img src="//i.loli.net/2019/07/28/5d3d93b71d2da94904.png" />
