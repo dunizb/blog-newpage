@@ -10,7 +10,7 @@
     <header ref="header">
       <hgroup>
         <div class="avatar">
-          <img src="static/images/avatar.gif" id="play_bgm_avatar" @click="play()" :class="[className]" title="点我关闭背景音乐" />
+          <img src="static/images/avatar.gif" id="play_bgm_avatar" />
         </div>
         <h1>Dunizb<span>.com</span><img class="hat" src="../../assets/hat.svg" /></h1>
         <h2>这世间唯有梦想和好姑娘不可辜负</h2>
@@ -20,29 +20,23 @@
     <!-- 导航菜单 开始 -->
     <nav>
       <ul class="main-nav">
-        <li title="博客"><a class="blog" onclick="_hmt.push(['_trackEvent', 'nav', 'click', '博客'])" href="https://blog.dunizb.com"><i class="iconfont icon-index"></i> 博客</a></li>
-        <li title="我的小铺"><a class="store" onclick="_hmt.push(['_trackEvent', 'nav', 'click', '商店'])" href="https://store.dunizb.com"><i class="iconfont icon-circlebuy1"></i> 小铺</a></li>
-        <!-- <li title="博客分类"><a class="categorie" href="https://blog.dunizb.com"><i class="iconfont icon-filearticle"></i>FE</a></li> -->
-        <li title="小码"><a class="demo" onclick="_hmt.push(['_trackEvent', 'nav', 'click', 'DEMO'])" href="http://demo.dunizb.com"><i class="iconfont icon-bianji"></i> 小码</a></li>
+        <li title="文章"><a class="blog" onclick="_hmt.push(['_trackEvent', 'nav', 'click', '博客'])" href="https://blog.dunizb.com"><i class="iconfont icon-article"></i> 文章</a></li>
+        <li title="我的小铺"><a class="store" onclick="_hmt.push(['_trackEvent', 'nav', 'click', '商店'])" href="https://store.dunizb.com"><i class="iconfont icon-ShoppingMall"></i> 小铺</a></li>
+        <li title="小码"><a class="demo" onclick="_hmt.push(['_trackEvent', 'nav', 'click', 'DEMO'])" href="http://demo.dunizb.com"><i class="iconfont icon-lab"></i> 小码</a></li>
         <li title="我的足迹"><a class="map" onclick="_hmt.push(['_trackEvent', 'nav', 'click', '足迹'])" href="#my-zuji"><i class="iconfont icon-09"></i> 足迹</a></li>
-        <li title="我拍的照片"><a onclick="_hmt.push(['_trackEvent', 'nav', 'click', '照片'])" class="photo" href="https://photo.dunizb.com/" target="_blank"><i class="iconfont icon-photoalbum"></i> 摄影</a></li>
-        <li title="我的阅读激励"><a class="read" onclick="_hmt.push(['_trackEvent', 'nav', 'click', '读书'])" href="https://github.com/dunizb/reading-list" target="_blank"><i class="iconfont icon-book1"></i> 读书</a></li>
-        <li title="Codetest"><a class="code" onclick="_hmt.push(['_trackEvent', 'nav', 'click', 'Code'])" href="https://github.com/dunizb/CodeTest"><i class="iconfont icon-Code"></i> Code</a></li>
+        <!-- <li title="我拍的照片"><a onclick="_hmt.push(['_trackEvent', 'nav', 'click', '照片'])" class="photo" href="https://photo.dunizb.com/" target="_blank"><i class="iconfont icon-photoalbum"></i> 摄影</a></li> -->
+        <li title=""><a class="read" onclick="_hmt.push(['_trackEvent', 'nav', 'click', '读书'])" href="https://github.com/dunizb/reading-list" target="_blank"><i class="iconfont icon-book1"></i> 读书</a></li>
+        <li title=""><a class="code" onclick="_hmt.push(['_trackEvent', 'nav', 'click', 'Code'])" href="https://github.com/dunizb"><i class="iconfont icon-icongithub"></i> Github</a></li>
         <li title="关于"><a class="about" onclick="_hmt.push(['_trackEvent', 'nav', 'click', '关于我'])" href="https://blog.dunizb.com/about/"><i class="iconfont icon-about-s"></i> 关于</a></li>
       </ul>
       <ul class="sub-nav">
         <!-- <li title="去博客首页"><a href="https://blog.dunizb.com" class="main"><i class="iconfont icon-go"></i></a></li> -->
-        <li><a href="https://blog.dunizb.com/categories/%E5%89%8D%E7%AB%AF%E5%BC%80%E5%8F%91/">前端开发</a></li>
-        <li><a href="https://blog.dunizb.com/tags/Vue-js/">Vue.js</a></li>
-        <li><a href="https://blog.dunizb.com/categories/%E5%AD%A6%E4%B9%A0%E7%AC%94%E8%AE%B0/">学习笔记</a></li>
-        <li><a href="https://blog.dunizb.com/tags/%E5%B0%8F%E6%8A%80%E5%B7%A7/">小技巧</a></li>
-        <li><a href="https://blog.dunizb.com/categories/%E6%9C%8D%E5%8A%A1%E7%AB%AF%E5%BC%80%E5%8F%91/">服务端开发</a></li>
-        <li><a href="https://blog.dunizb.com/categories/%E5%B7%A5%E5%85%B7%E4%BD%BF%E7%94%A8/">工具使用</a></li>
-        <li><a href="https://blog.dunizb.com/categories/%E9%9A%8F%E7%AC%94%E6%89%AF%E8%B0%88/">随笔扯谈</a></li>
-        <li><a href="https://blog.dunizb.com/categories/%E5%92%8C%E6%88%91%E4%B8%80%E8%B5%B7%E8%AF%BB%E4%B9%A6/">和我一起读书</a></li>
-        <li><a href="https://blog.dunizb.com/categories/%E7%94%9F%E6%B4%BB/">生活</a></li>
-        <!-- <li><a href="https://blog.dunizb.com/categories/%E5%B9%B4%E7%BB%88%E7%9B%98%E7%82%B9/">年终盘点</a></li> -->
-        <!-- <li><a href="https://blog.dunizb.com/tags/%E6%80%9D%E8%80%83%E6%84%9F%E6%82%9F/">思考感悟</a></li> -->
+        <li><a href="https://blog.dunizb.com/categories/%E6%8A%80%E6%9C%AF/">技术</a></li>
+        <li><a href="https://blog.dunizb.com/tags/%E5%89%8D%E7%AB%AF/">前端</a></li>
+        <li><a href="https://blog.dunizb.com/categories/%E4%BA%BA%E6%96%87/">人文</a></li>
+        <li><a href="https://blog.dunizb.com/tags/%E8%AF%BB%E4%B9%A6%E4%B8%8E%E5%AD%A6%E4%B9%A0/">读书与学习</a></li>
+        <li><a href="https://blog.dunizb.com/tags/%E8%87%AA%E6%88%91%E4%BF%AE%E7%82%BC/">自我修炼</a></li>
+        <li><a href="https://blog.dunizb.com/categories/%E5%85%B6%E4%BB%96/">其他</a></li>
       </ul>
     </nav>
     <!-- 导航菜单 结束 -->
@@ -224,8 +218,7 @@ export default {
       showFeixian: true,
       isActivedFx: true,
       isActivedDd: false,
-      isActivedSf: false,
-      className: 'play_stop'
+      isActivedSf: false
     }
   },
   mounted () {
@@ -234,21 +227,8 @@ export default {
     this.$nextTick(() => {
       this.showImgLoading = false
     })
-    setTimeout(() => {
-      this.className = 'play_on'
-    }, 2000)
   },
   methods: {
-    play () {
-      const bgm = document.getElementById('music-bgm')
-      if (bgm.paused) {
-        bgm.play()
-        this.className = 'play_on'
-      } else {
-        bgm.pause()
-        this.className = 'play_stop'
-      }
-    },
     swicthMapType (type) {
       if (type === 'dd') {
         this.showDidian = true
