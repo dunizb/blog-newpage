@@ -124,6 +124,77 @@
           </div>
         </div>
       </div> -->
+      <!-- 收藏资源 -->
+      <div class="row">
+        <div class="row_box row_likeassert">
+          <div class="header">
+            <div class="title"><i class="iconfont icon-star"></i> 收藏资源</div>
+            <div class="title_info">收藏的一些非常棒的互联网资源</div>
+          </div>
+          <div class="content">
+            <div class="content-mode">
+              <div class="ul-title">💉学习网站</div>
+              <ul class="siteicon likeassert-list">
+                <li>
+                  <a href="https://www.imooc.com/" target="_blank">慕课网★★★★★</a>
+                </li>
+                <li>
+                  <a href="https://time.geekbang.org/" target="_blank">极客时间★★★★★</a>
+                </li>
+                <li>
+                  <a href="https://segmentfault.com/lives" target="_blank">思否编程★★★★★</a>
+                </li>
+                <li>
+                  <a href="http://jspang.com/" target="_blank">技术胖★★★★★</a>
+                </li>
+                <li>
+                  <a href="https://study.163.com" target="_blank">网易云课堂★★★★☆</a>
+                </li>
+                <li>
+                  <a href="https://ke.qq.com/" target="_blank">腾讯课堂★★★★☆</a>
+                </li>
+                <li>
+                  <a href="https://edu.csdn.net/" target="_blank">CSDN学院★★★★☆</a>
+                </li>
+                <li>
+                  <a href="https://gitbook.cn/" target="_blank">GitChat★★★★☆</a>
+                </li>
+                <li>
+                  <a href="https://juejin.im/books" target="_blank">掘金小册★★★★☆</a>
+                </li>
+                <li>
+                  <a href="http://www.jikexueyuan.com/" target="_blank">极客学院★★★☆☆</a>
+                </li>
+              </ul>
+            </div>
+            <div class="content-mode">
+              <div class="ul-title">📌网络资源</div>
+              <ul class="siteicon likeassert-list">
+                <li>
+                  <a href="http://naotu.baidu.com/file/11338e6e28270e427bfb738519e7cc8e?token=16023c01a2b5c4b8" target="_blank"><i class="iconfont icon-icon-test1"/> 高级前端技能树</a>
+                </li>
+                <li>
+                  <a href="https://es6.ch-un.com" target="_blank"><i class="iconfont icon-wendang"/> ECMAScript 6简洁版</a>
+                </li>
+                <li>
+                  <a href="https://www.kancloud.cn/dunizb/web-dev-marrow" target="_blank"><i class="iconfont icon-addressbook-copy"/> 前端精华总结</a>
+                </li>
+                <li>
+                  <a href="https://wild-flame.github.io/guides/" target="_blank"><i class="iconfont icon-mac"/> Mac OS X 配置指南</a>
+                </li>
+                <li>
+                  <a href="https://phodal.github.io/booktree/" target="_blank"><i class="iconfont icon-paper"/> Developer进阶书单</a>
+                </li>
+                <li>
+                  <a href="https://freessl.cn/" target="_blank"><i class="iconfont icon-SSLshuzizhengshu"/> FreeSSL.cn 一个提供免费HTTPS证书申请的网站</a>
+                </li>
+              </ul>
+            </div>
+          </div>
+        </div>
+      </div>
+
+      <!-- 我也在这里 -->
       <div class="row">
         <div class="row_box row_sms">
           <div class="header">
@@ -146,12 +217,12 @@
               <li>
                 <div class="name">Dunizb</div>
                 <div class="desc">微信号，和我发生纯纯的友谊</div>
-                <img src="//raw.githubusercontent.com/dunizb/cloudimg/master/mmdo4.jpg" />
+                <img src="https://raw.githubusercontent.com/dunizb/cloudimg/master/mmdo4.jpg" />
               </li>
               <li>
                 <div class="name">做工程师不做码农</div>
                 <div class="desc">公众号，及时接收最新文章</div>
-                <img src="//raw.githubusercontent.com/dunizb/cloudimg/master/wl0ty.jpg" />
+                <img src="https://raw.githubusercontent.com/dunizb/cloudimg/master/wl0ty.jpg" />
               </li>
             </ul>
           </div>
