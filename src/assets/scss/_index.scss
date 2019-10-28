@@ -554,9 +554,10 @@ nav{
       .title { color: red; }
       .content-mode {
         margin-bottom: 20px;
-        .ul-title { font-weight: bold; line-height: 34px; }
+        .ul-title { font-weight: bold; line-height: 34px; text-align:center; }
         .likeassert-list {
           display: flex;
+          justify-content: center;
           flex-wrap: wrap;
           padding-left: 20px;
         }
