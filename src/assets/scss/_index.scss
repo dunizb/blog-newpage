@@ -562,9 +562,12 @@ nav{
           padding-left: 20px;
         }
         .likeassert-list li {
+          display: flex;
+          align-items: center;
           line-height: 34px;
           padding-right: 20px;
           color:#676363;
+          margin-bottom: 6px;
           a {
             display: block;
             text-decoration: none;
