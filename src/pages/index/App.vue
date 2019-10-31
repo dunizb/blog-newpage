@@ -207,7 +207,7 @@
                 </li>
                 <li>
                   <a href="https://ninghao.net/" target="_blank">
-                    <img target="_blank" title="宁浩网" alt="宁浩网" style="width: 195px;height: 56px;" src="https://ninghao.net/sites/all/themes/ninghao/logo.png" />
+                    <img target="_blank" title="宁浩网" alt="宁浩网" src="https://ninghao.net/sites/all/themes/ninghao/logo.png" />
                   </a>
                 </li>
                 <li style="background:#3d444c;height: 43px;padding: 5px;margin-right: 15px;">
