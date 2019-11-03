@@ -252,7 +252,7 @@
                 </li>
                 <li>
                   <a href="https://es6.ch-un.com" target="_blank">
-                    <img src="https://es6.ch-un.com/images/logo.ico" style="width:16px;display:inline;vertical-align: text-top;" />
+                    <img src="http://es6.ruanyifeng.com/favicon.ico" style="width:16px;display:inline;vertical-align: text-top;" />
                     ECMAScript 6简洁版
                   </a>
                 </li>
