@@ -137,7 +137,7 @@
               <ul class="siteicon likeassert-list">
                 <li>
                   <a href="https://www.imooc.com/" target="_blank">
-                    <img target="_blank" title="慕课网" alt="慕课网" style="width: 158px;" src="https://m.imooc.com/static/wap/static/common/img/logo2.png" />
+                    <img target="_blank" title="慕课网" alt="慕课网" style="width: 104px;" src="https://m.imooc.com/static/wap/static/common/img/logo2.png" />
                   </a>
                 </li>
                 <li>
@@ -147,7 +147,7 @@
                 </li>
                 <li>
                   <a href="https://segmentfault.com/lives" target="_blank">
-                    <img target="_blank" title="思否编程" alt="思否编程" src="https://edu-cdn.segmentfault.com/v-5d5fb3db/images/logo.svg" />
+                    <img target="_blank" title="思否编程" alt="思否编程" style="width:140px" src="https://ftp.bmp.ovh/imgs/2019/11/75e029021c8108fe.png" />
                   </a>
                 </li>
                 <li>
@@ -157,17 +157,17 @@
                 </li>
                 <li>
                   <a href="https://study.163.com" target="_blank">
-                    <img target="_blank" title="网易云课堂" alt="网易云课堂" style="width: 128px;" src="https://edu-image.nosdn.127.net/51373455cc3e4a96a802e89387cb868c.png?imageView&quality=100" />
+                    <img target="_blank" title="网易云课堂" alt="网易云课堂" style="width: 116px;height: 36px;" src="https://edu-image.nosdn.127.net/51373455cc3e4a96a802e89387cb868c.png?imageView&quality=100" />
                   </a>
                 </li>
                 <li>
                   <a href="https://ke.qq.com/" target="_blank">
-                    <img target="_blank" title="腾讯课堂" alt="腾讯课堂" style="width: 150px;" src="https://8.url.cn/edu/edu_modules/edu-ui/img/bg/logo-3x.46efb146.png#unsprite" />
+                    <img target="_blank" title="腾讯课堂" alt="腾讯课堂" style="width: 137px;height: 37px;" src="https://8.url.cn/edu/edu_modules/edu-ui/img/bg/logo-3x.46efb146.png#unsprite" />
                   </a>
                 </li>
                 <li>
                   <a href="https://edu.csdn.net/" target="_blank">
-                    <img target="_blank" title="CSDN学院" alt="CSDN学院" style="height: 33px;width: 94px;" src="https://csdnimg.cn/release/edu/2f68b71/resource/images/2017/edulogo.png" />
+                    <img target="_blank" title="CSDN学院" alt="CSDN学院" style="height: 33px;width: 94px;" src="https://ftp.bmp.ovh/imgs/2019/11/671d4a1c07fb8d0c.png" />
                   </a>
                 </li>
                 <li>
@@ -197,17 +197,12 @@
                 </li>
                 <li>
                   <a href="https://edu.51cto.com" target="_blank">
-                    <img target="_blank" title="51CTO学院" alt="51CTO学院" style="width:160px" src="https://static12.51cto.com/edu/center/images/home/logo.png" />
+                    <img target="_blank" title="51CTO学院" alt="51CTO学院" style="width:160px" src="https://ftp.bmp.ovh/imgs/2019/11/79a3050c4213f37e.png" />
                   </a>
                 </li>
                 <li>
                   <a href="https://www.w3cschool.cn" target="_blank">
                     <img target="_blank" title="w3cschool" alt="w3cschool" style="width:160px" src="https://www.w3cschool.cn/statics/img/logo/indexlogo@2x.png" />
-                  </a>
-                </li>
-                <li>
-                  <a href="https://ninghao.net/" target="_blank">
-                    <img target="_blank" title="宁浩网" alt="宁浩网" src="https://ninghao.net/sites/all/themes/ninghao/logo.png" />
                   </a>
                 </li>
                 <li style="background:#3d444c;height: 43px;padding: 5px;margin-right: 15px;">
@@ -223,7 +218,7 @@
               </ul>
             </div>
             <div class="content-mode">
-              <div class="ul-title">📌网络资源</div>
+              <div class="ul-title">📌文档和工具</div>
               <ul class="siteicon likeassert-list">
                 <li>
                   <a href="https://zhuanlan.zhihu.com/p/68477600" target="_blank">
@@ -250,7 +245,10 @@
                   </a>
                 </li>
                 <li>
-                  <a href="https://es6.ch-un.com" target="_blank"><i class="iconfont icon-wendang"/> ECMAScript 6简洁版</a>
+                  <a href="https://es6.ch-un.com" target="_blank">
+                    <img src="https://es6.ch-un.com/images/logo.ico" style="width:16px;display:inline;vertical-align: text-top;" />
+                    ECMAScript 6简洁版
+                  </a>
                 </li>
                 <li>
                   <a href="https://www.kancloud.cn/dunizb/web-dev-marrow" target="_blank">
@@ -267,15 +265,40 @@
                 <li>
                   <a href="https://phodal.github.io/booktree/" target="_blank">
                     <svg style="vertical-align: middle;" t="1572367858591" class="icon" viewBox="0 0 1024 1024" version="1.1" xmlns="http://www.w3.org/2000/svg" p-id="8070" width="16" height="16"><path d="M893 639.5H89c-8.5 0-16.1-5.2-19.2-13.2-3.1-7.9-1-16.9 5.3-22.7 26.4-24.2 41-54.6 41-85.6 0-31-14.5-61.5-40.9-85.7-6.3-5.7-8.4-14.7-5.3-22.7 3.1-7.9 10.7-13.1 19.2-13.1h804c5.2 0 10.1 1.9 13.9 5.4 35 32.1 54.2 73.3 54.2 116 0 42.8-19.3 84-54.4 116-3.7 3.7-8.7 5.6-13.8 5.6z m-759.8-41.2h751.5c22.9-23.2 35.4-51.4 35.4-80.2 0-28.8-12.5-57-35.3-80.2H133.2c15.7 24.6 24 52.1 24 80.2 0.1 28.1-8.3 55.6-24 80.2zM940.7 941.2h-804c-5.1 0-10.1-1.9-13.9-5.4-35.1-32-54.4-73.2-54.4-116 0-42.7 19.3-83.9 54.2-116 3.8-3.5 8.8-5.4 13.9-5.4h804c8.5 0 16.1 5.2 19.2 13.1 3.1 7.9 1 16.9-5.3 22.7-26.3 24.2-40.8 54.6-40.8 85.7 0 31 14.5 61.5 41 85.6 6.3 5.7 8.4 14.7 5.3 22.7-3.1 7.8-10.7 13-19.2 13zM145 900h751.5c-15.7-24.6-24.1-52.1-24.1-80.2s8.3-55.6 24-80.2H144.8c-22.8 23.2-35.2 51.5-35.2 80.2 0 28.7 12.5 57 35.4 80.2zM940.7 337.9h-804c-5.1 0-10.1-1.9-13.9-5.4-35.1-32-54.4-73.2-54.4-116 0-42.7 19.3-83.9 54.2-116 3.8-3.5 8.8-5.4 13.9-5.4h804c8.5 0 16.1 5.2 19.2 13.1 3.1 7.9 1 16.9-5.3 22.7-26.3 24.2-40.8 54.6-40.8 85.6 0 31.1 14.5 61.5 41 85.6 6.3 5.7 8.4 14.7 5.3 22.7-3.1 7.8-10.7 13.1-19.2 13.1z m-795.8-41.3h751.5c-15.7-24.6-24-52.1-24-80.2s8.3-55.6 24-80.2H144.8c-22.8 23.2-35.2 51.4-35.2 80.2 0 28.8 12.5 57.1 35.3 80.2z" fill="#E86262" p-id="8071"></path></svg>
-                    Developer进阶书单
+                    进阶书单
                   </a>
                 </li>
                 <li>
                   <a href="https://www.edrawmax.cn/" target="_blank">
                     <svg style="vertical-align: middle;" t="1572512250493" class="icon" viewBox="0 0 1024 1024" version="1.1" xmlns="http://www.w3.org/2000/svg" p-id="4155" width="16" height="16"><path d="M544 240v64h288v-64H544z m-64 48H368c-8.8 0-16-7.2-16-16s7.2-16 16-16h112v-16c0-35.3 28.7-64 64-64h288c35.3 0 64 28.7 64 64v64c0 35.3-28.7 64-64 64H544c-35.3 0-64-28.7-64-64v-16z m0 528H224c-35.3 0-64-28.7-64-64V312.8l32 46V752c0 17.7 14.3 32 32 32h256v-32c0-35.3 28.7-64 64-64h288c35.3 0 64 28.7 64 64v64c0 35.3-28.7 64-64 64H544c-35.3 0-64-28.7-64-64z m0-272H336c-35.3 0-64-28.7-64-64V343.2l32 25.9V480c0 17.7 14.3 32 32 32h144v-16c0-35.3 28.7-64 64-64h288c35.3 0 64 28.7 64 64v64c0 35.3-28.7 64-64 64H544c-35.3 0-64-28.7-64-64v-16z m64-48v64h288v-64H544z m0 256v64h288v-64H544z" fill="#333333" p-id="4156"></path><path d="M160 240v64h160v-64H160z m0-64h160c35.3 0 64 28.7 64 64v64c0 35.3-28.7 64-64 64H160c-35.3 0-64-28.7-64-64v-64c0-35.3 28.7-64 64-64z" fill="#0076FF" p-id="4157"></path></svg>
-                    亿图图示在线
+                    亿图图示
                   </a>
                 </li>
+                <li>
+                  <a href="https://jsrun.pro/" target="_blank">
+                    <img style="width: 16px;display: inline;vertical-align: text-top;" src="https://cdns.jsrun.top/avatar/default.png" />
+                    JSRUN
+                  </a>
+                </li>
+                <li>
+                  <a href="https://sm.ms/" target="_blank">
+                    <img style="width: 16px;display: inline;vertical-align: text-top;" src="https://sm.ms/favicon.ico" />
+                    SM.MS
+                  </a>
+                </li>
+                <li>
+                  <a href="https://jsrun.pro/" target="_blank">
+                    <img style="width: 16px;display: inline;vertical-align: text-top;" src="https://carbon.now.sh/favicon.ico" />
+                    Carbon
+                  </a>
+                </li>
+                <li>
+                  <a href="https://regexper.com/" target="_blank">
+                    <img style="width: 16px;display: inline;vertical-align: text-top;" src="https://regexper.com/favicon.ico" />
+                    Regexper
+                  </a>
+                </li>
+
               </ul>
             </div>
           </div>
