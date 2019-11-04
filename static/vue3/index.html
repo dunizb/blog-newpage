@@ -1,34 +1,60 @@
-<!DOCTYPE html><!--[if IE]>  <html class="ie"> <![endif]-->
-<html lang="zh-CN">
-	<head>
-  <title>Vue3 Composition API  Cheat Sheet（中⽂版）</title>
-  <meta charset="utf-8" />
-  <meta name="viewport" content="width=device-width">
-  <meta content="telephone=no" name="format-detection" />
-  <meta content="email=no" name="format-detection" />
-  <meta name="keywords" content="Web前端开发,响应式网站开发,干货推荐,实战,JavaScript,ES6,HTML5,CSS3,Vue.js,React,Angular,Java,Node.js,Webpack,HTTP,Mac,npm,二手书,图灵">
-  <meta name="description" content="Dunizb(张兵)的个人博客，专注大前端，分享技术，坚持原创干货">
-  <meta name="360-site-verification" content="712d29d561cb8c275b774c2ad90dfe3b" />
-  <link rel="shortcut icon" href="//blog.dunizb.com/favicon.ico">
-  <link rel="manifest" href="static/manifest.json">
-  <!-- 指定桌面 icon -->
-  <link rel="apple-touch-icon" href="https://blog.dunizb.com/img/avatar.gif">
-  <!-- 指定应用名称 -->
-  <meta name="apple-mobile-web-app-title" content="Dunizb">
-  <!-- 是否隐藏 Safari 地址栏等 -->
-  <meta name="apple-mobile-web-app-capable" content="yes">
-  <!-- 修改 ios 状态栏颜色 -->
-  <meta name="apple-mobile-web-app-status-bar-style" content="black">
-  <!-- QQ默认获取的图片有可能出现缩放问题，效果不佳，可以通过如下方法进行设置 -->
-  <meta itemprop="image" content="https://blog.dunizb.com/img/avatar.gif" />
-  <link href='//cdn.webfont.youziku.com/webfonts/nomal/112162/46587/5a3cefbaf629d9151801a8d7.css' rel='stylesheet' type='text/css' />
-  <link href="//at.alicdn.com/t/font_517459_mm8my8ovboq.css" rel='stylesheet' type='text/css'>
-  <!-- 桌面图标 -->
-  <link rel="apple-touch-icon" href="https://blog.dunizb.com/favicon.ico" />
+<!DOCTYPE html>
+<html lang="zh-cn">
+
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width,initial-scale=1.0,user-scalable=no" />
+  <!--优先使用最新版本 IE 和 Chrome-->
+  <meta http-equiv="X-UA-Compatible" content="IE=edge,chrome=1" />
+  <!--360 使用Google Chrome Frame-->
+  <meta name="renderer" content="webkit">
+  <!-- 禁止百度转码 -->
+  <meta http-equiv="Cache-Control" content="no-siteapp" />
+  <!--状态栏的背景颜色-->
+  <meta name="apple-mobile-web-app-status-bar-style" content="black-translucent" />
+  <!-- uc强制竖屏 -->
+  <meta name="screen-orientation" content="portrait">
+  <!-- QQ强制竖屏 -->
+  <meta name="x5-orientation" content="portrait">
+  <!-- UC应用模式 -->
+  <meta name="browsermode" content="application">
+  <!-- QQ应用模式 -->
+  <meta name="x5-page-mode" content="app">
+  <title>Demos 代码演示、代码片段 - 读你 | 这世间唯有梦想和好姑娘不可辜负!</title>
+  <meta name="Keyword" content="代码演示,代码片段,HTML5,CSS3,JavaScript,jQuery,Bootstrap">
+  <meta name="Author" content="dunizb">
+  <meta name="website" content="https://dunizb.com">
+  <meta name="Description" content="Demos 代码演示、代码片段 - 读你 | 这世间唯有梦想和好姑娘不可辜负!">
+  <link href="//blog.dunizb.com/favicon.ico" rel="shotcut icon">
+  <link rel="stylesheet" href="index.css?t=1">
   <link rel="stylesheet" type="text/css" href="Vue-3-Cheat-Sheet-zh.pdf_files/style.css" />
-	</head>
-	<body style="overflow-x: hidden;">
-		<div class="stl_02">
+</head>
+
+<body style="overflow-x: hidden;">
+  <!-- 导航菜单 satrt -->
+  <div class="nav" style="margin-bottom:0;">
+    <div class="logo">
+      <a href="/">
+        <h1>Dunizb(张兵)的博客，做工程师不做码农</h1>
+        <h2>这世间唯有梦想和好姑娘不可辜负！</h2>
+      </a>
+    </div>
+    <ul class="main-nav">
+      <li><a href="https://blog.dunizb.com/tags/前端/" title="Web前端">Web前端</a></li>
+      <li><a href="https://store.dunizb.com/" class="strong" id="bookStore" title="闲置图书出售商店">商店</a></li>
+      <li><a href="https://blog.dunizb.com/categories/技术/">技术</a></li>
+      <li><a href="https://blog.dunizb.com/tags/小程序/">小程序</a></li>
+      <li><a href="https://blog.dunizb.com/categories/人文/">人文</a></li>
+      <li><a href="https://blog.dunizb.com/categories/其他/">其它</a></li>
+      <li><a href="https://www.dunizb.com/#my-zuji">我的足迹</a></li>
+    </ul>
+  </div>
+  <!-- 导航菜单 end -->
+
+  <div class="pc-tip">建议电脑访问</div>
+
+  <div class="container-fluid">
+    <div class="stl_02">
       <img src="https://i.loli.net/2019/10/29/5HMC4QLtVDiezqy.jpg" style="width: 3.3em;position: absolute;right: 3em;top: 0.5em;z-index: 10;" />
 			<div class="stl_03">
 				<object data="Vue-3-Cheat-Sheet-zh.pdf_files/img_02.svg" type="image/svg+xml" class="stl_04" style="position:absolute; width:51em; height:66em;">
@@ -241,5 +267,55 @@
 				</div>
 			</div>
 		</div>
-	</body>
+  </div>
+
+  <!-- 友情链接与页脚 start-->
+  <div class="w center footer-wrap">
+    <div class="friendlink">
+      <ul class="clearfix">
+        <li><a href="http://explorer1992.1kapp.com/" target="_blank">自由探索者小董君</a></li>
+        <li><a href="http://www.fengqu.com/" target="_blank">丰趣海淘</a></li>
+        <li><a href="#">十年磨一剑</a></li>
+      </ul>
+    </div>
+  </div>
+  <div class="footer-tl-li">
+    <div class="w footer">
+      <p>Copyright &copy; <a href="/">dunizb.com</a> All Rights Reserevd. 2014-2016 &nbsp; 上海·中国 &nbsp;
+        读你·这世间唯有梦想和好姑娘不可辜负！</p>
+      <p>
+        Powerd by <a href="http://www.fengqu.com" target="_blank">www.fengqu.com</a>
+        &nbsp;Themes Source Code: <a href="https://github.com/dunizb/mytwentytwelve" target="_blank">mytwentytwelve</a>
+        &nbsp;Themes Design by <a href="/">Dunizb</a>
+      </p>
+      <p>
+        System：v2.6.5 &nbsp; Date：v20160531.&nbsp;
+        <a href="//tongji.baidu.com/web/welcome/login" target="_blank"><img
+            src="//dunizb.b0.upaiyun.com/w/images/cnzz.gif" alt="百度统计"></a>
+        <a href="/wp-login.php" target="_blank">登录</a>
+        <br />
+      </p>
+    </div>
+  </div>
+  <!-- 友情链接与页脚 end-->
+</body>
+<script>
+  // document.domain = "dunizb.com";
+  var url = location.search.split('=')[1];
+  var frame = document.getElementById('external-frame');
+  frame.src = url;
+  function setIframeHeight(iframe) {
+    if (iframe) {
+      var iframeWin = iframe.contentWindow || iframe.contentDocument.parentWindow;
+      if (iframeWin.document.body) {
+        iframe.height = iframeWin.document.documentElement.scrollHeight || iframeWin.document.body.scrollHeight;
+      }
+    }
+  };
+
+  window.onload = function () {
+    setIframeHeight(frame);
+  };
+</script>
+
 </html>
