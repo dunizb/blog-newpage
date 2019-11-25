@@ -233,9 +233,9 @@
                   </a>
                 </li>
                 <li>
-                  <a href="https://ustbhuangyi.github.io/vue-analysis/" target="_blank">
-                    <svg style="vertical-align: middle;" t="1572367313845" class="icon" viewBox="0 0 1024 1024" version="1.1" xmlns="http://www.w3.org/2000/svg" p-id="6427" width="16" height="16"><path d="M615.6 123.6h165.5L512 589.7 242.9 123.6H63.5L512 900.4l448.5-776.9z" fill="#41B883" p-id="6428"></path><path d="M781.1 123.6H615.6L512 303 408.4 123.6H242.9L512 589.7z" fill="#34495E" p-id="6429"></path></svg>
-                    Vue.js 技术揭秘
+                  <a href="https://typescript.bootcss.com/" target="_blank">
+                    <img style="width: 16px;display: inline;vertical-align: text-top;" src="https://typescript.bootcss.com/favicon.ico" />
+                    TypeScript 中文手册
                   </a>
                 </li>
                 <li>
