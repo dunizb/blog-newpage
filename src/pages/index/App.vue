@@ -46,29 +46,21 @@
         <!-- 我订阅的专栏 -->
         <div class="row_box row_zhuanlan">
           <div class="header">
-            <div class="title"><i class="iconfont icon-Rss"></i> 我订阅的专栏</div>
-            <div class="title_info">订阅的一些很棒的付费专栏，推荐你也看看</div>
+            <div class="title"><i class="iconfont icon-Rss"></i> {{zhuanglang.name}}</div>
+            <div class="title_info">{{zhuanglang.desc}}</div>
           </div>
           <div class="content">
-            <div class="content_img_box">
-              <img src="//i.loli.net/2019/07/28/5d3d931c9f9b085051.jpg" />
-              <a class="chenghao" onclick="_hmt.push(['_trackEvent', '专栏', 'click', '极客时间《10x 程序员工作法》'])" href="//blog.zhangbing.site/2019/01/20/10%E5%80%8D%E5%B7%A5%E4%BD%9C%E6%B3%95%E4%B9%8B%E4%BB%A5%E7%BB%88%E4%B8%BA%E5%A7%8B/" target="_blank"><i class="iconfont icon-webclicksettings"></i> 极客时间《10x 程序员工作法》</a>
-            </div>
-            <div class="content_img_box">
-              <img src="//i.loli.net/2019/07/28/5d3d93b71d2da94904.png" />
-              <a class="xiangshuai" onclick="_hmt.push(['_trackEvent', '专栏', 'click', '《吴军的谷歌方法论》'])" href="javascript:;" target="_blank"><i class="iconfont icon-webclicksettings"></i> 得到《吴军的谷歌方法论》</a>
-            </div>
-            <div class="content_img_box">
-              <img src="//i.loli.net/2019/07/28/5d3da4263741272637.png" style="height: 176px;" />
-              <a class="lixiaolai" onclick="_hmt.push(['_trackEvent', '专栏', 'click', '网易精品课《杨亮讲单词·方法篇》'])" href="//ke.youdao.com/course/detail/26898?keyfrom=www.zhangbing.site" target="_blank"><i class="iconfont icon-webclicksettings"></i> 网易精品课《杨亮讲单词·方法篇》</a>
+            <div class="content_img_box" v-for="(item, index) in zhuanglang.data" :key="index">
+              <img :src="item.pic" />
+              <a class="chenghao" onclick="_hmt.push(['_trackEvent', '专栏', 'click', '极客时间《10x 程序员工作法》'])" :href="item.page_url" target="_blank"><i class="iconfont icon-webclicksettings"></i> {{item.title}}</a>
             </div>
           </div>
         </div>
         <!-- 我的书店 -->
         <div class="row_box row_store">
           <div class="header">
-            <div class="title"><i class="iconfont icon-ShoppingMall"></i> 我的小店</div>
-            <div class="title_info">出售个人闲置书籍，价格实惠，正品包邮，欢迎来看看</div>
+            <div class="title"><i class="iconfont icon-ShoppingMall"></i> {{store.name}}</div>
+            <div class="title_info">{{store.desc}}</div>
           </div>
           <div class="content">
               <div class="row_store_item">
@@ -86,7 +78,7 @@
                 </a>
               </div>
 
-                <div class="item">
+              <div class="item">
                   <div :class="{'item_img': true, 'loading': showImgLoading}">
                     <img src="https://m.360buyimg.com/mobilecms/s750x750_g10/M00/08/19/rBEQWFE5UAMIAAAAAAIdHGYQUr8AABt2QDZKuwAAh00309.jpg!q80.dpg.webp" style="height: 419px; width: 320px;" />
                     <a class="iconfont icon-buy1" onclick="_hmt.push(['_trackEvent', '版块', 'click', '进入商店'])" href="https://store.zhangbing.site" target="_blank"><strong>￥19，去看看</strong></a>
@@ -398,9 +390,20 @@
 
 <script>
 import tabSwitchBtn from '@components/tabSwitchBtn'
+
+const baseUrl = 'https://oobzicxg.lc-cn-n1-shared.com/1.1/'
+const header = {
+  'x-avoscloud-application-id': 'OObzICxguaEmKygmhE2mUp5G-gzGzoHsz',
+  'x-avoscloud-session-token': 'OObzICxguaEmKygmhE2mUp5G-gzGzoHsz',
+  'x-avoscloud-application-key': 'bBzvsvDvqSr8jOmX6AcoKVhQ'
+}
+
 export default {
+  components: { tabSwitchBtn },
   data () {
     return {
+      zhuanglang: null,
+      store: null,
       showImgLoading: true,
       showDidian: false,
       showFeixian: true,
@@ -409,14 +412,28 @@ export default {
       isActivedSf: false
     }
   },
+  created () {
+    this.getZhuanglangData()
+  },
   mounted () {
-    // 获取Bing.com每日壁纸
-    this.getEveryDayBgimg()
     this.$nextTick(() => {
       this.showImgLoading = false
     })
+    // 获取Bing.com每日壁纸
+    this.getEveryDayBgimg()
   },
   methods: {
+    getZhuanglangData () {
+      const apiUrl = baseUrl + 'classes/BlogHome?limit=50&&order=-updatedAt&&'
+      fetch(apiUrl, { headers: header }).then(response => response.json())
+        .then(res => {
+          const data = res.results[0]
+          this.store = data.store
+          this.zhuanglang = data.zhuanglang
+        }).catch(err => {
+          console.log('err', err)
+        })
+    },
     swicthMapType (type) {
       if (type === 'dd') {
         this.showDidian = true
@@ -436,12 +453,13 @@ export default {
     },
     getEveryDayBgimg () {
       console.log('获取Bing.com每日壁纸')
-      const imgurl = this.$refs['bgimg'].src
-      this.$refs['header'].style.backgroundImage = 'url(' + imgurl + ')'
+      const bgimgDom = this.$refs.bgimg
+      console.log('bgimgDom', bgimgDom)
+      if (bgimgDom) {
+        const imgurl = this.$refs['bgimg'].src
+        this.$refs['header'].style.backgroundImage = 'url(' + imgurl + ')'
+      }
     }
-  },
-  components: {
-    tabSwitchBtn
   }
 }
 </script>
