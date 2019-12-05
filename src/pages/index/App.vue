@@ -20,23 +20,23 @@
     <!-- 导航菜单 开始 -->
     <nav>
       <ul class="main-nav">
-        <li title="文章"><a class="blog" onclick="_hmt.push(['_trackEvent', 'nav', 'click', '博客'])" href="https://blog.dunizb.com"><i class="iconfont icon-article"></i> 文章</a></li>
-        <li title="我的小铺"><a class="store" onclick="_hmt.push(['_trackEvent', 'nav', 'click', '商店'])" href="https://store.dunizb.com"><i class="iconfont icon-ShoppingMall"></i> 小铺</a></li>
-        <li title="小码"><a class="demo" onclick="_hmt.push(['_trackEvent', 'nav', 'click', 'DEMO'])" href="http://demo.dunizb.com"><i class="iconfont icon-lab"></i> 小码</a></li>
+        <li title="文章"><a class="blog" onclick="_hmt.push(['_trackEvent', 'nav', 'click', '博客'])" href="https://blog.zhangbing.site/"><i class="iconfont icon-article"></i> 文章</a></li>
+        <li title="我的小铺"><a class="store" onclick="_hmt.push(['_trackEvent', 'nav', 'click', '商店'])" href="https://store.zhangbing.site"><i class="iconfont icon-ShoppingMall"></i> 小铺</a></li>
+        <li title="小码"><a class="demo" onclick="_hmt.push(['_trackEvent', 'nav', 'click', 'DEMO'])" href="http://demo.zhangbing.site"><i class="iconfont icon-lab"></i> 小码</a></li>
         <li title="我的足迹"><a class="map" onclick="_hmt.push(['_trackEvent', 'nav', 'click', '足迹'])" href="#my-zuji"><i class="iconfont icon-09"></i> 足迹</a></li>
-        <!-- <li title="我拍的照片"><a onclick="_hmt.push(['_trackEvent', 'nav', 'click', '照片'])" class="photo" href="https://photo.dunizb.com/" target="_blank"><i class="iconfont icon-photoalbum"></i> 摄影</a></li> -->
+        <!-- <li title="我拍的照片"><a onclick="_hmt.push(['_trackEvent', 'nav', 'click', '照片'])" class="photo" href="https://photo.zhangbing.site/" target="_blank"><i class="iconfont icon-photoalbum"></i> 摄影</a></li> -->
         <li title=""><a class="read" onclick="_hmt.push(['_trackEvent', 'nav', 'click', '读书'])" href="https://github.com/dunizb/reading-list" target="_blank"><i class="iconfont icon-book1"></i> 读书</a></li>
         <li title=""><a class="code" onclick="_hmt.push(['_trackEvent', 'nav', 'click', 'Code'])" href="https://github.com/dunizb"><i class="iconfont icon-icongithub"></i> Github</a></li>
-        <li title="关于"><a class="about" onclick="_hmt.push(['_trackEvent', 'nav', 'click', '关于我'])" href="https://blog.dunizb.com/about/"><i class="iconfont icon-about-s"></i> 关于</a></li>
+        <li title="关于"><a class="about" onclick="_hmt.push(['_trackEvent', 'nav', 'click', '关于我'])" href="https://blog.zhangbing.site/about/"><i class="iconfont icon-about-s"></i> 关于</a></li>
       </ul>
       <ul class="sub-nav">
-        <!-- <li title="去博客首页"><a href="https://blog.dunizb.com" class="main"><i class="iconfont icon-go"></i></a></li> -->
-        <li><a href="https://blog.dunizb.com/categories/%E6%8A%80%E6%9C%AF/">技术</a></li>
-        <li><a href="https://blog.dunizb.com/tags/%E5%89%8D%E7%AB%AF/">前端</a></li>
-        <li><a href="https://blog.dunizb.com/categories/%E4%BA%BA%E6%96%87/">人文</a></li>
-        <li><a href="https://blog.dunizb.com/tags/%E8%AF%BB%E4%B9%A6%E4%B8%8E%E5%AD%A6%E4%B9%A0/">读书与学习</a></li>
-        <li><a href="https://blog.dunizb.com/tags/%E8%87%AA%E6%88%91%E4%BF%AE%E7%82%BC/">自我修炼</a></li>
-        <li><a href="https://blog.dunizb.com/categories/%E5%85%B6%E4%BB%96/">其他</a></li>
+        <!-- <li title="去博客首页"><a href="https://blog.zhangbing.site" class="main"><i class="iconfont icon-go"></i></a></li> -->
+        <li><a href="https://blog.zhangbing.site/categories/%E6%8A%80%E6%9C%AF/">技术</a></li>
+        <li><a href="https://blog.zhangbing.site/tags/%E5%89%8D%E7%AB%AF/">前端</a></li>
+        <li><a href="https://blog.zhangbing.site/categories/%E4%BA%BA%E6%96%87/">人文</a></li>
+        <li><a href="https://blog.zhangbing.site/tags/%E8%AF%BB%E4%B9%A6%E4%B8%8E%E5%AD%A6%E4%B9%A0/">读书与学习</a></li>
+        <li><a href="https://blog.zhangbing.site/tags/%E8%87%AA%E6%88%91%E4%BF%AE%E7%82%BC/">自我修炼</a></li>
+        <li><a href="https://blog.zhangbing.site/categories/%E5%85%B6%E4%BB%96/">其他</a></li>
       </ul>
     </nav>
     <!-- 导航菜单 结束 -->
@@ -52,7 +52,7 @@
           <div class="content">
             <div class="content_img_box">
               <img src="//i.loli.net/2019/07/28/5d3d931c9f9b085051.jpg" />
-              <a class="chenghao" onclick="_hmt.push(['_trackEvent', '专栏', 'click', '极客时间《10x 程序员工作法》'])" href="//blog.dunizb.com/2019/01/20/10%E5%80%8D%E5%B7%A5%E4%BD%9C%E6%B3%95%E4%B9%8B%E4%BB%A5%E7%BB%88%E4%B8%BA%E5%A7%8B/" target="_blank"><i class="iconfont icon-webclicksettings"></i> 极客时间《10x 程序员工作法》</a>
+              <a class="chenghao" onclick="_hmt.push(['_trackEvent', '专栏', 'click', '极客时间《10x 程序员工作法》'])" href="//blog.zhangbing.site/2019/01/20/10%E5%80%8D%E5%B7%A5%E4%BD%9C%E6%B3%95%E4%B9%8B%E4%BB%A5%E7%BB%88%E4%B8%BA%E5%A7%8B/" target="_blank"><i class="iconfont icon-webclicksettings"></i> 极客时间《10x 程序员工作法》</a>
             </div>
             <div class="content_img_box">
               <img src="//i.loli.net/2019/07/28/5d3d93b71d2da94904.png" />
@@ -60,7 +60,7 @@
             </div>
             <div class="content_img_box">
               <img src="//i.loli.net/2019/07/28/5d3da4263741272637.png" style="height: 176px;" />
-              <a class="lixiaolai" onclick="_hmt.push(['_trackEvent', '专栏', 'click', '网易精品课《杨亮讲单词·方法篇》'])" href="//ke.youdao.com/course/detail/26898?keyfrom=www.dunizb.com" target="_blank"><i class="iconfont icon-webclicksettings"></i> 网易精品课《杨亮讲单词·方法篇》</a>
+              <a class="lixiaolai" onclick="_hmt.push(['_trackEvent', '专栏', 'click', '网易精品课《杨亮讲单词·方法篇》'])" href="//ke.youdao.com/course/detail/26898?keyfrom=www.zhangbing.site" target="_blank"><i class="iconfont icon-webclicksettings"></i> 网易精品课《杨亮讲单词·方法篇》</a>
             </div>
           </div>
         </div>
@@ -75,11 +75,11 @@
                 <div class="item">
                 <div class="item_img">
                   <img src="//img3m0.ddimg.cn/86/5/1157436410-1_w_1.jpg" style="height: 418px;"/>
-                  <a class="iconfont icon-buy1" href="https://store.dunizb.com" target="_blank"><strong>￥19，去看看</strong></a>
+                  <a class="iconfont icon-buy1" href="https://store.zhangbing.site" target="_blank"><strong>￥19，去看看</strong></a>
                 </div>
-                <a class="info" nclick="_hmt.push(['_trackEvent', '版块', 'click', '进入商店'])" href="https://store.dunizb.com" target="_blank">
+                <a class="info" nclick="_hmt.push(['_trackEvent', '版块', 'click', '进入商店'])" href="https://store.zhangbing.site" target="_blank">
                   <div class="buy_link">
-                    <a class="iconfont icon-webclicksettings" href="https://store.dunizb.com" target="_blank">￥19，去看看</a>
+                    <a class="iconfont icon-webclicksettings" href="https://store.zhangbing.site" target="_blank">￥19，去看看</a>
                   </div>
                   <h3>文明之光（全彩印刷套装1-4册）</h3>
                   <span>吴军出品，必属精品，迄今为止吴军规模最宏大的作品</span>
@@ -89,11 +89,11 @@
                 <div class="item">
                   <div :class="{'item_img': true, 'loading': showImgLoading}">
                     <img src="https://m.360buyimg.com/mobilecms/s750x750_g10/M00/08/19/rBEQWFE5UAMIAAAAAAIdHGYQUr8AABt2QDZKuwAAh00309.jpg!q80.dpg.webp" style="height: 419px; width: 320px;" />
-                    <a class="iconfont icon-buy1" onclick="_hmt.push(['_trackEvent', '版块', 'click', '进入商店'])" href="https://store.dunizb.com" target="_blank"><strong>￥19，去看看</strong></a>
+                    <a class="iconfont icon-buy1" onclick="_hmt.push(['_trackEvent', '版块', 'click', '进入商店'])" href="https://store.zhangbing.site" target="_blank"><strong>￥19，去看看</strong></a>
                   </div>
-                  <a class="info" nclick="_hmt.push(['_trackEvent', '版块', 'click', '进入商店'])" href="https://store.dunizb.com" target="_blank">
+                  <a class="info" nclick="_hmt.push(['_trackEvent', '版块', 'click', '进入商店'])" href="https://store.zhangbing.site" target="_blank">
                     <div class="buy_link">
-                      <a class="iconfont icon-webclicksettings" href="https://store.dunizb.com" target="_blank">￥19，去看看</a>
+                      <a class="iconfont icon-webclicksettings" href="https://store.zhangbing.site" target="_blank">￥19，去看看</a>
                     </div>
                     <h3>编写可维护的JavaScript</h3>
                     <span>《JavaScript高级程序设计》作者Nicholas Zakas全新力作</span>
@@ -385,12 +385,12 @@
         <a class="hexo iconfont icon-hexo" title="" href="https://hexo.io/"></a>
       </div>
       <div class="pc">
-        <p>Copyright © <a href="/">dunizb.com</a>. All Rights Reserevd. 2014-2018   ShangHai·China   读你·这世间唯有梦想和好姑娘不可辜负！</p>
-        <p>Powerd by <a href="https://hexo.io/" target="_blank">Hexo</a>  Themes Source Code: <a href="https://github.com/MOxFIVE/hexo-theme-yelee" target="_blank">Yelee</a>  The Page Design by <a href="https://dunizb.com/" target="_blank">Dunizb(张兵)</a></p>
+        <p>Copyright © <a href="/">zhangbing.site</a>. All Rights Reserevd. 2014-2018   ShangHai·China   读你·这世间唯有梦想和好姑娘不可辜负！</p>
+        <p>Powerd by <a href="https://hexo.io/" target="_blank">Hexo</a>  Themes Source Code: <a href="https://github.com/MOxFIVE/hexo-theme-yelee" target="_blank">Yelee</a>  The Page Design by <a href="https://zhangbing.site/" target="_blank">Dunizb(张兵)</a></p>
         <p>Source Code: blog-newpage(Github: https://github.com/dunizb/blog-newpage)</p>
       </div>
       <div class="m">
-        <p>Powerd by <a href="https://hexo.io/" target="_blank">Hexo</a> & Design by <a href="https://dunizb.com/" target="_blank">Dunizb(张兵)</a></p>
+        <p>Powerd by <a href="https://hexo.io/" target="_blank">Hexo</a> & Design by <a href="https://zhangbing.site/" target="_blank">Dunizb(张兵)</a></p>
       </div>
     </footer>
   </div>
