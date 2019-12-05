@@ -12,7 +12,7 @@
         <div class="avatar">
           <img src="static/images/avatar.gif" id="play_bgm_avatar" />
         </div>
-        <h1>Dunizb<span>.com</span><img class="hat" src="../../assets/hat.svg" /></h1>
+        <h1>Zhangbing<span>.site</span><img class="hat" src="../../assets/hat.svg" /></h1>
         <h2>这世间唯有梦想和好姑娘不可辜负</h2>
       </hgroup>
     </header>
@@ -386,11 +386,11 @@
       </div>
       <div class="pc">
         <p>Copyright © <a href="/">zhangbing.site</a>. All Rights Reserevd. 2014-2018   ShangHai·China   读你·这世间唯有梦想和好姑娘不可辜负！</p>
-        <p>Powerd by <a href="https://hexo.io/" target="_blank">Hexo</a>  Themes Source Code: <a href="https://github.com/MOxFIVE/hexo-theme-yelee" target="_blank">Yelee</a>  The Page Design by <a href="https://zhangbing.site/" target="_blank">Dunizb(张兵)</a></p>
+        <p>Powerd by <a href="https://hexo.io/" target="_blank">Hexo</a>  Themes Source Code: <a href="https://github.com/MOxFIVE/hexo-theme-yelee" target="_blank">Yelee</a>  The Page Design by <a href="https://zhangbing.site/" target="_blank">张兵</a></p>
         <p>Source Code: blog-newpage(Github: https://github.com/dunizb/blog-newpage)</p>
       </div>
       <div class="m">
-        <p>Powerd by <a href="https://hexo.io/" target="_blank">Hexo</a> & Design by <a href="https://zhangbing.site/" target="_blank">Dunizb(张兵)</a></p>
+        <p>Powerd by <a href="https://hexo.io/" target="_blank">Hexo</a> & Design by <a href="https://zhangbing.site/" target="_blank">张兵</a></p>
       </div>
     </footer>
   </div>
