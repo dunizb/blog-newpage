@@ -22,7 +22,7 @@
       <ul class="main-nav">
         <li title="文章"><a class="blog" onclick="_hmt.push(['_trackEvent', 'nav', 'click', '博客'])" href="https://blog.zhangbing.site/"><i class="iconfont icon-article"></i> 文章</a></li>
         <li title="我的小铺"><a class="store" onclick="_hmt.push(['_trackEvent', 'nav', 'click', '商店'])" href="https://store.zhangbing.site"><i class="iconfont icon-ShoppingMall"></i> 小铺</a></li>
-        <li title="小码"><a class="demo" onclick="_hmt.push(['_trackEvent', 'nav', 'click', 'DEMO'])" href="http://demo.zhangbing.site"><i class="iconfont icon-lab"></i> 小码</a></li>
+        <li title="小码"><a class="demo" onclick="_hmt.push(['_trackEvent', 'nav', 'click', 'DEMO'])" href="https://coding.zhangbing.site"><i class="iconfont icon-lab"></i> 小码</a></li>
         <li title="我的足迹"><a class="map" onclick="_hmt.push(['_trackEvent', 'nav', 'click', '足迹'])" href="#my-zuji"><i class="iconfont icon-09"></i> 足迹</a></li>
         <!-- <li title="我拍的照片"><a onclick="_hmt.push(['_trackEvent', 'nav', 'click', '照片'])" class="photo" href="https://photo.zhangbing.site/" target="_blank"><i class="iconfont icon-photoalbum"></i> 摄影</a></li> -->
         <li title=""><a class="read" onclick="_hmt.push(['_trackEvent', 'nav', 'click', '读书'])" href="https://github.com/dunizb/reading-list" target="_blank"><i class="iconfont icon-book1"></i> 读书</a></li>
@@ -74,7 +74,7 @@
               <div class="row_store_item">
                 <div class="item">
                 <div class="item_img">
-                  <img src="//img3m0.ddimg.cn/86/5/1157436410-1_w_1.jpg" style="height: 418px;"/>
+                  <img src="https://img3m0.ddimg.cn/86/5/1157436410-1_w_1.jpg" style="height: 418px;"/>
                   <a class="iconfont icon-buy1" href="https://store.zhangbing.site" target="_blank"><strong>￥19，去看看</strong></a>
                 </div>
                 <a class="info" nclick="_hmt.push(['_trackEvent', '版块', 'click', '进入商店'])" href="https://store.zhangbing.site" target="_blank">
