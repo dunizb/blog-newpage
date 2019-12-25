@@ -1,19 +1,6 @@
 .page{
   height: 100%;
   position: relative;
-  .split {
-    display: flex;
-    position: absolute;
-    top: 0;
-    left: 0;
-    width: 100%;
-    z-index: 10;
-    span {
-      display: inline-block;
-      width: 35%;
-      height: 3px;
-    }
-  }
 }
 /****** 头部 *******/
 header{

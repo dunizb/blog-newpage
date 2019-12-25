@@ -1,11 +1,5 @@
 <template lang="html">
   <div ref="page" class="page">
-    <!-- <div class="split">
-      <span style="background-color: #dc3023"></span>
-      <span style="background-color: #3183f9;"></span>
-      <span style="background-color: #057748;"></span>
-      <span style="background-color: #e6b422;"></span>
-    </div> -->
     <img ref="bgimg" src="//api.dujin.org/bing/1920.php" style="display:none;">
     <header ref="header">
       <hgroup>
@@ -20,10 +14,10 @@
     <!-- 导航菜单 开始 -->
     <nav>
       <ul class="main-nav">
-        <li title="文章"><a class="blog" onclick="_hmt.push(['_trackEvent', 'nav', 'click', '博客'])" href="https://blog.zhangbing.site/"><i class="iconfont icon-article"></i> 文章</a></li>
+        <li title="博文"><a class="blog" onclick="_hmt.push(['_trackEvent', 'nav', 'click', '博文'])" href="https://blog.zhangbing.site/"><i class="iconfont icon-article1"></i> 文章</a></li>
         <li title="我的小铺"><a class="store" onclick="_hmt.push(['_trackEvent', 'nav', 'click', '商店'])" href="https://store.zhangbing.site"><i class="iconfont icon-ShoppingMall"></i> 小铺</a></li>
-        <li title="小码"><a class="demo" onclick="_hmt.push(['_trackEvent', 'nav', 'click', 'DEMO'])" href="https://coding.zhangbing.site"><i class="iconfont icon-lab"></i> 小码</a></li>
-        <li title="我的足迹"><a class="map" onclick="_hmt.push(['_trackEvent', 'nav', 'click', '足迹'])" href="#my-zuji"><i class="iconfont icon-09"></i> 足迹</a></li>
+        <li title="小码"><a class="demo" onclick="_hmt.push(['_trackEvent', 'nav', 'click', 'DEMO'])" href="https://coding.zhangbing.site"><i class="iconfont icon-Code"></i> 小码</a></li>
+        <li title="旅行足迹"><a class="map" onclick="_hmt.push(['_trackEvent', 'nav', 'click', '旅行足迹'])" href="#my-zuji"><i class="iconfont icon-09"></i> 旅行足迹</a></li>
         <!-- <li title="我拍的照片"><a onclick="_hmt.push(['_trackEvent', 'nav', 'click', '照片'])" class="photo" href="https://photo.zhangbing.site/" target="_blank"><i class="iconfont icon-photoalbum"></i> 摄影</a></li> -->
         <li title=""><a class="read" onclick="_hmt.push(['_trackEvent', 'nav', 'click', '读书'])" href="https://github.com/dunizb/reading-list" target="_blank"><i class="iconfont icon-book1"></i> 读书</a></li>
         <li title=""><a class="code" onclick="_hmt.push(['_trackEvent', 'nav', 'click', 'Code'])" href="https://github.com/dunizb"><i class="iconfont icon-icongithub"></i> Github</a></li>
@@ -46,7 +40,7 @@
         <!-- 我订阅的专栏 -->
         <div class="row_box row_zhuanlan">
           <div class="header">
-            <div class="title"><i class="iconfont icon-Rss"></i> 我订阅的专栏</div>
+            <div class="title"><i class="iconfont icon-Rss"></i> 我的订阅推荐</div>
             <div class="title_info">订阅的一些很棒的付费专栏，推荐你也看看</div>
           </div>
           <div class="content">
@@ -67,7 +61,7 @@
         <!-- 我的书店 -->
         <div class="row_box row_store">
           <div class="header">
-            <div class="title"><i class="iconfont icon-ShoppingMall"></i> 我的小店</div>
+            <div class="title"><i class="iconfont icon-ShoppingMall"></i> 我的小铺</div>
             <div class="title_info">出售个人闲置书籍，价格实惠，正品包邮，欢迎来看看</div>
           </div>
           <div class="content">
@@ -205,13 +199,13 @@
                     <img target="_blank" title="w3cschool" alt="w3cschool" style="width:160px" src="https://www.w3cschool.cn/statics/img/logo/indexlogo@2x.png" />
                   </a>
                 </li>
-                <li style="background:#3d444c;height: 43px;padding: 5px;margin-right: 15px;">
-                  <a href="http://www.hubwiz.com/" target="_blank">
-                    <img target="_blank" title="汇智网" alt="汇智网" style="width: 113px;height: 34px;" src="http://www.hubwiz.com/images/logo.png" />
+                <li>
+                  <a href="https://www.boxuegu.com/" target="_blank" style="background: #1235D7;padding: 5px;">
+                    <img target="_blank" title="博学谷" alt="博学谷" style="width: 113px;height: 34px;" src="https://www.boxuegu.com/assets/header/logo-white.png" />
                   </a>
                 </li>
-                <li style="background:#3d444c;height: 43px;padding: 5px;">
-                  <a href="https://www.nowcoder.com/" target="_blank">
+                <li >
+                  <a href="https://www.nowcoder.com/" target="_blank" style="background:#3d444c;padding: 5px;">
                     <img target="_blank" title="牛客网" alt="牛客网" style="width:110px" src="https://static.nowcoder.com/images/res/logo/logo-v3.png?t=20191013" />
                   </a>
                 </li>
@@ -325,10 +319,7 @@
               <li title="掘金"><a class="juejin" href="https://juejin.im/user/5794cec91532bc0060caf52b" target="_blank"></a></li>
               <li title="简书"><a class="jianshu iconfont icon-jianshu" href="https://www.jianshu.com/u/737d8047278d" target="_blank"></a></li>
               <li title="微博"><a class="weibo" href="http://www.weibo.com/duni/" target="_blank"></a></li>
-              <li title="Coding"><a class="coding" href="https://coding.net/u/dunizb" target="_blank"></a></li>
               <li title="豆瓣"><a class="douban" href="https://www.douban.com/people/dunish/" target="_blank"></a></li>
-              <li title="网易摄影"><a class="wangyipp" href="http://duni.pp.163.com/" target="_blank"></a></li>
-              <!-- <li title="电子邮件"><a class="email iconfont icon-about-mail" href="mailto:zb@dunizb.vip" target="_blank"></a></li> -->
             </ul>
             <ul class="qrcode">
               <li>
