@@ -311,14 +311,11 @@
             </ul>
             <ul class="qrcode">
               <li>
-                <div class="name">Dunizb</div>
                 <div class="desc">微信号，和我发生纯纯的友谊</div>
                 <img src="https://i.loli.net/2019/10/29/F2XzQDdWUZhPenR.jpg" />
               </li>
-              <li>
-                <div class="name">做工程师不做码农</div>
-                <div class="desc">公众号，及时接收最新文章</div>
-                <img src="https://i.loli.net/2019/10/29/5HMC4QLtVDiezqy.jpg" />
+              <li style="width: 468px">
+                <img src="https://gitee.com/dunizb/cloudimg/raw/jsdelivr/关注名片-大礼包_横版二维码_2020-01-01-0.jpg" />
               </li>
             </ul>
           </div>
