@@ -98,27 +98,6 @@
           </div>
         </div>
       </div>
-      <!-- <div class="row">
-        <div class="row_box row_report">
-          <div class="header">
-            <div class="title"><i class="iconfont icon-baobiaobiaoweiguanli"></i> 2018年度报告</div>
-            <div class="title_info">各种社交数据</div>
-          </div>
-          <div class="content">
-            <img src="https://ws1.sinaimg.cn/large/683aa04fly1fyulasl9wej20ku11s0zo.jpg" />
-            <img src="https://ws1.sinaimg.cn/large/683aa04fly1fyy7zohoc9j21nf33xdvc.jpg" />
-            <img src="https://ws1.sinaimg.cn/large/683aa04fly1fyy7sl730yj20jt0z8h3o.jpg" />
-            <img src="https://ws1.sinaimg.cn/large/683aa04fly1fz5tvchqacj20u01atwns.jpg" />
-            <img src="https://ws1.sinaimg.cn/large/683aa04fly1fz9hz6hxj8j20u01bady5.jpg" />
-            <img src="https://ws1.sinaimg.cn/large/683aa04fly1fzc4bsaspnj20yg1dfq6o.jpg" />
-            <img src="https://ws1.sinaimg.cn/large/683aa04fly1fz5vbfma9jj20u01bctdt.jpg" />
-            <img src="https://ws1.sinaimg.cn/large/683aa04fly1fz9hge6khrj20k00vgwo2.jpg" />
-            <img src="https://ws1.sinaimg.cn/large/683aa04fly1fzahsr2c0yj20h00oa779.jpg" />
-            <img src="https://ws1.sinaimg.cn/large/683aa04fly1fz8q60cdfcj20u01af1kx.jpg" />
-          </div>
-        </div>
-      </div> -->
-      <!-- 收藏资源 -->
       <div class="row">
         <div class="row_box row_likeassert">
           <div class="header">
@@ -317,9 +296,18 @@
               <li title="Github"><a class="github iconfont icon-icongithub" href="https://github.com/duizb" target="_blank"></a></li>
               <li title="segmentfault"><a class="sf iconfont icon-iconsf-copy" href="https://segmentfault.com/u/dunizb" target="_blank"></a></li>
               <li title="掘金"><a class="juejin" href="https://juejin.im/user/5794cec91532bc0060caf52b" target="_blank"></a></li>
-              <li title="简书"><a class="jianshu iconfont icon-jianshu" href="https://www.jianshu.com/u/737d8047278d" target="_blank"></a></li>
+              <li title="腾讯云+社区">
+                <a href="https://cloud.tencent.com/developer/column/83987" target="_blank">
+                  <img src="https://i.loli.net/2020/01/01/V72IreGcwl36ijC.jpg" style="width: 64px;" />
+                </a>
+              </li>
               <li title="微博"><a class="weibo" href="http://www.weibo.com/duni/" target="_blank"></a></li>
               <li title="豆瓣"><a class="douban" href="https://www.douban.com/people/dunish/" target="_blank"></a></li>
+              <li title="头条号">
+                <a href="https://www.toutiao.com/c/user/1268500160" target="_blank">
+                  <img src="https://s3.pstatp.com/toutiao/resource/ntoutiao_web/static/image/logo_271e845.png" style="width:105px" />
+                </a>
+              </li>
             </ul>
             <ul class="qrcode">
               <li>
