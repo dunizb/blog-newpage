@@ -23,9 +23,9 @@
   <title>Demos 代码演示、代码片段 - 读你 | 这世间唯有梦想和好姑娘不可辜负!</title>
   <meta name="Keyword" content="代码演示,代码片段,HTML5,CSS3,JavaScript,jQuery,Bootstrap">
   <meta name="Author" content="dunizb">
-  <meta name="website" content="https://dunizb.com">
+  <meta name="website" content="https://zhangbing.site">
   <meta name="Description" content="Demos 代码演示、代码片段 - 读你 | 这世间唯有梦想和好姑娘不可辜负!">
-  <link href="//blog.dunizb.com/favicon.ico" rel="shotcut icon">
+  <link href="//blog.zhangbing.site/favicon.ico" rel="shotcut icon">
   <link rel="stylesheet" href="index.css?t=1">
   <link rel="stylesheet" type="text/css" href="Vue-3-Cheat-Sheet-zh.pdf_files/style.css?t=20191104" />
 </head>
@@ -40,13 +40,12 @@
       </a>
     </div>
     <ul class="main-nav">
-      <li><a href="https://blog.dunizb.com/tags/前端/" title="Web前端">Web前端</a></li>
-      <li><a href="https://store.dunizb.com/" class="strong" id="bookStore" title="闲置图书出售商店">商店</a></li>
-      <li><a href="https://blog.dunizb.com/categories/技术/">技术</a></li>
-      <li><a href="https://blog.dunizb.com/tags/小程序/">小程序</a></li>
-      <li><a href="https://blog.dunizb.com/categories/人文/">人文</a></li>
-      <li><a href="https://blog.dunizb.com/categories/其他/">其它</a></li>
-      <li><a href="https://www.dunizb.com/#my-zuji">我的足迹</a></li>
+      <li><a href="https://blog.zhangbing.site/tags/前端/" title="Web前端">Web前端</a></li>
+      <li><a href="https://store.zhangbing.site/" class="strong" id="bookStore" title="闲置图书出售商店">商店</a></li>
+      <li><a href="https://blog.zhangbing.site/categories/技术/">技术</a></li>
+      <li><a href="https://blog.zhangbing.site/tags/小程序/">小程序</a></li>
+      <li><a href="https://blog.zhangbing.site/categories/人文/">人文</a></li>
+      <li><a href="https://blog.zhangbing.site/categories/其他/">其它</a></li>
     </ul>
   </div>
   <!-- 导航菜单 end -->
@@ -301,21 +300,21 @@
 </body>
 <script>
   // document.domain = "dunizb.com";
-  var url = location.search.split('=')[1];
-  var frame = document.getElementById('external-frame');
-  frame.src = url;
-  function setIframeHeight(iframe) {
+  var url = location.search.split('=')[1]
+var frame = document.getElementById('external-frame')
+frame.src = url
+function setIframeHeight (iframe) {
     if (iframe) {
-      var iframeWin = iframe.contentWindow || iframe.contentDocument.parentWindow;
+      var iframeWin = iframe.contentWindow || iframe.contentDocument.parentWindow
       if (iframeWin.document.body) {
-        iframe.height = iframeWin.document.documentElement.scrollHeight || iframeWin.document.body.scrollHeight;
+        iframe.height = iframeWin.document.documentElement.scrollHeight || iframeWin.document.body.scrollHeight
       }
     }
   };
 
   window.onload = function () {
-    setIframeHeight(frame);
-  };
+    setIframeHeight(frame)
+}
 </script>
 
 </html>
