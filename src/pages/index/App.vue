@@ -293,6 +293,11 @@
           </div>
           <div class="content">
             <ul class="siteicon">
+              <li title="头条号">
+                <a href="https://www.toutiao.com/c/user/1268500160/#mid=1653459147621379" target="_blank">
+                  <img src="https://sf1-ttcdn-tos.pstatp.com/obj/ttfe/pgcfe/sz/mp-logo-toutiaohao.svg" style="width:80px;vertical-align: bottom;" />
+                </a>
+              </li>
               <li title="Github"><a class="github iconfont icon-icongithub" href="https://github.com/duizb" target="_blank"></a></li>
               <li title="segmentfault"><a class="sf iconfont icon-iconsf-copy" href="https://segmentfault.com/u/dunizb" target="_blank"></a></li>
               <li title="掘金"><a class="juejin" href="https://juejin.im/user/5794cec91532bc0060caf52b" target="_blank"></a></li>
@@ -303,16 +308,12 @@
               </li>
               <li title="微博"><a class="weibo" href="http://www.weibo.com/duni/" target="_blank"></a></li>
               <li title="豆瓣"><a class="douban" href="https://www.douban.com/people/dunish/" target="_blank"></a></li>
-              <li title="头条号">
-                <a href="https://www.toutiao.com/c/user/1268500160" target="_blank">
-                  <img src="https://s3.pstatp.com/toutiao/resource/ntoutiao_web/static/image/logo_271e845.png" style="width:105px" />
-                </a>
-              </li>
             </ul>
             <ul class="qrcode">
               <li>
-                <div class="desc">微信号，和我发生纯纯的友谊</div>
-                <img src="https://i.loli.net/2019/10/29/F2XzQDdWUZhPenR.jpg" />
+                <a href="https://www.kancloud.cn/invite?code=5dfdd52d9d1aa" target="_blank">
+                  <img src="https://img.kancloud.cn/36/57/36575f650b6c35147c6531345c64bc81_256x256.png" />
+                </a>
               </li>
               <li style="width: 468px">
                 <img src="https://gitee.com/dunizb/cloudimg/raw/jsdelivr/关注名片-大礼包_横版二维码_2020-01-01-0.jpg" />
