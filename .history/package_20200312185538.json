@@ -1,8 +1,8 @@
 {
-  "name": "MyBlog",
+  "name": "multipage",
   "version": "1.0.0",
   "description": "A Vue.js MultiPage project",
-  "author": "Dunizb",
+  "author": "bigezhang",
   "private": true,
   "scripts": {
     "dev": "node build/dev-server.js",

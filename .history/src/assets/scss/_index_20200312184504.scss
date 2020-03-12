@@ -46,8 +46,7 @@ header{
         display: inline-block;
         width: 100%;
         @include border-radius(50%);
-        box-shadow: 1px 1px 10px 0 #000;
-        // border:10px solid rgba(0,0,0,.3);
+        border:10px solid rgba(0,0,0,.3);
         &.play_on {
           animation: muiscIconRotate 3.5s linear infinite;
         }

@@ -247,12 +247,12 @@
                     进阶书单
                   </a>
                 </li>
-                <!-- <li>
+                <li>
                   <a href="https://www.edrawmax.cn/" target="_blank">
                   <img style="width: 16px;display: inline;vertical-align: text-top;" src="https://www.edrawmax.cn/favicon.ico" />
                   亿图图示
                   </a>
-                </li> -->
+                </li>
                 <li>
                   <a href="https://jsrun.pro/" target="_blank">
                     <img style="width: 16px;display: inline;vertical-align: text-top;" src="https://i.loli.net/2019/12/05/dcBCnxfgM7R21Hm.jpg" />

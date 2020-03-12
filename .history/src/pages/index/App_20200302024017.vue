@@ -6,8 +6,8 @@
         <div class="avatar">
           <img src="static/images/avatar.gif" id="play_bgm_avatar" />
         </div>
-        <h1>Dunizb</span><img class="hat" src="../../assets/hat.svg" /></h1>
-        <h2>做工程师不做码农、全栈开发工程师、持续学习者</h2>
+        <h1>Zhangbing<span>.site</span><img class="hat" src="../../assets/hat.svg" /></h1>
+        <h2>这世间唯有梦想和好姑娘不可辜负</h2>
       </hgroup>
     </header>
 
@@ -247,12 +247,12 @@
                     进阶书单
                   </a>
                 </li>
-                <!-- <li>
+                <li>
                   <a href="https://www.edrawmax.cn/" target="_blank">
                   <img style="width: 16px;display: inline;vertical-align: text-top;" src="https://www.edrawmax.cn/favicon.ico" />
                   亿图图示
                   </a>
-                </li> -->
+                </li>
                 <li>
                   <a href="https://jsrun.pro/" target="_blank">
                     <img style="width: 16px;display: inline;vertical-align: text-top;" src="https://i.loli.net/2019/12/05/dcBCnxfgM7R21Hm.jpg" />
@@ -265,12 +265,12 @@
                     SM.MS
                   </a>
                 </li>
-                <!-- <li>
+                <li>
                   <a href="https://carbon.now.sh" target="_blank">
                     <img style="width: 16px;display: inline;vertical-align: text-top;" src="https://carbon.now.sh/favicon.ico" />
                     Carbon
                   </a>
-                </li> -->
+                </li>
                 <li>
                   <a href="https://regexper.com/" target="_blank">
                     <img style="width: 16px;display: inline;vertical-align: text-top;" src="https://regexper.com/favicon.ico" />
@@ -374,9 +374,9 @@
 </template>
 
 <script>
-import tabSwitchBtn from "@components/tabSwitchBtn";
+import tabSwitchBtn from '@components/tabSwitchBtn'
 export default {
-  data() {
+  data () {
     return {
       showImgLoading: true,
       showDidian: false,
@@ -384,50 +384,50 @@ export default {
       isActivedFx: true,
       isActivedDd: false,
       isActivedSf: false
-    };
+    }
   },
-  mounted() {
+  mounted () {
     // 获取Bing.com每日壁纸
-    this.getEveryDayBgimg();
+    this.getEveryDayBgimg()
     this.$nextTick(() => {
-      this.showImgLoading = false;
-    });
+      this.showImgLoading = false
+    })
   },
   methods: {
-    swicthMapType(type) {
-      if (type === "dd") {
-        this.showDidian = true;
-        this.showFeixian = false;
-        this.isActivedFx = false;
-        this.isActivedDd = true;
+    swicthMapType (type) {
+      if (type === 'dd') {
+        this.showDidian = true
+        this.showFeixian = false
+        this.isActivedFx = false
+        this.isActivedDd = true
       }
-      if (type === "fx") {
-        this.showDidian = false;
-        this.showFeixian = true;
-        this.isActivedFx = true;
-        this.isActivedDd = false;
+      if (type === 'fx') {
+        this.showDidian = false
+        this.showFeixian = true
+        this.isActivedFx = true
+        this.isActivedDd = false
       }
-      if (type === "sf") {
-        alert("建设中...");
+      if (type === 'sf') {
+        alert('建设中...')
       }
     },
-    getEveryDayBgimg() {
-      console.log("获取Bing.com每日壁纸");
-      const imgurl = this.$refs["bgimg"].src;
-      this.$refs["header"].style.backgroundImage = `url(${imgurl})`;
+    getEveryDayBgimg () {
+      console.log('获取Bing.com每日壁纸')
+      const imgurl = this.$refs['bgimg'].src
+      this.$refs['header'].style.backgroundImage = 'url(' + imgurl + ')'
     }
   },
   components: {
     tabSwitchBtn
   }
-};
+}
 </script>
 
 <style lang="scss">
-@import "../../assets/scss/main.scss";
-#linemap {
-  border-bottom: 2px solid $mian-gray;
-  width: 100%;
-  height: 550px;
-}
+  @import "../../assets/scss/main.scss";
+  #linemap {
+    border-bottom: 2px solid $mian-gray;
+    width: 100%;
+    height: 550px;
+  }
 </style>

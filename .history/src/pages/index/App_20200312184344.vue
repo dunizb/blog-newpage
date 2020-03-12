@@ -7,7 +7,7 @@
           <img src="static/images/avatar.gif" id="play_bgm_avatar" />
         </div>
         <h1>Dunizb</span><img class="hat" src="../../assets/hat.svg" /></h1>
-        <h2>做工程师不做码农、全栈开发工程师、持续学习者</h2>
+        <h2>这世间唯有梦想和好姑娘不可辜负</h2>
       </hgroup>
     </header>
 
@@ -247,12 +247,12 @@
                     进阶书单
                   </a>
                 </li>
-                <!-- <li>
+                <li>
                   <a href="https://www.edrawmax.cn/" target="_blank">
                   <img style="width: 16px;display: inline;vertical-align: text-top;" src="https://www.edrawmax.cn/favicon.ico" />
                   亿图图示
                   </a>
-                </li> -->
+                </li>
                 <li>
                   <a href="https://jsrun.pro/" target="_blank">
                     <img style="width: 16px;display: inline;vertical-align: text-top;" src="https://i.loli.net/2019/12/05/dcBCnxfgM7R21Hm.jpg" />
@@ -265,12 +265,12 @@
                     SM.MS
                   </a>
                 </li>
-                <!-- <li>
+                <li>
                   <a href="https://carbon.now.sh" target="_blank">
                     <img style="width: 16px;display: inline;vertical-align: text-top;" src="https://carbon.now.sh/favicon.ico" />
                     Carbon
                   </a>
-                </li> -->
+                </li>
                 <li>
                   <a href="https://regexper.com/" target="_blank">
                     <img style="width: 16px;display: inline;vertical-align: text-top;" src="https://regexper.com/favicon.ico" />
@@ -414,7 +414,7 @@ export default {
     getEveryDayBgimg() {
       console.log("获取Bing.com每日壁纸");
       const imgurl = this.$refs["bgimg"].src;
-      this.$refs["header"].style.backgroundImage = `url(${imgurl})`;
+      this.$refs["header"].style.backgroundImage = "url(" + imgurl + ")";
     }
   },
   components: {
