@@ -6,21 +6,23 @@
         <div class="avatar">
           <img src="static/images/avatar.gif" id="play_bgm_avatar" />
         </div>
-        <h1>Dunizb</span><img class="hat" src="../../assets/hat.svg" /></h1>
-        <h2>做工程师不做码农、全栈开发工程师、持续学习者</h2>
+        <div class="sitename">
+          <h1>Dunizb</span><img class="hat" src="../../assets/hat.svg" /></h1>
+          <h2>做工程师不做码农、全栈开发工程师、持续学习者</h2>
+        </div>
       </hgroup>
     </header>
 
     <!-- 导航菜单 开始 -->
     <nav>
       <ul class="main-nav">
-        <li title="博文"><a class="blog" onclick="_hmt.push(['_trackEvent', 'nav', 'click', '博文'])" href="https://blog.zhangbing.site/"><i class="iconfont icon-article1"></i> 文章</a></li>
+        <li title="博客"><a class="blog" onclick="_hmt.push(['_trackEvent', 'nav', 'click', '博客'])" href="https://blog.zhangbing.site/"><i class="iconfont icon-article1"></i> 博客</a></li>
         <li title="我的小铺"><a class="store" onclick="_hmt.push(['_trackEvent', 'nav', 'click', '商店'])" href="https://store.zhangbing.site"><i class="iconfont icon-ShoppingMall"></i> 小铺</a></li>
         <li title="小码"><a class="demo" onclick="_hmt.push(['_trackEvent', 'nav', 'click', 'DEMO'])" href="https://coding.zhangbing.site"><i class="iconfont icon-Code"></i> 小码</a></li>
-        <li title="旅行足迹"><a class="map" onclick="_hmt.push(['_trackEvent', 'nav', 'click', '旅行足迹'])" href="#my-zuji"><i class="iconfont icon-09"></i> 旅行足迹</a></li>
+        <li title="看世界"><a class="map" onclick="_hmt.push(['_trackEvent', 'nav', 'click', '看世界'])" href="#my-zuji"><i class="iconfont icon-09"></i> 看世界</a></li>
         <!-- <li title="我拍的照片"><a onclick="_hmt.push(['_trackEvent', 'nav', 'click', '照片'])" class="photo" href="https://photo.zhangbing.site/" target="_blank"><i class="iconfont icon-photoalbum"></i> 摄影</a></li> -->
         <li title="读书记录"><a class="read" onclick="_hmt.push(['_trackEvent', 'nav', 'click', '读书'])" href="https://book.douban.com/people/dunish/collect" target="_blank"><i class="iconfont icon-book1"></i> 读书</a></li>
-        <li title="我的Github"><a class="code" onclick="_hmt.push(['_trackEvent', 'nav', 'click', 'Code'])" href="https://github.com/dunizb"><i class="iconfont icon-icongithub"></i> Github</a></li>
+        <li title="订阅"><a class="code" onclick="_hmt.push(['_trackEvent', 'nav', 'click', 'Code'])" href="#rss"><i class="iconfont icon-RSS"></i> 订阅</a></li>
         <li title="关于"><a class="about" onclick="_hmt.push(['_trackEvent', 'nav', 'click', '关于我'])" href="https://blog.zhangbing.site/about/"><i class="iconfont icon-about-s"></i> 关于</a></li>
       </ul>
       <ul class="sub-nav">
@@ -45,7 +47,7 @@
           </div>
           <div class="content">
             <div class="content_img_box">
-              <img src="https://i.loli.net/2019/12/11/cUMF7l35iORhenq.jpg" />
+              <img src="https://i.loli.net/2019/12/11/cUMF7l35iORhenq.jpg" style="height: 185px;" />
               <a class="chenghao" onclick="_hmt.push(['_trackEvent', '专栏', 'click', '极客时间《白话法律42讲》'])" href="https://time.geekbang.org/column/intro/132" target="_blank"><i class="iconfont icon-webclicksettings"></i> 极客时间《白话法律42讲》</a>
             </div>
             <div class="content_img_box">
@@ -53,8 +55,12 @@
               <a class="xiangshuai" onclick="_hmt.push(['_trackEvent', '专栏', 'click', '《吴军的谷歌方法论》'])" href="javascript:;" target="_blank"><i class="iconfont icon-webclicksettings"></i> 得到《吴军的谷歌方法论》</a>
             </div>
             <div class="content_img_box">
-              <img src="//i.loli.net/2019/07/28/5d3da4263741272637.png" style="height: 176px;" />
-              <a class="lixiaolai" onclick="_hmt.push(['_trackEvent', '专栏', 'click', '网易精品课《杨亮讲单词·方法篇》'])" href="//ke.youdao.com/course/detail/26898?keyfrom=www.zhangbing.site" target="_blank"><i class="iconfont icon-webclicksettings"></i> 网易精品课《杨亮讲单词·方法篇》</a>
+              <img src="https://i.loli.net/2020/03/15/nbMrts12OPaL68D.png"/>
+              <a class="lixiaolai" onclick="_hmt.push(['_trackEvent', '专栏', 'click', '得到《香帅的北大金融学课》'])" href="javascript:;" target="_blank"><i class="iconfont icon-webclicksettings"></i> 得到《香帅的北大金融学课》</a>
+            </div>
+            <div class="content_img_box">
+              <img src="https://i.loli.net/2020/03/15/Nn4eHsULJ58ovIT.jpg"/>
+              <a class="lixiaolai" onclick="_hmt.push(['_trackEvent', '专栏', 'click', '得到《梁宁·产品思维30将》'])" href="javascript:;" target="_blank"><i class="iconfont icon-webclicksettings"></i> 得到《梁宁·产品思维30将》</a>
             </div>
           </div>
         </div>
@@ -68,29 +74,29 @@
               <div class="row_store_item">
                 <div class="item">
                 <div class="item_img">
-                  <img src="https://img3m0.ddimg.cn/86/5/1157436410-1_w_1.jpg" style="height: 418px;"/>
-                  <a class="iconfont icon-buy1" href="https://store.zhangbing.site" target="_blank"><strong>￥19，去看看</strong></a>
+                  <img src="https://m.360buyimg.com/mobilecms/s750x750_jfs/t1/56336/26/12823/78599/5d9be26dEb29260d7/a79533e4d99d0e88.jpg" style="height: 418px;"/>
+                  <a class="iconfont icon-buy1" href="https://store.zhangbing.site" target="_blank"><strong>￥29，去看看</strong></a>
                 </div>
                 <a class="info" nclick="_hmt.push(['_trackEvent', '版块', 'click', '进入商店'])" href="https://store.zhangbing.site" target="_blank">
                   <div class="buy_link">
-                    <a class="iconfont icon-webclicksettings" href="https://store.zhangbing.site" target="_blank">￥19，去看看</a>
+                    <a class="iconfont icon-webclicksettings" href="https://store.zhangbing.site" target="_blank">￥29，去看看</a>
                   </div>
-                  <h3>文明之光（全彩印刷套装1-4册）</h3>
-                  <span>吴军出品，必属精品，迄今为止吴军规模最宏大的作品</span>
+                  <h3>CSS选择器世界</h3>
+                  <span>《CSS世界》姊妹篇，张鑫旭大神最新作品</span>
                 </a>
               </div>
 
                 <div class="item">
                   <div :class="{'item_img': true, 'loading': showImgLoading}">
-                    <img src="https://m.360buyimg.com/mobilecms/s750x750_g10/M00/08/19/rBEQWFE5UAMIAAAAAAIdHGYQUr8AABt2QDZKuwAAh00309.jpg!q80.dpg.webp" style="height: 419px; width: 320px;" />
-                    <a class="iconfont icon-buy1" onclick="_hmt.push(['_trackEvent', '版块', 'click', '进入商店'])" href="https://store.zhangbing.site" target="_blank"><strong>￥19，去看看</strong></a>
+                    <img src="https://m.360buyimg.com/mobilecms/s750x750_jfs/t1/67766/39/7605/174367/5d5b5c9dEa0ebca42/2d7b0948d914d82f.jpg" style="width: 441px;" />
+                    <a class="iconfont icon-buy1" onclick="_hmt.push(['_trackEvent', '版块', 'click', '进入商店'])" href="https://store.zhangbing.site" target="_blank"><strong>￥39，去看看</strong></a>
                   </div>
                   <a class="info" nclick="_hmt.push(['_trackEvent', '版块', 'click', '进入商店'])" href="https://store.zhangbing.site" target="_blank">
                     <div class="buy_link">
-                      <a class="iconfont icon-webclicksettings" href="https://store.zhangbing.site" target="_blank">￥19，去看看</a>
+                      <a class="iconfont icon-webclicksettings" href="https://store.zhangbing.site" target="_blank">￥39，去看看</a>
                     </div>
-                    <h3>编写可维护的JavaScript</h3>
-                    <span>《JavaScript高级程序设计》作者Nicholas Zakas全新力作</span>
+                    <h3>了不起的JavaScript工程师</h3>
+                    <span>从前端到全端高级进阶</span>
                   </a>
               </div>
 
@@ -286,10 +292,10 @@
 
       <!-- 我也在这里 -->
       <div class="row">
-        <div class="row_box row_sms">
+        <div id="rss" class="row_box row_sms">
           <div class="header">
-            <div class="title"><i class="iconfont icon-add_friends"></i> 我也在这里</div>
-            <div class="title_info">经常也在这里出没，各有不同</div>
+            <div class="title"><i class="iconfont icon-add_friends"></i> 订阅</div>
+            <div class="title_info">经常也在这里出没，不要错过精彩，公众号会优先一两天哦！</div>
           </div>
           <div class="content">
             <ul class="siteicon">
@@ -327,7 +333,7 @@
       <div class="row" id="my-zuji">
         <div class="row_box row_maps">
           <div class="header">
-            <div class="title"><i class="iconfont icon-09"></i> 我的足迹</div>
+            <div class="title"><i class="iconfont icon-09"></i> 看世界</div>
             <div class="title_info">读书与旅行，缺一不可，看看世界，定位自己</div>
           </div>
           <div class="content">

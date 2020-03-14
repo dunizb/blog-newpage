@@ -14,7 +14,7 @@ header{
   background-repeat: no-repeat;
   background-size: 100% 100%;
   background-position: center center;
-  // background-attachment: fixed;
+  background-attachment: fixed;
   &::after{
     content: ' ';
     display: block;
@@ -23,24 +23,21 @@ header{
     right: 0;
     top: 0;
     bottom: 0;
-    background-color: rgba(255,255,255,.5);
+    background-color: rgba(0, 0, 0, .3);
     z-index: 0;
   }
   hgroup{
     position: relative;
     z-index: 10;
-    display: inline-block;
+    display: flex;
+    align-items: center;
     padding:10px;
-    @include border-radius(5px);
-    text-align: center;
+    @include border-radius(12px);
     .avatar{
       width: 130px;
       height: 130px;
-      display: inline-flex;
-      align-items: center;
+      margin-right: 20px;
       @include border-radius(50%);
-      text-align: center;
-      // border: 1px solid #fff;
       img{
         width: 130px;
         display: inline-block;
@@ -56,32 +53,27 @@ header{
         }
       }
     }
+    .sitename {text-shadow: 1px 1px 5px #000;}
     h1 {
-      @include linearGradientText(right,$mian-red,$mian-blue,$mian-green);
+      // @include linearGradientText(right,$mian-red,$mian-blue,$mian-green);
       font-size:60px;
-      font-family:'HanWangT0007f2331b96e1b622';
       font-weight: bold;
-      text-align: center;
       position: relative;
       overflow: hidden;
-      span{
-        font-size: 14px;
-        color: $mian-blue;
-      }
       /** 圣诞帽 */
       .hat {
         position: absolute;
-        right: 167px;
+        right: 216px;
         top: -3px;
         width: 30px;
         transition: all .5s;
       }
     }
-    h2 {
-      letter-spacing:3px;
-      @include linearGradientText(right,$mian-red,$mian-blue,$mian-green, $mian-red-b);
-      font-weight: bold;
-    }
+    // h2 {
+      // letter-spacing:3px;
+      // @include linearGradientText(right,$mian-red,$mian-blue,$mian-green, $mian-red-b);
+      // font-weight: bold;
+    // }
     a{
       color: inherit;
       text-decoration: none;
@@ -103,7 +95,7 @@ nav{
   flex-direction: column;
   justify-content: center;
   align-items:center;
-  font-size:18px;
+  // background-color:#000;
   background-color:$mian-gray;
   overflow-x: auto;
   // background-image: url("../../../static/images/toolbarbackground.jpg");
@@ -115,6 +107,7 @@ nav{
       font-size: 16px;
       padding: 10px 15px;
       position: relative;
+      letter-spacing: 1px;
       a{
         text-decoration: none;
         // font-weight: bold;
@@ -303,6 +296,7 @@ nav{
     }
     .row_box.row_store{
       flex: 2;
+      border-left: 10px solid #ececec;
       .title{
         @include linearGradientText(bottom,$mian-red-b,$mian-blue);
       }
