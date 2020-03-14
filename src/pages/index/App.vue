@@ -299,11 +299,6 @@
           </div>
           <div class="content">
             <ul class="siteicon">
-              <li title="头条号">
-                <a href="https://www.toutiao.com/c/user/1268500160/#mid=1653459147621379" target="_blank">
-                  <img src="https://sf1-ttcdn-tos.pstatp.com/obj/ttfe/pgcfe/sz/mp-logo-toutiaohao.svg" style="width:80px;vertical-align: bottom;" />
-                </a>
-              </li>
               <li title="Github"><a class="github iconfont icon-icongithub" href="https://github.com/duizb" target="_blank"></a></li>
               <li title="segmentfault"><a class="sf iconfont icon-iconsf-copy" href="https://segmentfault.com/u/dunizb" target="_blank"></a></li>
               <li title="掘金"><a class="juejin" href="https://juejin.im/user/5794cec91532bc0060caf52b" target="_blank"></a></li>
@@ -316,6 +311,11 @@
               <li title="豆瓣"><a class="douban" href="https://www.douban.com/people/dunish/" target="_blank"></a></li>
             </ul>
             <ul class="qrcode">
+              <li>
+                <a href="https://www.toutiao.com/c/user/1268500160/#mid=1653459147621379" target="_blank">
+                  <img src="https://gitee.com/dunizb/cloudimg/raw/jsdelivr/toutiao-290x290.jpeg" />
+                </a>
+              </li>
               <li>
                 <a href="https://www.kancloud.cn/invite?code=5dfdd52d9d1aa" target="_blank">
                   <img src="https://img.kancloud.cn/36/57/36575f650b6c35147c6531345c64bc81_256x256.png" />

@@ -652,7 +652,7 @@ footer{
               .item_img{
                 &::after{display: none !important;}
                 a{display: none !important;}
-                img{width: 300px !important;}
+                img{width: 100% !important;height: auto !important;}
               }
               .info{
                 padding: 10px 0 !important;
@@ -691,9 +691,7 @@ footer{
           padding: 5px;
           margin-top: 0 !important;
           li{
-            border: none;
-            margin: 0 !important;
-            width: 50% !important;
+            width: 100% !important;
             .desc{font-size: 12px;}
             &:first-child{border-right: 1px solid #fff;}
           }
