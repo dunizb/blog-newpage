@@ -693,7 +693,7 @@ footer{
           li{
             width: 100% !important;
             .desc{font-size: 12px;}
-            &:first-child{border-right: 1px solid #fff;}
+            &:nth-child(1),&:nth-child(2){display: none;}
           }
         }
       }
