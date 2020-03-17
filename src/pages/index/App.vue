@@ -29,10 +29,9 @@
         <!-- <li title="去博客首页"><a href="https://blog.zhangbing.site" class="main"><i class="iconfont icon-go"></i></a></li> -->
         <li><a href="https://blog.zhangbing.site/categories/%E6%8A%80%E6%9C%AF/">技术</a></li>
         <li><a href="https://blog.zhangbing.site/tags/%E5%89%8D%E7%AB%AF/">前端</a></li>
-        <li><a href="https://blog.zhangbing.site/categories/%E4%BA%BA%E6%96%87/">人文</a></li>
-        <li><a href="https://blog.zhangbing.site/tags/%E8%AF%BB%E4%B9%A6%E4%B8%8E%E5%AD%A6%E4%B9%A0/">读书与学习</a></li>
-        <li><a href="https://blog.zhangbing.site/tags/%E8%87%AA%E6%88%91%E4%BF%AE%E7%82%BC/">自我修炼</a></li>
-        <li><a href="https://blog.zhangbing.site/categories/%E5%85%B6%E4%BB%96/">其他</a></li>
+        <li><a href="https://blog.zhangbing.site/categories/%E8%AF%BB%E4%B9%A6%E4%B8%8E%E5%AD%A6%E4%B9%A0/">读书与学习</a></li>
+        <li><a href="https://blog.zhangbing.site/categories/%E5%B7%A5%E5%85%B7/">工具</a></li>
+        <li><a href="https://blog.zhangbing.site/categories/%E5%85%B6%E5%AE%83/">其它</a></li>
       </ul>
     </nav>
     <!-- 导航菜单 结束 -->
@@ -185,8 +184,8 @@
                   </a>
                 </li>
                 <li>
-                  <a href="https://www.boxuegu.com/" target="_blank" style="background: #1235D7;padding: 5px;">
-                    <img target="_blank" title="博学谷" alt="博学谷" style="width: 113px;height: 34px;" src="https://www.boxuegu.com/assets/header/logo-white.png" />
+                  <a href="https://www.boxuegu.com/" target="_blank">
+                    <img target="_blank" title="博学谷" alt="博学谷" style="width: 113px;" src="https://s1.ax1x.com/2020/03/16/8tEEL9.png" />
                   </a>
                 </li>
                 <li >
@@ -221,6 +220,12 @@
                   <a href="https://zh.javascript.info/" target="_blank">
                     <img style="width: 16px;display: inline;vertical-align: text-top;" src="https://zh.javascript.info/img/favicon/favicon.png" />
                     现代 JavaScript 教程
+                  </a>
+                </li>
+                <li>
+                  <a href="https://cloud.tencent.com/developer/devdocs" target="_blank">
+                    <img style="width: 16px;display: inline;vertical-align: text-bottom;" src="https://cloud.tencent.com/favicon.ico" />
+                    开发者手册
                   </a>
                 </li>
                 <li>
@@ -263,12 +268,6 @@
                   <a href="https://jsrun.pro/" target="_blank">
                     <img style="width: 16px;display: inline;vertical-align: text-top;" src="https://i.loli.net/2019/12/05/dcBCnxfgM7R21Hm.jpg" />
                     JSRUN
-                  </a>
-                </li>
-                <li>
-                  <a href="https://sm.ms/" target="_blank">
-                    <img style="width: 16px;display: inline;vertical-align: text-top;" src="https://sm.ms/favicon.ico" />
-                    SM.MS
                   </a>
                 </li>
                 <!-- <li>
