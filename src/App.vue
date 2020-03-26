@@ -454,7 +454,7 @@
                   </a>
                 </li>
                 <li>
-                  <a href="/public/vue3/" target="_blank">
+                  <a href="/vue3/" target="_blank">
                     <svg
                       style="vertical-align: middle;"
                       t="1572367313845"
