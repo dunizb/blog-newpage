@@ -426,6 +426,17 @@
                   </a>
                 </li>
                 <li>
+                  <a href="https://www.shiyanlou.com/" target="_blank">
+                    <img
+                      target="_blank"
+                      title="实验楼"
+                      alt="实验楼"
+                      style="width:145px"
+                      src="https://static.shiyanlou.com/frontend/dist/img/9f43b00.svg"
+                    />
+                  </a>
+                </li>
+                <li>
                   <a href="https://www.boxuegu.com/" target="_blank">
                     <img
                       target="_blank"
