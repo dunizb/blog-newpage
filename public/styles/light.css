@@ -1,0 +1,17 @@
+:root {
+  /*掘金蓝*/
+  --top1: #007fff;
+  --top2: #1a8fb9;
+  /*导航文字颜色*/
+  --navText: #fff;
+  /*超链接颜色*/
+  --yellow: #dfa612;
+  --green: #008f68;
+  --title-color: #007fff;
+  --main-color: #555;
+  --subtle: rgba(0, 0, 0, 0.1);
+  --bg: #fff;
+  --bg2: #222831;
+  --bg3: rgba(248, 248, 248, 1);
+  --item-mask: rgba(0, 0, 0, 0);
+}

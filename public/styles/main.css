@@ -1,0 +1,336 @@
+@charset "UTF-8";
+/* ==============
+    css 初始化
+   ============== */
+
+.icon {
+  width: 1em;
+  height: 1em;
+  /* vertical-align: -0.15em; */
+  fill: currentColor;
+  overflow: hidden;
+  vertical-align: middle;
+}
+
+html, body, ul, li, ol, dl, dd, dt, p, h1, h2, h3, h4, h5, h6, form, fieldset, legend, img {
+  margin: 0;
+  padding: 0;
+}
+
+html {
+  -webkit-tap-highlight-color: rgba(0, 0, 0, 0);
+  font-size: 16px;
+}
+
+* {
+  box-sizing: border-box;
+}
+
+fieldset, img, input, button {
+  /*fieldset组合表单中的相关元素*/
+  border: none;
+  padding: 0;
+  margin: 0;
+  outline-style: none;
+}
+
+ul, ol {
+  list-style: none;
+  /*清除列表风格*/
+}
+
+/*防止多行文本框拖动*/
+
+img {
+  border: 0;
+  vertical-align: middle;
+}
+
+body {
+  font-family: -apple-system, BlinkMacSystemFont, "Segoe UI", Roboto, Oxygen-Sans, Ubuntu, Cantarell, "Helvetica Neue", sans-serif;
+  color: var(--main-color);
+  background: var(--bg);
+  transition: background-color 0.25s ease-out;
+  line-height: 1.6;
+  font-weight: 300;
+}
+
+a, a:link {
+  transition: all 0.2s;
+  color: var(--yellow);
+}
+
+h1, h2, h3, h4, h5, h6 {
+  text-decoration: none;
+  font-weight: normal;
+  font-size: 100%;
+}
+
+/***************************
+    nav部分
+***************************/
+
+nav {
+  display: flex;
+  justify-content: space-between;
+  height: 3.75rem;
+  margin-bottom: 0;
+  z-index: 1;
+  background: linear-gradient(to right, var(--top1), var(--top2));
+  border-top: 2px solid var(--yellow);
+}
+
+nav .left, nav .right {
+  display: flex;
+}
+
+nav li {
+  display: flex;
+  position: relative;
+  align-items: center;
+  height: 3.75rem;
+  padding: 0 20px;
+}
+
+nav .right li {
+  padding: 0 10px;
+}
+
+nav li a, nav li a:link {
+  display: block;
+  text-decoration: none;
+  color: var(--navText);
+  font-size: 0.9rem;
+  line-height: 3.75rem;
+}
+
+nav li.large-up {
+  margin-top: 23px;
+}
+
+nav li a:hover {
+  color: rgba(255, 255, 255, 0.774);
+}
+
+nav .right a>img, nav .right a>svg {
+  width: 32px;
+  font-size: 32px;
+  transform: rotate(20deg);
+}
+
+nav .right a>img:hover, nav .right a>svg:hover {
+  transform: rotate(0);
+}
+
+nav .right.mini-bar {
+  display: none;
+}
+
+nav .right.mini-bar .more {
+  width: 35px;
+  position: relative;
+  color: #ccc;
+  height: 3.65rem;
+  font-size: 2rem;
+}
+
+nav .right.mini-bar .more .sub-menu {
+  position: absolute;
+  right: 0;
+  top: 3.65rem;
+  background-color: var(--top2);
+  width: max-content;
+  height: 0;
+  transition: height .5s;
+  z-index: 10;
+  overflow: hidden;
+}
+
+nav .right.mini-bar .more .sub-menu li {
+  height: 30px;
+}
+
+nav .right.mini-bar .more .sub-menu li a {
+  line-height: inherit;
+  color: var(--navText);
+}
+
+nav .right.mini-bar:hover .sub-menu {
+  height: 100px;
+}
+
+nav li .dropdown {
+  position: absolute;
+  top: 3.65rem;
+  width: 400px;
+  overflow: hidden;
+  opacity: 0;
+  visibility: hidden;
+  border-bottom-right-radius: 8px;
+  border-bottom-left-radius: 8px;
+  box-shadow: 0px 2px 8px var(--subtle);
+  background: var(--top2);
+  border-top: 2px solid var(--yellow);
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: space-around;
+  transform: translateX(-40%);
+  transition: all 0.3s ease 0.15s;
+  z-index: 20;
+}
+
+nav li .ercode {
+  position: absolute;
+  top: 3.65rem;
+  z-index: 10;
+  overflow: hidden;
+  opacity: 0;
+  visibility: hidden;
+  border-bottom-right-radius: 8px;
+  border-bottom-left-radius: 8px;
+  box-shadow: 0px 2px 8px var(--subtle);
+  border-top: 2px solid var(--yellow);
+  transition: all 0.3s ease 0.15s;
+}
+
+nav li .ercode img {
+  width: 150px;
+}
+
+nav li:hover .dropdown, nav li:hover .ercode {
+  opacity: 1;
+  visibility: visible;
+  overflow: visible;
+}
+
+nav li .toggle-light::before, nav li .toggle-dark::before {
+  content: " ";
+  border-radius: 50%;
+  box-shadow: 0 0 5px rgba(0, 0, 0, 0.5);
+  width: 1.2rem;
+  height: 1.2rem;
+  display: inline-block;
+  vertical-align: middle;
+  margin-top: -3px;
+  margin-right: 8px;
+}
+
+nav li .toggle-light::before {
+  background-color: #fff;
+  border: 2px solid var(--green);
+}
+
+nav li .toggle-dark::before {
+  background: #222831;
+  border: 2px solid var(--yellow);
+}
+
+.switch-theme::before {
+  content: " ";
+  background: var(--bg);
+  border: 2px solid var(--yellow);
+  border-radius: 50%;
+  box-shadow: 0 0 5px var(--subtle);
+  width: 1.2rem;
+  height: 1.2rem;
+  display: inline-block;
+  vertical-align: middle;
+  margin-top: -3px;
+}
+
+.zhangbing-logo {
+  width: 80px;
+  border-radius: 25%;
+  transition: transform 0.1s cubic-bezier(0, 1.8, 1, 1.8);
+  box-shadow: 0 2px 5px 0 rgba(0, 0, 0, 0.16), 0 2px 10px 0 rgba(0, 0, 0, 0.12);
+}
+
+.zhangbing-logo:hover {
+  transform: scale(1.1);
+}
+
+/***************************
+    footer部分
+***************************/
+
+footer {
+  background-color: var(--bg);
+  text-align: center;
+  padding: 20px;
+  margin-top: 20px;
+}
+
+footer a {
+  color: var(--yellow);
+  font-family: Recursive, "Menlo", "DejaVu Sans Mono", "Bitstream Vera Sans Mono", Courier, monospace;
+  font-variation-settings: "MONO" 1;
+  font-weight: 450;
+  text-decoration: var(--yellow) double underline;
+}
+
+footer p {
+  line-height: 26px;
+  color: var(--yellow);
+  margin-bottom: 10px;
+}
+
+/** view页面 start **/
+
+.github-link {
+  text-align: center;
+}
+
+.github-link a {
+  border-bottom: 5px solid var(--yellow);
+  text-decoration: none;
+  border-top: 5px solid var(--yellow);
+  padding: 3px 10px;
+}
+
+.github-link a:hover {
+  background-color: var(--yellow);
+}
+
+/* 定义 dark 模式的颜色 */
+
+@media (prefers-color-scheme: dark) {
+  :root {
+    /*掘金蓝*/
+    --top1: #28313e;
+    --top2: #302e24;
+    /*导航文字颜色*/
+    --navText: #fff;
+    /*超链接颜色*/
+    --yellow: #dfa612;
+    --green: #008f68;
+    --title-color: #efbb35;
+    --main-color: #555;
+    --subtle: rgba(0, 0, 0, 0.1);
+    --bg: #222831;
+    --bg2: #fff;
+  }
+}
+
+@media (max-width: 500px) {
+  nav .right, nav .left li:not(.large-up) {
+    display: none;
+  }
+  nav .right.mini-bar {
+    display: block;
+  }
+  .page-title .github-btn {
+    display: none;
+  }
+}
+
+@media (max-width: 1000px) {
+  nav .right, nav .left li:not(.large-up) {
+    display: none;
+  }
+  nav .right.mini-bar {
+    display: block;
+  }
+  .page-title .github-btn {
+    display: none;
+  }
+}
