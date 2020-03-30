@@ -756,7 +756,7 @@
             <div class="title">
               <i class="iconfont icon-add_friends"></i> 订阅
             </div>
-            <div class="title_info">经常也在这里出没，不要错过精彩，公众号会优先一两天哦！</div>
+            <div class="title_info">经常也在这里出没，不要错过精彩！</div>
           </div>
           <div class="content">
             <ul class="siteicon">
@@ -814,9 +814,7 @@
                 </a>
               </li>
               <li style="width: 468px">
-                <img
-                  src="https://gitee.com/dunizb/cloudimg/raw/jsdelivr/关注名片-大礼包_横版二维码_2020-01-01-0.jpg"
-                />
+                <img src="https://gitee.com/dunizb/cloudimg/raw/jsdelivr/subscribe2.png" />
               </li>
             </ul>
           </div>
