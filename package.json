@@ -12,7 +12,7 @@
     "test": "npm run unit && npm run e2e"
   },
   "dependencies": {
-    "axios": "^0.16.2",
+    "axios": "^0.19.2",
     "es6-promise": "^4.1.1",
     "qs": "^6.5.1",
     "vue": "^2.4.4"
