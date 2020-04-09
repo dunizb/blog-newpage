@@ -770,7 +770,7 @@
               </li>
               <li title="segmentfault">
                 <a href="https://segmentfault.com/u/dunizb" target="_blank" style="width:140px">
-                  <img src="https://cdn.segmentfault.com/v-5e7854c5/global/img/logo-b.svg" alt="SF" />
+                  <img src="../../../public/images/icon/sf.svg" alt="SF" />
                 </a>
               </li>
               <li title="掘金">
@@ -813,7 +813,7 @@
                   />
                 </a>
               </li>
-              <li style="width: 468px">
+              <li style="width: 390px">
                 <img src="https://gitee.com/dunizb/cloudimg/raw/jsdelivr/subscribe2.png" />
               </li>
             </ul>
@@ -830,14 +830,25 @@
             </div>
             <div class="title_info">读书与旅行，缺一不可，看看世界，定位自己</div>
           </div>
+          <div class="buttons">
+            <button
+              class="map-button"
+              @click="swicthMapType('feixian')"
+            >{{mapType === 'feixian' ? '🔴' : ''}}足迹路线</button>
+            <button
+              class="map-button"
+              @click="swicthMapType('didian')"
+            >{{mapType === 'didian' ? '🔴' : ''}}踏足地点</button>
+            <button
+              class="map-button"
+              @click="swicthMapType('shengfeng')"
+            >{{mapType === 'shengfeng' ? '🔴' : ''}}踏足省份</button>
+          </div>
           <div class="content">
-            <tab-switch-btn :actived="isActivedFx" @click.native="swicthMapType('fx')">足迹路线</tab-switch-btn>
-            <tab-switch-btn :actived="isActivedDd" @click.native="swicthMapType('dd')">踏足地点</tab-switch-btn>
-            <tab-switch-btn :actived="isActivedSf" @click.native="swicthMapType('sf')">踏足省份</tab-switch-btn>
-            <div class="didian" v-show="showDidian">
+            <div class="didian" v-show="mapType === 'didian'">
               <div id="my-maps"></div>
             </div>
-            <div class="feixian" v-show="showFeixian">
+            <div class="feixian" v-show="mapType === 'feixian'">
               <div id="linemap" class="linemap-wrapper"></div>
             </div>
             <div class="row_btn">
@@ -903,12 +914,7 @@
 export default {
   data() {
     return {
-      showImgLoading: true,
-      showDidian: false,
-      showFeixian: true,
-      isActivedFx: true,
-      isActivedDd: false,
-      isActivedSf: false
+      mapType: "feixian"
     };
   },
   mounted() {
@@ -920,20 +926,10 @@ export default {
   },
   methods: {
     swicthMapType(type) {
-      if (type === "dd") {
-        this.showDidian = true;
-        this.showFeixian = false;
-        this.isActivedFx = false;
-        this.isActivedDd = true;
-      }
-      if (type === "fx") {
-        this.showDidian = false;
-        this.showFeixian = true;
-        this.isActivedFx = true;
-        this.isActivedDd = false;
-      }
-      if (type === "sf") {
+      if (type === "shengfeng") {
         alert("建设中...");
+      } else {
+        this.mapType = type;
       }
     },
     getEveryDayBgimg() {
@@ -947,6 +943,18 @@ export default {
 
 <style lang="scss">
 @import "../../assets/scss/main.scss";
+.buttons {
+  display: flex;
+  margin-bottom: 10px;
+  .map-button {
+    border: 1px solid #ccc;
+    margin: 0 5px;
+    line-height: 20px;
+    padding: 2px 10px;
+    outline: none;
+    cursor: pointer;
+  }
+}
 #linemap {
   border-bottom: 2px solid $mian-gray;
   width: 100%;
