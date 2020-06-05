@@ -814,7 +814,7 @@
                 </a>
               </li>
               <li style="width: 390px">
-                <img src="https://gitee.com/dunizb/cloudimg/raw/jsdelivr/subscribe2.png" />
+                <img src="http://myimgcloud.oss-cn-hangzhou.aliyuncs.com/subscribe2.png" />
               </li>
             </ul>
           </div>
