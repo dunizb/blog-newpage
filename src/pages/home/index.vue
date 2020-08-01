@@ -518,7 +518,7 @@
                         p-id="6429"
                       />
                     </svg>
-                    Vue3 Composition API Cheat Sheet（中⽂版）
+                    Vue3 Composition API 备忘单
                   </a>
                 </li>
                 <li>
@@ -749,6 +749,12 @@
         </div>
       </div>
 
+      <div class="row" style>
+        <a href="https://ke.boxuegu.com/course.html#/" target="_blank" style="display:block;">
+          <img src="//myimgcloud.oss-cn-hangzhou.aliyuncs.com/bxghdkt.png" style="max-width:100%" />
+        </a>
+      </div>
+
       <!-- 我也在这里 -->
       <div class="row">
         <div id="rss" class="row_box row_sms">
@@ -914,7 +920,7 @@
 export default {
   data() {
     return {
-      mapType: "feixian"
+      mapType: "feixian",
     };
   },
   mounted() {
@@ -936,8 +942,8 @@ export default {
       console.log("获取Bing.com每日壁纸");
       const imgurl = this.$refs["bgimg"].src;
       this.$refs["header"].style.backgroundImage = `url(${imgurl})`;
-    }
-  }
+    },
+  },
 };
 </script>
 
