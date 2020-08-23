@@ -8,7 +8,7 @@
         </div>
         <div class="sitename">
           <h1>
-            <span>Dunizb</span>
+            <span>张张</span>
             <!-- <img class="hat" src="./assets/hat.svg" /> -->
           </h1>
           <h2>做工程师不做码农、全栈开发工程师、持续学习者</h2>
@@ -329,13 +329,13 @@
                   </a>
                 </li>
                 <li>
-                  <a href="https://ke.qq.com/" target="_blank">
+                  <a href="https://ke.boxuegu.com/" target="_blank">
                     <img
                       target="_blank"
-                      title="腾讯课堂"
-                      alt="腾讯课堂"
-                      style="width: 137px;height: 37px;"
-                      src="https://8.url.cn/edu/edu_modules/edu-ui/img/bg/logo-3x.46efb146.png#unsprite"
+                      title="回车课堂"
+                      alt="回车课堂"
+                      style="width: 160px;"
+                      src="https://ke.boxuegu.com/img/logo-header.eaf8768f.png"
                     />
                   </a>
                 </li>
@@ -358,16 +358,6 @@
                       alt="GitChat"
                       style="width:40px"
                       src="https://images.gitbook.cn/FpdQSGLQ9JWwdHIQHK7Cp4m0LEXj"
-                    />
-                  </a>
-                </li>
-                <li>
-                  <a href="https://juejin.im/books" target="_blank">
-                    <img
-                      target="_blank"
-                      title="掘金小册"
-                      alt="掘金小册"
-                      src="https://b-gold-cdn.xitu.io/v3/static/img/logo.a7995ad.svg"
                     />
                   </a>
                 </li>
@@ -429,10 +419,9 @@
                   <a href="https://www.shiyanlou.com/" target="_blank">
                     <img
                       target="_blank"
-                      title="实验楼"
-                      alt="实验楼"
-                      style="width:145px"
-                      src="https://static.shiyanlou.com/frontend/dist/img/9f43b00.svg"
+                      title="蓝桥网"
+                      alt="蓝桥网"
+                      src="https://static.shiyanlou.com/lanqiao/frontend/dist/img/5de12f2.svg"
                     />
                   </a>
                 </li>
@@ -468,33 +457,6 @@
               <div class="ul-title">📌文档和工具</div>
               <ul class="siteicon likeassert-list">
                 <li>
-                  <a href="https://zhuanlan.zhihu.com/p/68477600" target="_blank">
-                    <svg
-                      style="vertical-align: middle;"
-                      t="1572367313845"
-                      class="icon"
-                      viewBox="0 0 1024 1024"
-                      version="1.1"
-                      xmlns="http://www.w3.org/2000/svg"
-                      p-id="6427"
-                      width="16"
-                      height="16"
-                    >
-                      <path
-                        d="M615.6 123.6h165.5L512 589.7 242.9 123.6H63.5L512 900.4l448.5-776.9z"
-                        fill="#41B883"
-                        p-id="6428"
-                      />
-                      <path
-                        d="M781.1 123.6H615.6L512 303 408.4 123.6H242.9L512 589.7z"
-                        fill="#34495E"
-                        p-id="6429"
-                      />
-                    </svg>
-                    Vue Function-based API RFC（中⽂版）
-                  </a>
-                </li>
-                <li>
                   <a href="/vue3/" target="_blank">
                     <svg
                       style="vertical-align: middle;"
@@ -519,15 +481,6 @@
                       />
                     </svg>
                     Vue3 Composition API 备忘单
-                  </a>
-                </li>
-                <li>
-                  <a href="https://typescript.bootcss.com/" target="_blank">
-                    <img
-                      style="width: 16px;display: inline;vertical-align: text-top;"
-                      src="https://typescript.bootcss.com/favicon.ico"
-                    />
-                    TypeScript 中文手册
                   </a>
                 </li>
                 <li>
@@ -749,9 +702,23 @@
         </div>
       </div>
 
-      <div class="row" style>
-        <a href="https://ke.boxuegu.com/course.html#/" target="_blank" style="display:block;">
-          <img src="//myimgcloud.oss-cn-hangzhou.aliyuncs.com/bxghdkt.png" style="max-width:100%" />
+      <div class="row">
+        <a href="https://ke.boxuegu.com/detail/3126.html" target="_blank" style="display:block;">
+          <picture>
+            <source
+              media="(max-width: 560px)"
+              srcset="//myimgcloud.oss-cn-hangzhou.aliyuncs.com/blogAssert/ke-chougesha-min.jpeg"
+            />
+            <source
+              media="(min-width: 561px)"
+              srcset="//myimgcloud.oss-cn-hangzhou.aliyuncs.com/blogAssert/ke-chougesha.png"
+            />
+            <img
+              src="//myimgcloud.oss-cn-hangzhou.aliyuncs.com/blogAssert/ke-chougesha.png"
+              alt="cat"
+              style="width:100%"
+            />
+          </picture>
         </a>
       </div>
 
