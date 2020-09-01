@@ -73,9 +73,6 @@
         <a href="https://blog.zhangbing.site/tags/Node/">Node.js</a>
       </li>
       <li>
-        <a href="https://blog.zhangbing.site/tags/JavaScript/">JavaScript</a>
-      </li>
-      <li>
         <a href="https://blog.zhangbing.site/tags/%E5%AE%9E%E6%88%98/">实战</a>
       </li>
       <li>
@@ -83,6 +80,9 @@
       </li>
       <li>
         <a href="https://blog.zhangbing.site/tags/React/">React</a>
+      </li>
+      <li>
+        <a href="https://blog.zhangbing.site/tags/%E5%B0%8F%E7%A8%8B%E5%BA%8F/">微信小程序</a>
       </li>
       <li>
         <a href="https://blog.zhangbing.site/tags/%E5%B0%8F%E6%8A%80%E5%B7%A7/">小技巧</a>
