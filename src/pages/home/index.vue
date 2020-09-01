@@ -33,7 +33,7 @@
         </a>
       </li>
       <li title="我的小商店">
-        <a class="store" onclick="_hmt.push(['_trackEvent', 'nav', 'click', '商店'])" href="https://store.zhangbing.site">
+        <a class="store" onclick="_hmt.push(['_trackEvent', 'nav', 'click', '小商店'])" href="https://store.zhangbing.site">
           <i class="iconfont icon-ShoppingMall"></i> 小商店
         </a>
       </li>
@@ -67,19 +67,28 @@
     <ul class="sub-nav">
       <!-- <li title="去博客首页"><a href="https://blog.zhangbing.site" class="main"><i class="iconfont icon-go"></i></a></li> -->
       <li>
-        <a href="https://blog.zhangbing.site/categories/%E6%8A%80%E6%9C%AF/">技术</a>
+        <a href="https://blog.zhangbing.site/tags/JavaScript/">JavaScript</a>
       </li>
       <li>
-        <a href="https://blog.zhangbing.site/tags/%E5%89%8D%E7%AB%AF/">前端</a>
+        <a href="https://blog.zhangbing.site/tags/Node/">Node.js</a>
       </li>
       <li>
-        <a href="https://blog.zhangbing.site/categories/%E8%AF%BB%E4%B9%A6%E4%B8%8E%E5%AD%A6%E4%B9%A0/">读书与学习</a>
+        <a href="https://blog.zhangbing.site/tags/JavaScript/">JavaScript</a>
+      </li>
+      <li>
+        <a href="https://blog.zhangbing.site/tags/%E5%AE%9E%E6%88%98/">实战</a>
+      </li>
+      <li>
+        <a href="https://blog.zhangbing.site/tags/Vue-js/">Vue.js</a>
+      </li>
+      <li>
+        <a href="https://blog.zhangbing.site/tags/React/">React</a>
+      </li>
+      <li>
+        <a href="https://blog.zhangbing.site/tags/%E5%B0%8F%E6%8A%80%E5%B7%A7/">小技巧</a>
       </li>
       <li>
         <a href="https://blog.zhangbing.site/categories/%E5%B7%A5%E5%85%B7/">工具</a>
-      </li>
-      <li>
-        <a href="https://blog.zhangbing.site/categories/%E5%85%B6%E5%AE%83/">其它</a>
       </li>
     </ul>
   </nav>
