@@ -107,28 +107,28 @@
         </div>
         <div class="content">
           <div class="content_img_box">
-            <img src="https://i.loli.net/2019/12/11/cUMF7l35iORhenq.jpg" style="height: 185px;" />
+            <img src="https://i.loli.net/2019/12/11/cUMF7l35iORhenq.jpg" loading="lazy" style="height: 185px;" />
             <a class="chenghao" onclick="_hmt.push(['_trackEvent', '专栏', 'click', '极客时间《白话法律42讲》'])" href="https://time.geekbang.org/column/intro/132" target="_blank">
               <i class="iconfont icon-webclicksettings"></i>
               极客时间《白话法律42讲》
             </a>
           </div>
           <div class="content_img_box">
-            <img src="//i.loli.net/2019/07/28/5d3d93b71d2da94904.png" />
+            <img src="//i.loli.net/2019/07/28/5d3d93b71d2da94904.png" loading="lazy" />
             <a class="xiangshuai" onclick="_hmt.push(['_trackEvent', '专栏', 'click', '《吴军的谷歌方法论》'])" href="javascript:;" target="_blank">
               <i class="iconfont icon-webclicksettings"></i>
               得到《吴军的谷歌方法论》
             </a>
           </div>
           <div class="content_img_box">
-            <img src="https://i.loli.net/2020/03/15/nbMrts12OPaL68D.png" />
+            <img src="https://i.loli.net/2020/03/15/nbMrts12OPaL68D.png" loading="lazy" />
             <a class="lixiaolai" onclick="_hmt.push(['_trackEvent', '专栏', 'click', '得到《香帅的北大金融学课》'])" href="javascript:;" target="_blank">
               <i class="iconfont icon-webclicksettings"></i>
               得到《香帅的北大金融学课》
             </a>
           </div>
           <div class="content_img_box">
-            <img src="https://i.loli.net/2020/03/15/Nn4eHsULJ58ovIT.jpg" />
+            <img src="https://i.loli.net/2020/03/15/Nn4eHsULJ58ovIT.jpg" loading="lazy" />
             <a class="lixiaolai" onclick="_hmt.push(['_trackEvent', '专栏', 'click', '得到《梁宁·产品思维30将》'])" href="javascript:;" target="_blank">
               <i class="iconfont icon-webclicksettings"></i>
               得到《梁宁·产品思维30将》
@@ -150,7 +150,7 @@
           <div class="row_store_item">
             <div class="item">
               <div class="item_img">
-                <img src="https://m.360buyimg.com/mobilecms/s750x750_jfs/t1/112434/39/2947/421396/5ea4f421Ef5bbd571/2afe56af05a1fdf0.jpg" style="height: 418px;" />
+                <img src="https://m.360buyimg.com/mobilecms/s750x750_jfs/t1/112434/39/2947/421396/5ea4f421Ef5bbd571/2afe56af05a1fdf0.jpg" loading="lazy" style="height: 418px;" />
                 <a class="iconfont icon-icon-buy1" href="https://store.zhangbing.site" target="_blank">
                   <strong>￥69，去看看</strong>
                 </a>
@@ -166,7 +166,7 @@
 
             <div class="item">
               <div :class="{ item_img: true, loading: showImgLoading }">
-                <img src="http://m.360buyimg.com/mobilecms/s750x750_jfs/t1/110771/24/17861/176433/5f3b9c72E8881e1e1/d55b7a7baed69a9a.jpg!q80.dpg" />
+                <img src="http://m.360buyimg.com/mobilecms/s750x750_jfs/t1/110771/24/17861/176433/5f3b9c72E8881e1e1/d55b7a7baed69a9a.jpg!q80.dpg" loading="lazy" />
                 <a class="iconfont icon-icon-buy1" onclick="_hmt.push(['_trackEvent', '版块', 'click', '进入商店'])" href="https://store.zhangbing.site" target="_blank">
                   <strong>￥49，去看看</strong>
                 </a>
@@ -383,7 +383,7 @@
         <picture>
           <source media="(max-width: 560px)" srcset="//myimgcloud.oss-cn-hangzhou.aliyuncs.com/blogAssert/ke-chougesha-min.jpeg" />
           <source media="(min-width: 561px)" srcset="//myimgcloud.oss-cn-hangzhou.aliyuncs.com/blogAssert/ke-chougesha.png" />
-          <img src="//myimgcloud.oss-cn-hangzhou.aliyuncs.com/blogAssert/ke-chougesha.png" alt="cat" style="width:100%" />
+          <img src="//myimgcloud.oss-cn-hangzhou.aliyuncs.com/blogAssert/ke-chougesha.png" loading="lazy" alt="cat" style="width:100%" />
         </picture>
       </a>
     </div>
@@ -433,16 +433,16 @@
           <ul class="qrcode">
             <li>
               <a href="https://www.toutiao.com/c/user/1268500160/#mid=1653459147621379" target="_blank">
-                <img src="https://gitee.com/dunizb/cloudimg/raw/jsdelivr/toutiao-290x290.jpeg" />
+                <img src="https://gitee.com/dunizb/cloudimg/raw/jsdelivr/toutiao-290x290.jpeg" loading="lazy" />
               </a>
             </li>
             <li>
               <a href="https://www.kancloud.cn/invite?code=5dfdd52d9d1aa" target="_blank">
-                <img src="https://img.kancloud.cn/36/57/36575f650b6c35147c6531345c64bc81_256x256.png" />
+                <img src="https://img.kancloud.cn/36/57/36575f650b6c35147c6531345c64bc81_256x256.png" loading="lazy" />
               </a>
             </li>
             <li style="width: 390px">
-              <img src="http://myimgcloud.oss-cn-hangzhou.aliyuncs.com/subscribe2.png" />
+              <img src="http://myimgcloud.oss-cn-hangzhou.aliyuncs.com/subscribe2.png" loading="lazy" />
             </li>
           </ul>
         </div>
