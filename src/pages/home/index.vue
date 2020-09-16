@@ -29,7 +29,8 @@
           <svg style="vertical-align: middle;" t="1572367313845" class="icon" viewBox="0 0 1024 1024" version="1.1" xmlns="http://www.w3.org/2000/svg" p-id="6427" width="16" height="16">
             <path d="M615.6 123.6h165.5L512 589.7 242.9 123.6H63.5L512 900.4l448.5-776.9z" fill="#41B883" p-id="6428" />
             <path d="M781.1 123.6H615.6L512 303 408.4 123.6H242.9L512 589.7z" fill="#34495E" p-id="6429" />
-          </svg> Vue3
+          </svg>
+          Vue3
         </a>
       </li>
       <li title="我的小商店">
@@ -108,25 +109,29 @@
           <div class="content_img_box">
             <img src="https://i.loli.net/2019/12/11/cUMF7l35iORhenq.jpg" style="height: 185px;" />
             <a class="chenghao" onclick="_hmt.push(['_trackEvent', '专栏', 'click', '极客时间《白话法律42讲》'])" href="https://time.geekbang.org/column/intro/132" target="_blank">
-              <i class="iconfont icon-webclicksettings"></i> 极客时间《白话法律42讲》
+              <i class="iconfont icon-webclicksettings"></i>
+              极客时间《白话法律42讲》
             </a>
           </div>
           <div class="content_img_box">
             <img src="//i.loli.net/2019/07/28/5d3d93b71d2da94904.png" />
             <a class="xiangshuai" onclick="_hmt.push(['_trackEvent', '专栏', 'click', '《吴军的谷歌方法论》'])" href="javascript:;" target="_blank">
-              <i class="iconfont icon-webclicksettings"></i> 得到《吴军的谷歌方法论》
+              <i class="iconfont icon-webclicksettings"></i>
+              得到《吴军的谷歌方法论》
             </a>
           </div>
           <div class="content_img_box">
             <img src="https://i.loli.net/2020/03/15/nbMrts12OPaL68D.png" />
             <a class="lixiaolai" onclick="_hmt.push(['_trackEvent', '专栏', 'click', '得到《香帅的北大金融学课》'])" href="javascript:;" target="_blank">
-              <i class="iconfont icon-webclicksettings"></i> 得到《香帅的北大金融学课》
+              <i class="iconfont icon-webclicksettings"></i>
+              得到《香帅的北大金融学课》
             </a>
           </div>
           <div class="content_img_box">
             <img src="https://i.loli.net/2020/03/15/Nn4eHsULJ58ovIT.jpg" />
             <a class="lixiaolai" onclick="_hmt.push(['_trackEvent', '专栏', 'click', '得到《梁宁·产品思维30将》'])" href="javascript:;" target="_blank">
-              <i class="iconfont icon-webclicksettings"></i> 得到《梁宁·产品思维30将》
+              <i class="iconfont icon-webclicksettings"></i>
+              得到《梁宁·产品思维30将》
             </a>
           </div>
         </div>
@@ -137,39 +142,41 @@
           <div class="title">
             <i class="iconfont icon-ShoppingMall"></i> 我的小商店
           </div>
-          <div class="title_info">出售个人闲置书籍，价格实惠，正品包邮，欢迎来看看</div>
+          <div class="title_info">
+            出售个人闲置书籍，价格实惠，正品包邮，欢迎来看看
+          </div>
         </div>
         <div class="content">
           <div class="row_store_item">
             <div class="item">
               <div class="item_img">
-                <img src="https://m.360buyimg.com/mobilecms/s750x750_jfs/t1/56336/26/12823/78599/5d9be26dEb29260d7/a79533e4d99d0e88.jpg" style="height: 418px;" />
-                <a class="iconfont icon-buy1" href="https://store.zhangbing.site" target="_blank">
-                  <strong>￥29，去看看</strong>
+                <img src="https://m.360buyimg.com/mobilecms/s750x750_jfs/t1/112434/39/2947/421396/5ea4f421Ef5bbd571/2afe56af05a1fdf0.jpg" style="height: 418px;" />
+                <a class="iconfont icon-icon-buy1" href="https://store.zhangbing.site" target="_blank">
+                  <strong>￥69，去看看</strong>
                 </a>
               </div>
               <a class="info" nclick="_hmt.push(['_trackEvent', '版块', 'click', '进入商店'])" href="https://store.zhangbing.site" target="_blank">
                 <div class="buy_link">
                   <a class="iconfont icon-webclicksettings" href="https://store.zhangbing.site" target="_blank">￥29，去看看</a>
                 </div>
-                <h3>CSS选择器世界</h3>
-                <span>《CSS世界》姊妹篇，张鑫旭大神最新作品</span>
+                <h3>程序员修炼之道：通向务实的最高境界（第2版）</h3>
+                <span>本书极具洞察力与趣味性，适合从初学者到架构师各阶层潜心研读</span>
               </a>
             </div>
 
             <div class="item">
-              <div :class="{'item_img': true, 'loading': showImgLoading}">
-                <img src="https://m.360buyimg.com/mobilecms/s750x750_jfs/t1/67766/39/7605/174367/5d5b5c9dEa0ebca42/2d7b0948d914d82f.jpg" style="width: 441px;" />
-                <a class="iconfont icon-buy1" onclick="_hmt.push(['_trackEvent', '版块', 'click', '进入商店'])" href="https://store.zhangbing.site" target="_blank">
-                  <strong>￥39，去看看</strong>
+              <div :class="{ item_img: true, loading: showImgLoading }">
+                <img src="http://m.360buyimg.com/mobilecms/s750x750_jfs/t1/110771/24/17861/176433/5f3b9c72E8881e1e1/d55b7a7baed69a9a.jpg!q80.dpg" />
+                <a class="iconfont icon-icon-buy1" onclick="_hmt.push(['_trackEvent', '版块', 'click', '进入商店'])" href="https://store.zhangbing.site" target="_blank">
+                  <strong>￥49，去看看</strong>
                 </a>
               </div>
               <a class="info" nclick="_hmt.push(['_trackEvent', '版块', 'click', '进入商店'])" href="https://store.zhangbing.site" target="_blank">
                 <div class="buy_link">
                   <a class="iconfont icon-webclicksettings" href="https://store.zhangbing.site" target="_blank">￥39，去看看</a>
                 </div>
-                <h3>了不起的JavaScript工程师</h3>
-                <span>从前端到全端高级进阶</span>
+                <h3>React工程师修炼指南</h3>
+                <span>适合各阶段前端开发者系统学习React知识。开课吧</span>
               </a>
             </div>
           </div>
@@ -179,9 +186,7 @@
     <div class="row">
       <div class="row_box row_likeassert">
         <div class="header">
-          <div class="title">
-            <i class="iconfont icon-star"></i> 收藏资源
-          </div>
+          <div class="title"><i class="iconfont icon-star"></i> 收藏资源</div>
           <div class="title_info">收藏的一些非常棒的互联网资源</div>
         </div>
         <div class="content">
@@ -448,15 +453,21 @@
     <div class="row" id="my-zuji">
       <div class="row_box row_maps">
         <div class="header">
-          <div class="title">
-            <i class="iconfont icon-09"></i> 看世界
+          <div class="title"><i class="iconfont icon-09"></i> 看世界</div>
+          <div class="title_info">
+            读书与旅行，缺一不可，看看世界，定位自己
           </div>
-          <div class="title_info">读书与旅行，缺一不可，看看世界，定位自己</div>
         </div>
         <div class="buttons">
-          <button class="map-button" @click="swicthMapType('feixian')">{{mapType === 'feixian' ? '🔴' : ''}}足迹路线</button>
-          <button class="map-button" @click="swicthMapType('didian')">{{mapType === 'didian' ? '🔴' : ''}}踏足地点</button>
-          <button class="map-button" @click="swicthMapType('shengfeng')">{{mapType === 'shengfeng' ? '🔴' : ''}}踏足省份</button>
+          <button class="map-button" @click="swicthMapType('feixian')">
+            {{ mapType === "feixian" ? "🔴" : "" }}足迹路线
+          </button>
+          <button class="map-button" @click="swicthMapType('didian')">
+            {{ mapType === "didian" ? "🔴" : "" }}踏足地点
+          </button>
+          <button class="map-button" @click="swicthMapType('shengfeng')">
+            {{ mapType === "shengfeng" ? "🔴" : "" }}踏足省份
+          </button>
         </div>
         <div class="content">
           <div class="didian" v-show="mapType === 'didian'">
@@ -466,7 +477,9 @@
             <div id="linemap" class="linemap-wrapper"></div>
           </div>
           <div class="row_btn">
-            <a @click="_hmt.push(['_trackEvent', '版块', 'click', '进入我的足迹'])" href="https://dunizb.github.io/footprint" target="_blank">
+            <a @click="
+                  _hmt.push(['_trackEvent', '版块', 'click', '进入我的足迹'])
+                " href="https://dunizb.github.io/footprint" target="_blank">
               <i class="iconfont icon-webclicksettings"></i> 查看详细足迹
             </a>
           </div>
@@ -489,15 +502,21 @@
     <div class="pc">
       <p>
         Copyright ©
-        <a href="/">zhangbing.site</a>. All Rights Reserevd. 2014-2018 ShangHai·China 读你·这世间唯有梦想和好姑娘不可辜负！
+        <a href="/">zhangbing.site</a>. All Rights Reserevd. 2014-2018
+        ShangHai·China 读你·这世间唯有梦想和好姑娘不可辜负！
       </p>
       <p>
         Powerd by
-        <a href="https://hexo.io/" target="_blank">Hexo</a> Themes Source Code:
-        <a href="https://github.com/MOxFIVE/hexo-theme-yelee" target="_blank">Yelee</a> The Page Design by
+        <a href="https://hexo.io/" target="_blank">Hexo</a> Themes Source
+        Code:
+        <a href="https://github.com/MOxFIVE/hexo-theme-yelee" target="_blank">Yelee</a>
+        The Page Design by
         <a href="https://zhangbing.site/" target="_blank">张兵</a>
       </p>
-      <p>Source Code: blog-newpage(Github: https://github.com/dunizb/blog-newpage)</p>
+      <p>
+        Source Code: blog-newpage(Github:
+        https://github.com/dunizb/blog-newpage)
+      </p>
     </div>
     <div class="m">
       <p>
