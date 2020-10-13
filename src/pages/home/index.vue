@@ -252,8 +252,8 @@
                 </a>
               </li>
               <li>
-                <a href="https://www.w3cschool.cn" target="_blank">
-                  <img target="_blank" title="w3cschool" alt="w3cschool" style="width:160px" src="https://www.w3cschool.cn/statics/img/logo/indexlogo@2x.png" />
+                <a href="https://kaiwu.lagou.com/" target="_blank">
+                  <img target="_blank" title="拉勾教育" alt="拉勾教育" style="width:40px" src="http://myimgcloud.oss-cn-hangzhou.aliyuncs.com/blogAssert/lagoujiaoyu.png" />
                 </a>
               </li>
               <li>
