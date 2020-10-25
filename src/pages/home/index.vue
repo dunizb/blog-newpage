@@ -96,7 +96,7 @@
   <!-- 导航菜单 结束 -->
 
   <div class="row-container">
-    <div class="row">
+    <div class="row grid-30-70">
       <!-- 我订阅的专栏 -->
       <div class="row_box row_zhuanlan">
         <div class="header">
@@ -107,7 +107,7 @@
         </div>
         <div class="content">
           <div class="content_img_box">
-            <img src="https://i.loli.net/2019/12/11/cUMF7l35iORhenq.jpg" loading="lazy" style="height: 185px;" />
+            <img src="https://i.loli.net/2019/12/11/cUMF7l35iORhenq.jpg" loading="lazy" />
             <a class="chenghao" onclick="_hmt.push(['_trackEvent', '专栏', 'click', '极客时间《白话法律42讲》'])" href="https://time.geekbang.org/column/intro/132" target="_blank">
               <i class="iconfont icon-webclicksettings"></i>
               极客时间《白话法律42讲》
@@ -150,7 +150,7 @@
           <div class="row_store_item">
             <div class="item">
               <div class="item_img">
-                <img src="https://m.360buyimg.com/mobilecms/s750x750_jfs/t1/112434/39/2947/421396/5ea4f421Ef5bbd571/2afe56af05a1fdf0.jpg" loading="lazy" style="height: 418px;" />
+                <img src="https://m.360buyimg.com/mobilecms/s750x750_jfs/t1/112434/39/2947/421396/5ea4f421Ef5bbd571/2afe56af05a1fdf0.jpg" loading="lazy" />
                 <a class="iconfont icon-icon-buy1" href="https://store.zhangbing.site" target="_blank">
                   <strong>￥69，去看看</strong>
                 </a>
@@ -183,10 +183,10 @@
         </div>
       </div>
     </div>
-    <div class="row">
+    <div class="row grid-50-50">
       <div class="row_box row_likeassert">
         <div class="header">
-          <div class="title"><i class="iconfont icon-star"></i> 收藏资源</div>
+          <div class="title">收藏资源</div>
           <div class="title_info">收藏的一些非常棒的互联网资源</div>
         </div>
         <div class="content">
@@ -374,6 +374,80 @@
               </li>
             </ul>
           </div>
+        </div>
+      </div>
+      <div class="row_box row_likePodcasts">
+        <div class="header">
+          <div class="title">订阅的博客&节目</div>
+          <div class="title_info">订阅的一些非常喜欢的节目</div>
+        </div>
+        <div class="content">
+          <div class="content-items">
+            <div class="icon"><img src="https://cdn.uigreat.com/5cb76e17-a396-4c5a-8081-a050b343d967.png" alt="" srcset=""></div>
+            <div class="info">
+              <div class="title">
+                <a href="https://uigreat.com/podcast">且曼播客</a>
+              </div>
+              <div class="desc">
+                全球首家本来计划讲设计结果彻底跑偏的播客类型节目。所有节目由水球泡负责策划，Dylan负责编辑与制作。
+              </div>
+            </div>
+          </div>
+          <div class="content-items">
+            <div class="icon"><img src="//imagev2.xmcdn.com/group66/M03/C6/67/wKgMdV34M3KDhlePAAWLoNZWEhQ679.jpg!strip=1&quality=7&magick=jpg&op_type=5&upload_type=album&name=mobile_large&device_type=ios" alt="" srcset=""></div>
+            <div class="info">
+              <div class="title">
+                <a href="https://www.ximalaya.com/keji/31769739/">少数派播客</a>
+              </div>
+              <div class="desc">
+                少数派旗下官方播客节目，高效工作、品质生活。
+              </div>
+            </div>
+          </div>
+          <div class="content-items">
+            <div class="icon"><img src="//imagev2.xmcdn.com/group41/M08/BD/D9/wKgJ8lqan8zg5j15AAXQEYUuLh8384.jpg!strip=1&quality=7&magick=jpg&op_type=5&upload_type=album&name=mobile_large&device_type=ios" alt="" srcset=""></div>
+            <div class="info">
+              <div class="title">
+                <a href="https://www.ximalaya.com/keji/4310827/">回到2049</a>
+              </div>
+              <div class="desc">
+                知识就是力量，欢迎回到2049（大型胡扯现场）。
+              </div>
+            </div>
+          </div>
+          <div class="content-items">
+            <div class="icon"><img src="//imagev2.xmcdn.com/group48/M00/7F/E4/wKgKnFtNjDGC1eomAALn_B-zQ3E559.jpg!strip=1&quality=7&magick=jpg&op_type=5&upload_type=album&name=mobile_large&device_type=ios" alt="" srcset=""></div>
+            <div class="info">
+              <div class="title">
+                <a href="https://www.ximalaya.com/gerenchengzhang/9444501/">36氪·有识芝士</a>
+              </div>
+              <div class="desc">
+                商业知识类节目，结合最新科技、商业话题为您提供不一样的进阶技能。
+              </div>
+            </div>
+          </div>
+          <div class="content-items">
+            <div class="icon"><img src="//imagev2.xmcdn.com/group48/M00/7F/E4/wKgKnFtNjDGC1eomAALn_B-zQ3E559.jpg!strip=1&quality=7&magick=jpg&op_type=5&upload_type=album&name=mobile_large&device_type=ios" alt="" srcset=""></div>
+            <div class="info">
+              <div class="title">
+                <a href="https://www.ximalaya.com/keji/246622/">原来是这样？！</a>
+              </div>
+              <div class="desc">
+                愿好奇心长存！不仅仅是冷知识，更是串联各科知识的经纬线！ </div>
+            </div>
+          </div>
+          <div class="content-items">
+            <div class="icon"><img src="//imagev2.xmcdn.com/group70/M0A/AA/99/wKgOzl4uwG7SmNwjAAKpHqWpUrQ163.jpg!strip=1&quality=7&magick=webp&op_type=5&upload_type=album&name=mobile_large&device_type=ios" alt="" srcset=""></div>
+            <div class="info">
+              <div class="title">
+                <a href="https://www.ximalaya.com/shangye/32777350/">硅谷早知道（第四季）</a>
+              </div>
+              <div class="desc">
+                由徐涛以及硅谷远迹资本创始人丁教给您带来最新的硅谷热门话题和资讯，为「声动活泼」传媒旗下节目。
+              </div>
+            </div>
+          </div>
+
         </div>
       </div>
     </div>
