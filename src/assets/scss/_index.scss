@@ -516,7 +516,6 @@ nav {
             }
           }
           .desc {
-            font-size: 14px;
             margin-bottom: 5px;
           }
         }
@@ -693,7 +692,14 @@ footer {
             }
           }
         }
+        &.row_likePodcasts {
+          .content {
+            display: grid;
+            grid-template-columns: 100%;
+          }
+        }
       }
+
       .row_maps {
         .content {
           padding: 0 0 10px 0;
