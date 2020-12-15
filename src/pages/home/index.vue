@@ -887,12 +887,15 @@
             <div class="title">我的课程</div>
             <div class="title_info">免费学习，轻松学习，快乐学习！</div>
           </div>
-          <div class="content grid-50-50">
+          <div class="content grid-50-50 center">
             <div class="content-item">
               <img
                 src="//myimgcloud.oss-cn-hangzhou.aliyuncs.com/blogAssert/chrome-ext-dev.jpeg"
                 alt="入门Chrome扩展程序开发，全平台制霸！"
               />
+              <a href="https://ke.boxuegu.com/detail/3314.html"
+                >入门Chrome扩展程序开发，全平台制霸！</a
+              >
             </div>
             <div class="content-item">
               <img
@@ -900,6 +903,9 @@
                 alt="小程序入门案例-抽个啥，纠结症患者值得拥有"
                 style="width: 426px"
               />
+              <a href="https://ke.boxuegu.com/detail/3314.html"
+                >小程序入门案例-抽个啥，纠结症患者值得拥有</a
+              >
             </div>
           </div>
         </div>
@@ -1111,7 +1117,7 @@
         <img
           src="//myimgcloud.oss-cn-hangzhou.aliyuncs.com/blogAssert/qrcode_for_gh_216e286a8334_430.jpg"
           alt=""
-          style="width:100px"
+          style="width: 100px"
         />
       </div>
     </footer>
