@@ -129,7 +129,8 @@ nav {
           height: 0;
           overflow: hidden;
           border-width: 6px;
-          border-color: transparent transparent $mian-gray-m transparent;
+          border-color: transparent transparent $mian-gray-m
+            transparent;
           border-style: dashed dashed solid dashed;
         }
       }
@@ -221,7 +222,11 @@ nav {
         color: $mian-red-b;
         text-decoration: none;
         &:hover {
-          @include linearGradientText(bottom, $mian-red-b, $mian-blue);
+          @include linearGradientText(
+            bottom,
+            $mian-red-b,
+            $mian-blue
+          );
         }
       }
     }
@@ -231,6 +236,8 @@ nav {
       flex-direction: column;
       align-items: center;
       background-color: #fff;
+      border-radius: 13px;
+      box-shadow: 1px 1px 2px 2px #ccc;
       .header {
         margin-bottom: 15px;
         position: relative;
@@ -270,10 +277,14 @@ nav {
     .row_box.row_zhuanlan {
       flex: 1;
       .title {
-        @include linearGradientText(bottom, $mian-blue, $mian-green-b);
+        @include linearGradientText(
+          bottom,
+          $mian-blue,
+          $mian-green-b
+        );
       }
       .content {
-        padding: 0 5px;
+        padding: 5px 5px;
         position: relative;
         overflow: hidden;
         .content_img_box {
@@ -286,7 +297,7 @@ nav {
             display: inline-block;
             width: 100%;
             position: absolute;
-            bottom: -32px;
+            bottom: 0;
             left: 0;
             line-height: 28px;
             background-color: rgba(0, 0, 0, 0.5);
@@ -304,7 +315,11 @@ nav {
     }
     .row_box.row_store {
       .title {
-        @include linearGradientText(bottom, $mian-red-b, $mian-blue);
+        @include linearGradientText(
+          bottom,
+          $mian-red-b,
+          $mian-blue
+        );
       }
       .content {
         display: flex;
@@ -407,7 +422,11 @@ nav {
         margin: 0;
       }
       .title {
-        @include linearGradientText(bottom, $mian-green-b, $mian-blue);
+        @include linearGradientText(
+          bottom,
+          $mian-green-b,
+          $mian-blue
+        );
       }
       .content {
         padding: 0 10px 10px 10px;
@@ -427,7 +446,11 @@ nav {
         margin-left: 0;
       }
       .title {
-        @include linearGradientText(bottom, $mian-red, $mian-yellow-b);
+        @include linearGradientText(
+          bottom,
+          $mian-red,
+          $mian-yellow-b
+        );
       }
       .content {
         padding-bottom: 10px;
@@ -479,7 +502,6 @@ nav {
         .likeassert-list li {
           display: flex;
           align-items: center;
-          line-height: 34px;
           padding-right: 20px;
           color: #676363;
           margin-bottom: 6px;
@@ -517,6 +539,8 @@ nav {
           }
           .desc {
             margin-bottom: 5px;
+            font-size: 14px;
+            line-height: 20px;
           }
         }
       }
@@ -535,16 +559,18 @@ footer {
   // height: 80px;
   background-color: #222;
   display: flex;
-  flex-direction: column;
-  justify-content: center;
+  justify-content: space-around;
   align-items: center;
   color: $mian-gray-m;
   font-size: 14px;
   color: rgba(255, 255, 255, 0.5);
   border-top: 2px solid #000;
+  padding-bottom: 20px;
+  flex-wrap: wrap;
   .service {
     display: flex;
     align-items: center;
+    justify-content: center;
     .coding {
       width: 100px;
     }
@@ -645,8 +671,8 @@ footer {
                   height: 0;
                   overflow: hidden;
                   border-width: 6px;
-                  border-color: transparent transparent rgba(102, 102, 102, 1)
-                    transparent;
+                  border-color: transparent transparent
+                    rgba(102, 102, 102, 1) transparent;
                   border-style: dashed dashed solid dashed;
                 }
               }
@@ -734,16 +760,21 @@ footer {
   footer {
     height: auto;
     padding: 10px 0;
+    flex-direction: column;
+    flex-flow: column-reverse;
     .service {
       .coding {
         width: 80px;
       }
     }
-    .pc {
+    .pc,
+    .upyun,
+    .hexo {
       display: none;
     }
     .m {
       display: block;
+      margin-bottom: 10px;
     }
   }
 
