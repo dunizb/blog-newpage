@@ -190,6 +190,12 @@ var markerArr = [{
   point: "106.553263|29.568493",
   isOpen: 0,
   icon: ponit_icon,
+}, {
+  title: "黄山",
+  content: "黄山",
+  point: "118.168089|30.13039",
+  isOpen: 0,
+  icon: ponit_icon,
 }];
 
 // 创建marker

@@ -271,6 +271,15 @@ var data = [{
     "city": "重庆",
     "lnglat": [106.553263, 29.568493],
   },
+}, {
+  "from": {
+    "city": "杭州",
+    "lnglat": [120.171467, 30.257352],
+  },
+  "to": {
+    "city": "黄山",
+    "lnglat": [118.168089, 30.13039],
+  },
 }];
 
 var overlay = new inMap.MoveLineOverlay({
