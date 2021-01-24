@@ -471,6 +471,7 @@ nav {
           margin-top: 10px;
           display: flex;
           justify-content: center;
+          flex-wrap: wrap;
           li {
             margin: 0 2px;
             text-align: center;
@@ -742,21 +743,6 @@ footer {
       .row_sms {
         .content {
           padding-bottom: 0;
-        }
-        .qrcode {
-          display: flex;
-          padding: 5px;
-          margin-top: 0 !important;
-          li {
-            width: 100% !important;
-            .desc {
-              font-size: 12px;
-            }
-            &:nth-child(1),
-            &:nth-child(2) {
-              display: none;
-            }
-          }
         }
       }
     }

@@ -987,24 +987,10 @@
               </li>
             </ul>
             <ul class="qrcode">
-              <li>
-                <a
-                  href="https://www.toutiao.com/c/user/1268500160/#mid=1653459147621379"
-                  target="_blank"
-                >
+              <li style="width: 254px">
+                <a href="https://minapp.com/miniapp/14172/" target="_blank">
                   <img
-                    src="https://gitee.com/dunizb/cloudimg/raw/jsdelivr/toutiao-290x290.jpeg"
-                    loading="lazy"
-                  />
-                </a>
-              </li>
-              <li>
-                <a
-                  href="https://www.kancloud.cn/invite?code=5dfdd52d9d1aa"
-                  target="_blank"
-                >
-                  <img
-                    src="https://img.kancloud.cn/36/57/36575f650b6c35147c6531345c64bc81_256x256.png"
+                    src="http://myimgcloud.oss-cn-hangzhou.aliyuncs.com/blogAssert/bcrl.png"
                     loading="lazy"
                   />
                 </a>
